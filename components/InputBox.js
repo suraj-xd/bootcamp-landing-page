@@ -155,7 +155,7 @@ function InputBox() {
   };
 
   return (
-    <div style={{ 'backgroundColor': '#594c6a' }} className="  rounded-2xl shadow-md  font-medium mt-2">
+    <div style={{ 'backgroundColor': '#7b9c98' }} className="  rounded-2xl shadow-md  font-medium mt-2">
       <div className="flex space-x-4 p-4 items-center">
         {/* <Image
           className="rounded-full"
@@ -165,8 +165,8 @@ function InputBox() {
           layout="fixed"
         /> */}
         <form className="flex flex-1 ">
-          <input style={{ 'backgroundColor': '#1a1110' }}
-            className="rounded-full h-12 flex-grow px-5 text-gray-100 focus:outline-none"
+          <input style={{ 'backgroundColor': '#526966' }}
+            className="rounded-full h-12 flex-grow px-5 text-white focus:outline-none"
             type="text"
             placeholder={`Wanna create a memory here, ${session.user.name}?`}
             ref={inputRef}
@@ -199,7 +199,7 @@ function InputBox() {
           className="inputIcon"
         >
           <CameraIcon className="h-7 text-green-400" />
-          <p className="text-xs sm:text-sm text-gray-400 xl:text-base">Add Photo/Video</p>
+          <p className="text-xs sm:text-sm text-white xl:text-base">Add Photo/Video</p>
           <input
             onChange={addImageToPost}
             ref={filepickerRef}
@@ -213,7 +213,7 @@ function InputBox() {
           className="inputIcon"
         >
           <ShareIcon className="h-7 text-blue-700" />
-          <p className="text-xs sm:text-sm text-gray-400 xl:text-base">Make It Public</p>
+          <p className="text-xs sm:text-sm text-white xl:text-base">Make It Public</p>
 
         </div>
         <div
@@ -222,7 +222,7 @@ function InputBox() {
           className="inputIcon"
         >
           <StarIcon className="h-7 text-red-500" />
-          <p className="text-xs sm:text-sm text-gray-400 xl:text-base">Add To Favorites</p>
+          <p className="text-xs sm:text-sm text-white xl:text-base">Add To Favorites</p>
 
         </div>
 

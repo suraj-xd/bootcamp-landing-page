@@ -80,6 +80,8 @@ function Posts({ genre, posts }) {
               timestamp={post.data().timestamp}
               image={post.data().image}
               postImage={post.data().postImage}
+              favorite={post.data().favorite}
+              genre={genre}
             />
           ))
         ))}
@@ -94,6 +96,9 @@ function Posts({ genre, posts }) {
             timestamp={post.data().timestamp}
             image={post.data().image}
             postImage={post.data().postImage}
+            favorite={post.data().favorite}
+            genre={genre}
+
           />
         ))
       }
@@ -108,6 +113,9 @@ function Posts({ genre, posts }) {
                 timestamp={post.data().timestamp}
                 image={post.data().image}
                 postImage={post.data().postImage}
+                favorite={post.data().favorite}
+                genre={genre}
+
                 />
               
          

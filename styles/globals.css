@@ -8,11 +8,11 @@
   }
 
   .inputIcon {
-    @apply flex space-x-1 items-center hover:bg-gray-300 flex-grow justify-center p-2 rounded-xl cursor-pointer;
+    @apply flex space-x-1 items-center hover:bg-gray-900 flex-grow justify-center p-2 rounded-xl cursor-pointer;
   }
   
 }
 
 .feedback{
-  background-color: #42354e;
+  background-color: #181c18;
 }

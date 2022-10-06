@@ -15,9 +15,6 @@ export default function Home({ session, posts }) {
       </Head>
 
       <Header />
-      <div className="feedback">
-        {/* <FeedNavbar/> */}
-      </div>
       <main className="feedback">
         {/* <Sidebar /> */}
         <Feed posts={posts} />
