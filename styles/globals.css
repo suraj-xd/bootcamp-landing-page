@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon {
+    @apply  p-2 h-8 w-8 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray-300;
+  }
+
+  .inputIcon {
+    @apply flex space-x-1 items-center hover:bg-gray-300 flex-grow justify-center p-2 rounded-xl cursor-pointer;
+  }
+  
+}
+
+.feedback{
+  background-color: #42354e;
+}

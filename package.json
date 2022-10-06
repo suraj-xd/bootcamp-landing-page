@@ -1,0 +1,30 @@
+{
+  "name": "facebook-clone-2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "production": "cross-env NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider  node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.1",
+    "firebase": "^8.5.0",
+    "geolib": "^3.3.3",
+    "locz": "^1.2.1",
+    "next": "^12.3.1",
+    "next-auth": "^3.21.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-firebase-hooks": "^3.0.4",
+    "tailwind-scrollbar-hide": "^1.0.3",
+    "uuid": "^9.0.0",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2"
+  }
+}
