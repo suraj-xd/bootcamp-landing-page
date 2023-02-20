@@ -1,0 +1,114 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700;900&&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon {
+    @apply p-1 h-8 w-8 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray-300;
+  }
+}
+
+
+:root {
+    --back-shadow: #3a3e6f;
+    --front-edge: #24263e;
+    --page-color: #090A1A;
+    --speed: 500ms;
+  }
+  
+  body {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: var(--page-color);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .dud {
+    color: #757575;
+  }
+
+/* voting power */
+
+
+  .votingPower {
+    font-family: PlusJakartaSans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Cantarell, Helvetica Neue, Ubuntu, sans-serif;
+    font-size: 1rem;
+    align-items: center;
+    height: 48px;
+    /* border-radius: 0px 50px 50px 0px; */
+    font-weight: 600;
+    color: #ddd;
+    box-shadow: 0 .5rem 1rem rgba(143, 142, 142, 0.15) !important;
+    background: #000000;
+  }
+  
+  .followers {
+    font-size: 0.8rem;
+    color: #7f7f7f;
+  }
+  
+
+
+/* Watch Button */
+
+.watchButton {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+      -6px -6px 12px #ffffff;
+  }
+  
+  .watchButton::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #17037d 0%, #5078F2 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+  }
+  
+  .watchButton:hover::before {
+    width: 9em;
+  }
+  
+  
+  /* FestButton CSS */
+  
+  .festButton {
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    cursor: default;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
+  }
+  
+  /* Vote Buttons */
+  
+  .upicon {
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+  }
+  
+  .downicon {
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+  }
+  

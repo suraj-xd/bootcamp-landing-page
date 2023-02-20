@@ -1,18 +1,220 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700;900&&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
-  .icon {
-    @apply  p-2 h-8 w-8 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray-300;
-  }
-
-  .inputIcon {
-    @apply flex space-x-1 items-center hover:bg-gray-900 flex-grow justify-center p-2 rounded-xl cursor-pointer;
-  }
   
 }
 
-.feedback{
-  background-color: #181c18;
+:root {
+  --back-shadow: #3a3e6f;
+  --front-edge: #24263e;
+  --page-color: #090A1A;
+  --color-primary: #5F4DFF;
+  --speed: 500ms;
+}
+
+body {
+  font-family: 'Comfortaa', sans-serif;
+  background-color: var(--page-color);
+  width: 100%;
+  height: 100%;
+}
+.comfort{
+  font-family: 'Comfortaa', sans-serif;
+
+}
+
+
+.wrap {
+  width: 100%;
+  height: 1000px;
+
+  position: relative;
+  margin: 0 auto;
+  top: -100px;
+  perspective: 360px;
+  perspective-origin: 50% 50%;
+  overflow: hidden;
+
+}
+
+.top-plane,
+.bottom-plane {
+  width: 200%;
+  height: 130%;
+  position: absolute;
+  bottom: -60%;
+  left: -50%;
+  background-image: -webkit-linear-gradient(#a2cef4 2px, transparent 2px), -webkit-linear-gradient(left, #a2cef4 2px, transparent 2px);
+  background-size: 100px 100px, 100px 100px;
+  background-position: -1px -1px, -1px -1px;
+  transform: rotateX(85deg);
+  animation: planeMoveTop 2s infinite linear;
+}
+
+.bottom-plane {
+  transform: rotateX(-85deg);
+  top: -40%;
+  animation: planeMoveBot 2s infinite linear;
+}
+
+@keyframes planeMoveTop {
+  from {
+    background-position: 0px -100px, 0px 0px;
+  }
+
+  to {
+    background-position: 0px 0px, 100px 0px;
+  }
+}
+
+@keyframes planeMoveBot {
+  from {
+    background-position: 0px 0px, 0px 0px;
+  }
+
+  to {
+    background-position: 0px -100px, 100px 0px;
+  }
+}
+
+@media (max-height: 350px) {
+  .wrap {
+    perspective: 210px;
+  }
+}
+
+
+/* Title */
+
+
+
+
+
+h1 {
+  /* display: inline-block; */
+  color: white;
+  /* font-size: 10rem;  */
+  text-shadow: .06em .06em 0 hsla(230, 40%, 50%, 1);
+  z-index: 99;
+}
+p{
+  
+  z-index: 99;
+}
+
+/* h1:after {
+    content: attr(data-shadow);
+    position: absolute;
+    top: .06em; left: .06em;
+    z-index: -1;
+    text-shadow: none;
+    background-image:
+      linear-gradient(
+        45deg,
+        transparent 45%,
+        hsla(48,20%,90%,1) 45%,
+        hsla(48,20%,90%,1) 55%,
+        transparent 0
+        );
+    background-size: .05em .05em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    animation: shad-anim 15s linear infinite;
+    } */
+
+@keyframes shad-anim {
+  0% {
+    background-position: 0 0
+  }
+
+  0% {
+    background-position: 100% -100%
+  }
+}
+
+/* Transparent Box */
+
+.BOX {
+  position: relative;
+  width: 220px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  z-index: 1;
+  rotate: 90deg;
+  z-index: 99;
+ }
+ 
+ .BOX::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 50%;
+  height: 100%;
+  text-decoration: none;
+  background: #000000;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s;
+ }
+ 
+ .BOX::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s;
+  filter: blur(30px);
+ }
+ 
+ .BOX:hover:before,
+ .BOX:hover:after {
+  transform: skewX(0deg) scaleX(1.3);
+ }
+/*  
+ .BOX:before,
+ .BOX:after {
+  background: linear-gradient(315deg, #ffbc00, #ff0058)
+ }
+  */
+
+ 
+ .BOX .CONTENT {
+  position: relative;
+  width: 190px;
+  height: 254px;
+  padding: 20px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  BOX-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1;
+  transform: 0.5s;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .BOX .CONTENT h2 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+ }
+
+ .dud {
+  color: #757575;
 }

@@ -25,7 +25,7 @@ function Feed({ posts }) {
         {isPublic && <Posts genre="public" posts={posts}/> }
         {isFav && <Posts genre="favorite" posts={posts}/> }
       </div>
-    <header style={{'backgroundColor':'','left':'35%'}} className="absolute bottom-2 border-b-blue-500 border-blue-200 border-2 rounded-2xl  z-60  bg-gray-800  items-center pt-2 p-2 ">
+    <header style={{'backgroundColor':'','left':'35%'}} className="absolute align-baseline bottom-2 border-b-blue-500 border-blue-200 border-2 rounded-2xl  z-60  bg-gray-800  items-center pt-2 p-2 ">
       <div className="flex flex-grow">
         <div className="flex space-x-8 md:space-x-6">
           <div onClick={()=>{setFeed(true);setPublic(false);setFav(false);}}>
