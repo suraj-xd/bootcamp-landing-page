@@ -25,7 +25,7 @@ export default function Bootcamp() {
                 <div class='top-plane'></div>
                 <div className="header flex flex-col justify-center items-center">
                     <p className="text-white relative top-[20rem] text-2xl bg-gray-800 p-5 rounded-2xl ">crackDSA presents</p>
-                    <h1 data-shadow='anveshna ' className="relative top-[23rem] text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[9rem] comfort ">anveshna</h1>
+                    <h1 data-shadow='anveshna ' className="relative top-[23rem] text-[3.5rem] sm:text-[6rem] md:text-[8rem] lg:text-[9rem] comfort ">anveshna</h1>
                 {/* <div class="relative top-[16rem] bg-gray-100 comfort text-black py-3 px-8 rounded-lg font-extrabold text-base  sm:text-lg md:text-xl lg:text-2xl"></div> */}
                    <div className="relative top-[23.5rem] bg-gray-100 comfort text-black py-3 px-8 rounded-lg w-[22rem] md:w-[30rem] flex justify-center items-center ">
 
@@ -45,8 +45,9 @@ export default function Bootcamp() {
                 </div>
             </div> */}
 
-            <div class="mx-auto w-24 h-1 mb-20 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
-
+            <div class="mx-auto relative -top-48 w-24 h-1 mb-20 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
+            <div className="bg-white relative -top-48">
+            </div>
            {/* <div className="bg-white w-40 h-40"></div>  */}
         </>
 
