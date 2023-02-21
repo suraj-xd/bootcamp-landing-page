@@ -109,15 +109,15 @@ export default function Bootcamp() {
                         </div>
                         <div className="flex justify-center flex-wrap items-center text-white orbi my-10">
                             <div className="flex justify-center items-center flex-col">
-                                <img className="h-40 w-40 md:h-56 md:w-56 mx-10 mb-5" src="https://cdn-icons-png.flaticon.com/512/5330/5330963.png" />
+                                <img className="h-24 w-24 sm:h-40 sm:w-40 md:h-56 md:w-56 mx-10 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/5330/5330963.png" />
                                 <p className="text-base  sm:text-lg md:text-xl lg:text-2xl" >Smart Watch</p>
                             </div>
                             <div className="flex justify-center items-center flex-col">
-                                <img className="h-40 w-40 md:h-56 md:w-56 mx-10 mb-5" src="https://cdn-icons-png.flaticon.com/512/5906/5906180.png" />
+                                <img className="h-24 w-24 sm:h-40 sm:w-40 md:h-56 md:w-56 mx-10 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/5906/5906180.png" />
                                 <p className="text-base  sm:text-lg md:text-xl lg:text-2xl">TWS Earbuds</p>
                             </div>
                             <div className="flex justify-center items-center flex-col">
-                                <img className="h-40 w-40 md:h-56 md:w-56 mx-10 mb-5" src="https://cdn-icons-png.flaticon.com/512/918/918979.png" />
+                                <img className="h-24 w-24 sm:h-40 sm:w-40 md:h-56 md:w-56 mx-10 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/918/918979.png" />
                                 <p className="text-base  sm:text-lg md:text-xl lg:text-2xl">Mechanical Keboard</p>
                             </div>
 
@@ -129,15 +129,15 @@ export default function Bootcamp() {
 
                         <div className="flex justify-center flex-wrap items-center text-white orbi my-10">
                             <div className="flex justify-center items-center flex-col">
-                                <img className="h-32 w-32 md:h-40 md:w-40 mx-10 mb-5" src="https://cdn-icons-png.flaticon.com/512/6232/6232684.png" />
+                                <img className="h-20 w-20 sm:h-32 sm:w-32 md:h-40 md:w-40 mx-10 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/6232/6232684.png" />
                                 <p className="text-sm  sm:text-md md:text-lg lg:text-xl" >crackDSA Merch</p>
                             </div>
                             <div className="flex justify-center items-center flex-col">
-                                <img className="h-32 w-32 md:h-40 md:w-40 mx-10 mb-5" src="https://cdn-icons-png.flaticon.com/512/8074/8074470.png" />
+                                <img className="h-20 w-20 sm:h-32 sm:w-32 md:h-40 md:w-40 mx-10  my-5 mb-5" src="https://cdn-icons-png.flaticon.com/512/8074/8074470.png" />
                                 <p className="text-sm  sm:text-md md:text-lg lg:text-xl">Amazon Vouchers</p>
                             </div>
                             <div className="flex justify-center items-center flex-col">
-                                <img className="h-32 w-32 md:h-40 md:w-40 mx-10 mb-5" src="https://cdn-icons-png.flaticon.com/512/2161/2161906.png" />
+                                <img className="h-20 w-20 sm:h-32 sm:w-32 md:h-40 md:w-40 mx-10  my-5 mb-5" src="https://cdn-icons-png.flaticon.com/512/2161/2161906.png" />
                                 <p className="text-sm  sm:text-md md:text-lg lg:text-xl">Cool Stickers</p>
                             </div>
 
@@ -160,7 +160,7 @@ export default function Bootcamp() {
                                 <div class="paper"></div>
                                 <div class="keyboard"></div>
                             </div>
-                            <h1 className="text-xl text-white  sm:text-2xl md:text-3xl lg:text-4xl m-10 kanit">Certificates to all the participants</h1>
+                            <h1 className="text-xl text-white text-center  sm:text-2xl md:text-3xl lg:text-4xl m-10 kanit">Certificates to all the participants</h1>
                         </div>
                     </div>
                     <div class="mx-auto relative w-32 h-1 my-10 bg-gradient-to-r from-green-400 to-yellow-500 rounded-full"></div>
