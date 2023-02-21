@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700;900&&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Orbitron:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -36,6 +37,9 @@ body {
 }
 .orbi{
   font-family: 'Orbitron', sans-serif;
+}
+.caveat{
+  font-family: 'Caveat', cursive;
 }
 .wrap {
   width: 100%;
@@ -579,4 +583,160 @@ header :is(.orbits, .content){ grid-area: 1/1 }
 
 .festButton:hover {
   transform: translate(5px, -5px);
+}
+/*  */
+
+.textt {
+  color: #f5f5f5;
+  text-shadow: 10px   0px 0px #5925ca,
+     
+  1px 18px 6px rgba(16,16,16,0.4),
+  1px 22px 10px rgba(16,16,16,0.2),
+  1px 25px 35px rgba(16,16,16,0.2),
+  1px 30px 60px rgba(16,16,16,0.4);
+}
+
+/* prfile cards */
+
+.cardd {
+ width: 190px;
+ height: 254px;
+ background: #3405a3;
+ border-radius: 15px;
+ margin: 20px;
+ box-shadow: 1px 5px 60px 0px #100a886b;
+}
+
+
+.cardd .cardd-border-top {
+ width: 60%;
+ height: 3%;
+ background: #6b64f3;
+ margin: auto;
+ border-radius: 0px 0px 15px 15px;
+}
+
+.cardd span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 16px;
+}
+
+.cardd .job {
+ font-weight: 400;
+ color: white;
+ display: block;
+ text-align: center;
+ padding-top: 3px;
+ font-size: 12px;
+}
+
+.cardd .img {
+ width: 70px;
+ height: 80px;
+ background: #6b64f3;
+ border-radius: 15px;
+ margin: auto;
+ margin-top: 25px;
+}
+
+.cardd button {
+ padding: 8px 25px;
+ display: block;
+ margin: auto;
+ border-radius: 8px;
+ border: none;
+ margin-top: 30px;
+ background: #6b64f3;
+ color: white;
+ font-weight: 600;
+}
+
+.cardd button:hover {
+ background: #534bf3;
+}
+
+
+
+.carddd {
+  width: 190px;
+  height: 254px;
+  background: var(--front-edge);
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 1px 5px 60px 0px #100a886b;
+ }
+ 
+ 
+ .carddd .carddd-border-top {
+  width: 60%;
+  height: 3%;
+  background: var(--back-shadow);
+  margin: auto;
+  border-radius: 0px 0px 15px 15px;
+ }
+ 
+ .carddd span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 16px;
+ }
+ 
+ .carddd .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 12px;
+ }
+ 
+ .carddd .img {
+  width: 70px;
+  height: 80px;
+  background: #6b64f3;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25px;
+ }
+ 
+ .carddd button {
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  background: #373472;
+  color: white;
+  font-weight: 600;
+ }
+ 
+ .carddd button:hover {
+  background: var(--back-shadow);
+ }
+ 
+ /*  */
+
+ 
+blockquote {
+	font-weight: 100;
+	max-width: 600px;
+	line-height: 1.4;
+	position: relative;
+	margin: 0;
+	padding: .5rem;
+}
+
+
+
+cite {
+	line-height: 3;
+	text-align: left;
 }

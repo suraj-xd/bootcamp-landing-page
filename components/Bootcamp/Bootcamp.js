@@ -24,8 +24,14 @@ export default function Bootcamp() {
             <div class='wrap z-20'>
                 <div class='top-plane'></div>
                 <div className="header flex flex-col justify-center items-center">
-                    <p className="text-white relative top-[20rem] text-2xl bg-gray-800 p-5 rounded-2xl ">crackDSA presents</p>
-                    <h1 data-shadow='anveshna ' className="headerTitle relative top-[23rem] text-[3.5rem] sm:text-[6rem] md:text-[8rem] lg:text-[9rem] comfort ">anveshna</h1>
+                    
+                    <p className="text-white relative top-[17rem] w-[95%] text-2xl p-5 rounded-2xl backdrop-blur-sm flex justify-between items-center px-8 flex-wrap">
+                        <a href="/" className="text-extrabold text-sm sm:text-xl md:text-2xl">bootcamp.<span className="text-white font-extrabold kanit">crack<span className="text-blue-400 font-extrabold kanit">DSA</span></span></a>
+                        <a  href="https://crackdsa.com/" className="text-sm sm:text-base md:text-lg kanit"> About</a>
+                    </p>
+
+                    <p className="text-white relative top-[18.2rem] bg-gray-900 text-xl p-5 rounded-2xl">crackDSA presents</p>
+                    <h1 data-shadow='anveshna ' className="headerTitle relative top-[17.5rem] text-[3.5rem] sm:text-[6rem] md:text-[8rem] lg:text-[9rem] comfort ">anveshna</h1>
                     {/* <div class="relative top-[16rem] bg-gray-100 comfort text-black py-3 px-8 rounded-lg font-extrabold text-base  sm:text-lg md:text-xl lg:text-2xl"></div> */}
                     <div className="relative top-[23.5rem] bg-gray-100 comfort text-black py-3 px-8 rounded-lg w-[22rem] md:w-[30rem] flex justify-center items-center ">
 
@@ -144,16 +150,7 @@ export default function Bootcamp() {
 
                         </div>
 
-                        {/* <div className="flex justify-center  items-center">
-                            <div className="inline-flex">
 
-                                <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-500 to-gray-400 rounded-full"></div>
-                                <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-400 to-gray-300 rounded-full"></div>
-                                <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-300 to-gray-200 rounded-full"></div>
-                                <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-200 to-gray-100 rounded-full"></div>
-
-                            </div>
-                        </div> */}
                         <div id="certificates" className="flex flex-wrap justify-center items-center">
                             <div class="typewriter">
                                 <div class="slide"><i></i></div>
@@ -177,13 +174,150 @@ export default function Bootcamp() {
                             <p className="kanit my-5 mx-5">*limited seats, mark your slot!</p>
                         </div>
                     </div>
-                    
-                    <div class="mx-auto relative w-[80%] h-[1px] my-5 bg-gray-400"></div>
+
 
                 </div>
-            </div>
+                <div className="flex justify-center  items-center">
+                    <div className="inline-flex">
 
+                        <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-500 to-gray-400 rounded-full"></div>
+                        <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-400 to-gray-300 rounded-full"></div>
+                        <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-300 to-gray-200 rounded-full"></div>
+                        <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-200 to-gray-100 rounded-full"></div>
+
+                    </div>
+                </div>
+                <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white kanit ml-10  ">The <span className="border-b-purple-400 border-b-[2px]"> Limelight</span></h2>
+                <div className="profilecards flex flex-wrap m-10 justify-center items-center">
+                    <div class="cardd">
+                        <div class="cardd-border-top">
+                        </div>
+                        <div class="img">
+                        </div>
+                        <span> Person</span>
+                        <p class="job"> Job Title</p>
+                        <button> LinkedIn
+                        </button>
+                    </div>
+                    <div class="cardd">
+                        <div class="cardd-border-top">
+                        </div>
+                        <div class="img">
+                        </div>
+                        <span> Person</span>
+                        <p class="job"> Job Title</p>
+                        <button> LinkedIn
+                        </button>
+                    </div>
+                    <div class="cardd">
+                        <div class="cardd-border-top">
+                        </div>
+                        <div class="img">
+                        </div>
+                        <span> Person</span>
+                        <p class="job"> Job Title</p>
+                        <button> LinkedIn
+                        </button>
+                    </div>
+                </div>
+                <div className="flex justify-center  items-center">
+                    <div className="inline-flex">
+
+                        <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-green-500 to-gray-400 rounded-full"></div>
+                        <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-green-400 to-gray-300 rounded-full"></div>
+                        <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-green-300 to-gray-200 rounded-full"></div>
+                        <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-green-200 to-gray-100 rounded-full"></div>
+
+                    </div>
+                </div>
+                <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white kanit ml-10  "><span className="border-b-green-400 border-b-[2px]"> Educators</span> Crease </h2>
+                <div className="profilecards flex flex-wrap m-10 justify-center items-center">
+                    <div class="carddd">
+                        <div class="carddd-border-top">
+                        </div>
+                        <div class="img">
+                        </div>
+                        <span> Person</span>
+                        <p class="job"> Job Title</p>
+                        <button> LinkedIn
+                        </button>
+                    </div>
+                    <div class="carddd">
+                        <div class="carddd-border-top">
+                        </div>
+                        <div class="img">
+                        </div>
+                        <span> Person</span>
+                        <p class="job"> Job Title</p>
+                        <button> LinkedIn
+                        </button>
+                    </div>
+                    <div class="carddd">
+                        <div class="carddd-border-top">
+                        </div>
+                        <div class="img">
+                        </div>
+                        <span> Person</span>
+                        <p class="job"> Job Title</p>
+                        <button> LinkedIn
+                        </button>
+                    </div>
+                </div>
+                <div class="mx-auto relative w-32 h-1 my-10 bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div>
+
+
+
+
+                {/* <div class="mx-auto relative w-[80%] h-[1px] my-5 bg-gray-400"></div> */}
+                {/* <div className="flex justify-center items-center flex-col text-white">
+                    <blockquote className="caveat text-2xl text-center md:text-3xl lg:text-4xl">" It’s not that I’m so smart, it’s just that I stay with problems longer "</blockquote>
+                    <cite className="text-white text-center"> - Albert Einstein</cite>
+                </div> */}
+                <div className="flex justify-center items-center flex-col flex-wrap mx-5">
+                    <h2 className="text-[2.5rem] text-center sm:text-[2.5rem] md:text-[3rem] lg:text-[5rem] kanit mb-8 text-gray-400">let's <span className="text-white font-extrabold kanit">crack<span className="text-blue-400 font-extrabold kanit">DSA</span></span> and more...</h2>
+                    <div className="flex justify-center items-center flex-wrap text-white">
+                        <p className="mx-10 kanit text-xl text-gray-200 text-center  sm:text-2xl md:text-3xl lg:text-4xl">See you at the <span className="text-blue-200 font-extrabold"> Bootcamp </span>🫶🏼 Sayonara</p>
+                    </div>
+
+                </div>
+                {/* Footer */}
+
+                <div>
+                    
+                </div>
+
+            </div>
+            <div class="mx-auto relative w-12 h-1 bg-gradient-to-r from-gray-200 to-gray-700 rounded-full"></div>
+
+            <footer class="p-4 shadow md:px-6 dark:bg-gray-900">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="https://crackdsa.com/" class="flex items-center mb-4 sm:mb-0">
+                    {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" /> */}
+                    <span className="text-white font-extrabold kanit text-4xl">crack<span className="text-blue-400 font-extrabold kanit">DSA</span></span>
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-300 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="https://www.linkedin.com/company/crackdsa/" class="mr-4 hover:underline md:mr-6 ">LinkedIn</a>
+                    </li>
+                    {/* <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                    </li> */}
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6">Discord</a>
+                    </li>
+                    <li>
+                        <a href="mailto:abhinavawasthi@crackdsa.com" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-500 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-white sm:text-center dark:text-gray-400">©  <a href="https://crackdsa.com/" class="hover:underline">crackDSA</a>. All Rights Reserved.
+            </span>
+            
+        </footer>
         </>
 
     )
 }
+// without efforts , you always loose
+// invest in yourself, it pays the best interest
