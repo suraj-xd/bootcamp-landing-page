@@ -24,10 +24,10 @@ export default function Bootcamp() {
             <div class='wrap z-20'>
                 <div class='top-plane'></div>
                 <div className="header flex flex-col justify-center items-center">
-                    
+
                     <p className="text-white relative top-[17rem] w-[95%] text-2xl p-5 rounded-2xl backdrop-blur-sm flex justify-between items-center px-8 flex-wrap">
                         <a href="/" className="text-extrabold text-sm sm:text-xl md:text-2xl">bootcamp.<span className="text-white font-extrabold kanit">crack<span className="text-blue-400 font-extrabold kanit">DSA</span></span></a>
-                        <a  href="https://crackdsa.com/" className="text-sm sm:text-base md:text-lg kanit"> About</a>
+                        <a href="https://crackdsa.com/" className="text-sm sm:text-base md:text-lg kanit"> About</a>
                     </p>
 
                     <p className="text-white relative top-[18.2rem] bg-gray-900 text-xl p-5 rounded-2xl">crackDSA presents</p>
@@ -50,6 +50,30 @@ export default function Bootcamp() {
 
                 </div>
             </div> */}
+            <div class="mx-auto relative -top-48 w-10 h-1 my-5 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
+            <div id="overview" className="text-white relative -top-48 my-10">
+                <h1 className="orbi font-bold mx-10 my-5 sm:mx-20 text-2xl sm:text-3xl" >Overview - </h1>
+                <div className="flex flex-col items-center justify-start mx-10 my-5 sm:mx-20">
+                    <p className="my-5 text-sm md:text-lg hover:border-blue-300 border-blue-300 hover:border-l-[2px] transition-all ease-in-out hover:pl-2 md:hover:pl-4">crackDSA is the premier online destination for college students seeking to excel in coding, competitive programming, data structures and algorithms, and other technical skills. Unlocking the full potential of college students through tailored</p>
+                    <p className="my-5 text-sm md:text-lg hover:border-purple-300 border-purple-300 hover:border-l-[2px] transition-all ease-in-out hover:pl-2 md:hover:pl-4">Our expert-led tech bootcamps and masterclasses provide hands-on experience and guidance from industry professionals. Our online resources are up-to-date and relevant, ensuring that students have access to the most current information.
+                    </p>
+
+
+                </div>
+                
+
+                <div className="flex justify-start mx-10 my-5 sm:mx-20 kanit">
+                    <button>Know More
+                    </button>
+                    <img className="h-8 w-8 mx-2 cursor-pointer hover:brightness-90 hover:scale-105 rounded-[90px]  " src="https://img.icons8.com/glyph-neue/64/FFFFFF/youtube-play.png" />
+                    
+                </div>
+                <div id="overviewbtns" className="mx-10 my-5 sm:mx-20">
+                    <button className="festButton mt-2 text-sm md:text-lg lg:text-xl ">
+                        {"Register Now!"}
+                    </button>
+                </div>
+            </div>
 
             <div class="mx-auto relative -top-48 w-24 h-1 mb-20 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
             <div className=" relative -top-48">
@@ -283,38 +307,38 @@ export default function Bootcamp() {
                 {/* Footer */}
 
                 <div>
-                    
+
                 </div>
 
             </div>
             <div class="mx-auto relative w-12 h-1 bg-gradient-to-r from-gray-200 to-gray-700 rounded-full"></div>
 
             <footer class="p-4 shadow md:px-6 dark:bg-gray-900">
-            <div class="sm:flex sm:items-center sm:justify-between">
-                <a href="https://crackdsa.com/" class="flex items-center mb-4 sm:mb-0">
-                    {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" /> */}
-                    <span className="text-white font-extrabold kanit text-4xl">crack<span className="text-blue-400 font-extrabold kanit">DSA</span></span>
-                </a>
-                <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-300 sm:mb-0 dark:text-gray-400">
-                    <li>
-                        <a href="https://www.linkedin.com/company/crackdsa/" class="mr-4 hover:underline md:mr-6 ">LinkedIn</a>
-                    </li>
-                    {/* <li>
+                <div class="sm:flex sm:items-center sm:justify-between">
+                    <a href="https://crackdsa.com/" class="flex items-center mb-4 sm:mb-0">
+                        {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" /> */}
+                        <span className="text-white font-extrabold kanit text-4xl">crack<span className="text-blue-400 font-extrabold kanit">DSA</span></span>
+                    </a>
+                    <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-300 sm:mb-0 dark:text-gray-400">
+                        <li>
+                            <a href="https://www.linkedin.com/company/crackdsa/" class="mr-4 hover:underline md:mr-6 ">LinkedIn</a>
+                        </li>
+                        {/* <li>
                         <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
                     </li> */}
-                    <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6">Discord</a>
-                    </li>
-                    <li>
-                        <a href="mailto:abhinavawasthi@crackdsa.com" class="hover:underline">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <hr class="my-6 border-gray-500 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <span class="block text-sm text-white sm:text-center dark:text-gray-400">©  <a href="https://crackdsa.com/" class="hover:underline">crackDSA</a>. All Rights Reserved.
-            </span>
-            
-        </footer>
+                        <li>
+                            <a href="#" class="mr-4 hover:underline md:mr-6">Discord</a>
+                        </li>
+                        <li>
+                            <a href="mailto:abhinavawasthi@crackdsa.com" class="hover:underline">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="my-6 border-gray-500 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                <span class="block text-sm text-white sm:text-center dark:text-gray-400">©  <a href="https://crackdsa.com/" class="hover:underline">crackDSA</a>. All Rights Reserved.
+                </span>
+
+            </footer>
         </>
 
     )
