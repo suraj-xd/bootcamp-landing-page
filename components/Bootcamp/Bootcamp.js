@@ -37,6 +37,12 @@ export default function Bootcamp() {
 
                         <h2 d ata-shadow='anveshna ' className="text  font-extrabold text-sm  sm:text-lg md:text-xl lg:text-2xl z-[99]">Job Ready Mega Bootcamp</h2>
                     </div>
+
+
+                    <button class="relative top-[25rem] z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-white
+        bg-gradient-to-r from-blue-200 via-blue-500 to-green-200 orbi font-extrabold text-base md:text-xl">
+            Register
+        </button>
                 </div>
                 <div class='bottom-plane'></div>
             </div>
@@ -60,19 +66,19 @@ export default function Bootcamp() {
 
 
                 </div>
-                
+
 
                 <div className="flex justify-start mx-10 my-5 sm:mx-20 kanit">
                     <button>Know More
                     </button>
                     <img className="h-8 w-8 mx-2 cursor-pointer hover:brightness-90 hover:scale-105 rounded-[90px]  " src="https://img.icons8.com/glyph-neue/64/FFFFFF/youtube-play.png" />
-                    
+
                 </div>
-                <div id="overviewbtns" className="mx-10 my-5 sm:mx-20">
+                {/* <div id="overviewbtns" className="mx-10 my-5 sm:mx-20">
                     <button className="festButton mt-2 text-sm md:text-lg lg:text-xl ">
                         {"Register Now!"}
                     </button>
-                </div>
+                </div> */}
             </div>
 
             <div class="mx-auto relative -top-48 w-24 h-1 mb-20 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
@@ -84,30 +90,30 @@ export default function Bootcamp() {
                         <div class="orbits">
                             <div class="left">
                                 <div class="outer" data-orbit-rotate="right">
-                                    <img src="https://picsum.photos/32/32?random=1" alt="" />
-                                    <img src="https://picsum.photos/32/32?random=2" alt="" />
-                                    <img src="https://picsum.photos/32/32?random=3" alt="" />
-                                    <img src="https://picsum.photos/32/32?random=4" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3137/3137927.png" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/9800/9800963.png" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3459/3459528.png" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" alt="" />
                                 </div>
                                 <div class="inner" data-orbit-rotate="left">
-                                    <img src="https://picsum.photos/32/32?random=5" alt="" />
-                                    <img src="https://picsum.photos/32/32?random=6" alt="" />
-                                    <img src="https://picsum.photos/32/32?random=7" alt="" />
-                                    <img src="https://picsum.photos/32/32?random=8" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/4943/4943029.png" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/7910/7910510.png" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/8132/8132883.png" alt="" />
                                 </div>
                             </div>
                             <div class="right">
                                 <div class="outer" data-orbit-rotate="left">
-                                    <img src="https://picsum.photos/32/32?random=9" alt="" />
-                                    <img src="https://picsum.photos/32/32?random=10" alt="" />
-                                    <img src="https://picsum.photos/32/32?random=11" alt="" />
-                                    <img src="https://picsum.photos/32/32?random=12" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3171/3171906.png" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/4055/4055755.png" alt="" />
+                                    <img src="https://imgs.search.brave.com/u02BNXAvV2G2bG820-TEVkqSJUWHnjbEsNAdL1R85wk/rs:fit:128:128:1/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzIx/MDcvUE5HLzEyOC9m/aWxlX3R5cGVfdnNj/b2RlX2ljb25fMTMw/MDg0LnBuZw" alt="" />
+                                    <img src="https://imgs.search.brave.com/p85Akp1DdY1zC_xkiRvVSA_zDPilcHLUcYegqZd3rDY/rs:fit:1200:845:1/g:ce/aHR0cHM6Ly93d3cu/YWxhbXkuY29tL2Fn/Z3JlZ2F0b3ItYXBp/L2Rvd25sb2FkP3Vy/bD1odHRwczovL2M4/LmFsYW15LmNvbS9j/b21wLzJIMlRHQVcv/ZGF0YS1zdHJ1Y3R1/cmUtY29uY2VwdC13/aXRoLXJhbmRvbS1w/YXJ0cy1vZi1wcm9n/cmFtLWNvZGVkYXRh/LXN0cnVjdHVyZS10/ZXh0LXdyaXR0ZW4t/b24tcHJvZ3JhbW1p/bmctY29kZS1hYnN0/cmFjdC10ZWNobm9s/b2d5LWJhY2tncm91/bmQtb2Ytc29mdHdh/cmUtZGUtMkgyVEdB/Vy5qcGc" alt="" />
                                 </div>
                                 <div class="inner" data-orbit-rotate="right">
-                                    <img src="https://picsum.photos/32/32?random=13" alt="" />
-                                    <img src="https://picsum.photos/32/32?random=14" alt="" />
-                                    <img src="https://picsum.photos/32/32?random=15" alt="" />
-                                    <img src="https://picsum.photos/32/32?random=16" alt="" />
+                                    <img src="https://imgs.search.brave.com/INyNb1Y7_2HidDdhTNVfJ4EY7TyiK_1kp-Uajcn8xkA/rs:fit:1200:1019:1/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vei9hbGdv/cml0aG0tZGlnaXRh/bC1qYXZhLWNvZGUt/dGV4dC1jb21wdXRl/ci1zb2Z0d2FyZS1j/b2RpbmctdmVjdG9y/LWNvbmNlcHQtcHJv/Z3JhbW1pbmctc2Ny/aXB0LXByb2dyYW0t/c2NyZWVuLTE1MzU0/NjgwMS5qcGc" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2906/2906274.png" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2490/2490354.png" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2830/2830965.png" alt="" />
                                 </div>
                             </div>
 
