@@ -30,16 +30,16 @@ export default function Bootcamp() {
                         <a href="https://crackdsa.com/" className="text-sm sm:text-base md:text-lg kanit"> About</a>
                     </p>
 
-                    <p className="text-white relative top-[18.2rem] bg-gray-900 text-xl p-5 rounded-2xl">crackDSA presents</p>
-                    <h1 data-shadow='anveshna ' className="headerTitle relative top-[22rem] sm:top-[18rem] text-[3.5rem] sm:text-[6rem] md:text-[8rem] lg:text-[8.5rem] comfort ">anveshna</h1>
+                    {/* <p className="text-white relative top-[18.2rem] bg-gray-900 text-xl p-5 rounded-2xl">crackDSA presents</p> */}
+                    <h1 data-shadow='anveshna ' className="headerTitle relative top-[26rem] sm:top-[23rem] text-[3.5rem] sm:text-[6rem] md:text-[8rem] lg:text-[8.5rem] comfort ">anveshna</h1>
                     {/* <div class="relative top-[16rem] bg-gray-100 comfort text-black py-3 px-8 rounded-lg font-extrabold text-base  sm:text-lg md:text-xl lg:text-2xl"></div> */}
-                    <div className="relative text-center top-[23.5rem] bg-gray-100 comfort text-black py-2 px-2 rounded-lg w-[17rem] md:w-[30rem] flex justify-center items-center ">
+                    <div className="relative text-center top-[27rem] sm:top-[23.5rem] bg-gray-100 comfort text-black py-2 px-2 rounded-lg w-[17rem] md:w-[30rem] flex justify-center items-center ">
 
                         <h2 d ata-shadow='anveshna ' className="text  font-extrabold text-sm  sm:text-lg md:text-xl lg:text-2xl z-[99]">Job Ready Mega Bootcamp</h2>
                     </div>
 
 
-                    <button class="relative top-[25rem] z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-white
+                    <button class="relative top-[30rem] sm:top-[28rem] z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-white
         bg-gradient-to-r from-blue-200 via-blue-500 to-green-200 orbi font-extrabold text-base md:text-xl">
                         Register
                     </button>
