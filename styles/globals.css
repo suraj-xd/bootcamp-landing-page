@@ -172,7 +172,7 @@ header :is(.orbits, .content){ grid-area: 1/1 }
 .orbits {  
   --orbit-outer-size: 100%;
   --orbit-inner-size: 75%;
-  --orbit-image-size: min(4vw, 3rem);
+  --orbit-image-size: min(6vw, 5rem);
   --orbit-ring-color: hsl(0 0% 50% / .75);
   --orbit-ring-thickness: 1px;
   --orbit-animation-duration: 10s;
@@ -202,9 +202,20 @@ header :is(.orbits, .content){ grid-area: 1/1 }
 .orbits [data-orbit-rotate="left"] { --orbit-rotate-to: -360deg }
 .orbits [data-orbit-rotate="right"]{ --orbit-rotate-to:  360deg }
 
-.orbits img { 
+.orbits .outer img { 
   grid-area: 1/1;
   width: var(--orbit-image-size);
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+  --translate: translateX(var(--tx, 0)) translateY(var(--ty, 0));
+  transform: var(--translate);
+  animation: orbit-image-rotate var(--orbit-animation-duration) linear infinite;
+  place-self: var(--ps)
+}
+.orbits .inner img { 
+  grid-area: 1/1;
+  width: min(4vw, 4rem);
   aspect-ratio: 1/1;
   border-radius: 50%;
   object-fit: cover;
