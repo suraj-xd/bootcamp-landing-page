@@ -31,7 +31,9 @@ export default function Bootcamp() {
                     </p>
 
                     {/* <p className="text-white relative top-[18.2rem] bg-gray-900 text-xl p-5 rounded-2xl">crackDSA presents</p> */}
-                    <h1 data-shadow='anveshna ' className="headerTitle relative top-[26rem] sm:top-[23rem] text-[3.8rem] sm:text-[6rem] md:text-[8rem] lg:text-[8.8rem]   workSans">{"codewave."}</h1>
+
+                    <h1 data-shadow='anveshna ' className="flex justify-center items-center headerTitle relative top-[26rem] sm:top-[23rem] text-[3.2rem] sm:text-[5.2rem] md:text-[6.5rem] lg:text-[8rem]   nunito">{"LaunchPadx"} <img className=" h-10 w-10 sm:h-20 sm:w-20 md:h-22 md:w-22 delay-100 duration-1000 animate-bounce ml-7 mt-5 " src='https://cdn-icons-png.flaticon.com/512/9357/9357543.png' /></h1>
+
                     {/* <div class="relative top-[16rem] bg-gray-100   text-black py-3 px-8 rounded-lg font-extrabold text-base  sm:text-lg md:text-xl lg:text-2xl"></div> */}
                     <div className="relative text-center top-[27rem] sm:top-[23.5rem] bg-gray-100   text-black py-2 px-2 rounded-lg w-[17rem] md:w-[30rem] flex justify-center items-center ">
 
@@ -66,7 +68,12 @@ export default function Bootcamp() {
 
 
                 </div>
+                <div className="flex justify-start mx-10 my-5 sm:mx-20 kanit">
+                    <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl " ><span className="border-b-2 border-b-green-300"> #LaunchPadx</span> is Starting from April 4th!
+                    </h1>
 
+
+                </div>
 
                 <div className="flex justify-start mx-10 my-5 sm:mx-20 kanit">
                     <button>Know More
@@ -124,7 +131,7 @@ export default function Bootcamp() {
 
                         </div>
                         <div class="content">
-                            <p className="  text-extrabold text-blue-300 lowercase text-base  sm:text-lg md:text-xl lg:text-2xl">with Anveshna 2023</p>
+                            <p className="  text-extrabold text-blue-300 text-base  sm:text-lg md:text-xl lg:text-2xl">with #LaunchPadx 2023</p>
                             <h1 class="logo text-gray-300 text-xl  sm:text-3xl md:text-4xl lg:text-6xl">Everything's Covered<span className="text-white"></span></h1>
                             <p className="  text-gray-400 kanit orbi text-sm  sm:text-base md:text-lg lg:text-xl">To Go From Zero to Mastery🚀</p>
                         </div>
@@ -135,10 +142,10 @@ export default function Bootcamp() {
                             <li>
                                 <div class="direction-r">
                                     <div class="flag-wrapper">
-                                        <span class="flag">DSA</span>
+                                        <span class="flag">Data Structures & Algorithms</span>
                                         {/* <span class="time-wrapper"><span class="time">8 Days</span></span> */}
                                     </div>
-                                    <div class="desc">8 Days - Dates TBD</div>
+                                    <div class="desc">8 Days </div>
                                 </div>
                             </li>
 
@@ -147,7 +154,7 @@ export default function Bootcamp() {
                                     <div class="flag-wrapper">
                                         <span class="flag">Web Development</span>
                                     </div>
-                                    <div class="desc">3 Days - Dates TBD</div>
+                                    <div class="desc">3 Days </div>
                                 </div>
                             </li>
 
@@ -156,7 +163,7 @@ export default function Bootcamp() {
                                     <div class="flag-wrapper">
                                         <span class="flag">System Design</span>
                                     </div>
-                                    <div class="desc">2 Days - Dates TBD</div>
+                                    <div class="desc">2 Days </div>
                                 </div>
                             </li>
 
@@ -165,23 +172,30 @@ export default function Bootcamp() {
                                     <div class="flag-wrapper">
                                         <span class="flag">CS Fundamentals</span>
                                     </div>
-                                    <div class="desc">4 Days - Dates TBD</div>
+                                    <div class="desc">4 Days </div>
                                 </div>
                             </li>
 
                             <li>
                                 <div class="direction-r">
                                     <div class="flag-wrapper">
-                                        <span class="flag">Guide Seminar</span>
+                                        <span class="flag">Speakers Session</span>
                                     </div>
-                                    <div class="desc">1 Day - Dates TBD</div>
+                                    <div class="desc">3 Days </div>
                                 </div>
                             </li>
 
                         </ul>
 
                     </div>
-                    <div class="mx-auto relative w-10 h-1 my-20 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
+                    <div className="flex justify-center items-center mt-10">
+                        <button class="z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-white
+            bg-gradient-to-r from-blue-200 via-blue-500 to-purple-200 orbi font-extrabold text-base md:text-xl">
+                            Register
+                        </button>
+
+                    </div>
+                    <div class="mx-auto relative w-10 h-1 mb-20 mt-10 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
                     <div id="prizes" className="relative">
                         <div class="box-with-text flex justify-center items-center mt-5">
                             PRIZES
@@ -200,20 +214,20 @@ export default function Bootcamp() {
                         <div class="mx-auto relative w-[60%] h-[2px] my-10 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
 
                         <div className="flex justify-center flex-wrap items-center text-white orbi my-10 ">
-                            <div className="flex justify-center items-center flex-col mx-2">
+                            <div className="flex justify-center items-center flex-col mx-2 my-1">
                                 <p className=" text-sm sm:text-md md:text-lg lg:text-xl" >#1</p>
                                 <img className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/5330/5330963.png" />
                                 <p className="text-blue-200 text-sm sm:text-md md:text-lg lg:text-xl" >Smart Watch</p>
                             </div>
-                            <div className="flex justify-center items-center flex-col mx-2">
+                            <div className="flex justify-center items-center flex-col mx-2 my-1">
                                 <p className=" text-sm sm:text-md md:text-lg lg:text-xl" >#2</p>
                                 <img className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/5906/5906180.png" />
                                 <p className="text-blue-200 text-sm sm:text-md md:text-lg lg:text-xl">TWS Earbuds</p>
                             </div>
-                            <div className="flex justify-center items-center flex-col mx-2">
+                            <div className="flex justify-center items-center flex-col mx-2 my-1">
                                 <p className=" text-sm sm:text-md md:text-lg lg:text-xl" >#3</p>
                                 <img className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/918/918979.png" />
-                                <p className="text-blue-200 text-sm sm:text-md md:text-lg lg:text-xl">Gaming Keboard</p>
+                                <p className="text-blue-200 text-sm sm:text-md md:text-lg lg:text-xl">Gaming Keyboard</p>
                             </div>
 
 
@@ -282,9 +296,10 @@ export default function Bootcamp() {
                     <div class="cardd">
                         <div class="cardd-border-top">
                         </div>
-                        <img className="img object-cover" src="https://imgs.search.brave.com/g-Q2lz1Ebm8gRbN2aPhuy0IqRCRtJ3QzGPjUzVpDFOQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/YnVzaW5lc3NpbnNp/ZGVyLmluL3Bob3Rv/Lzc5NTk5NjMwL2Vs/b24tbXVzay1tYWtl/cy1jbGVhci1oaXMt/c3RhbmNlLW9uLXNl/bGYtZHJpdmluZy1j/YXJzLWFpLW92ZXJz/aWdodC1hbmQtaGlz/LWFkLWZvci1tYXJz/LmpwZz9pbWdzaXpl/PTI0MzYwMTM" />
-                        <span> Elon Musk</span>
-                        <p class="job">TCS</p>
+                        {/* <img className="img object-cover" src="https://imgs.search.brave.com/g-Q2lz1Ebm8gRbN2aPhuy0IqRCRtJ3QzGPjUzVpDFOQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/YnVzaW5lc3NpbnNp/ZGVyLmluL3Bob3Rv/Lzc5NTk5NjMwL2Vs/b24tbXVzay1tYWtl/cy1jbGVhci1oaXMt/c3RhbmNlLW9uLXNl/bGYtZHJpdmluZy1j/YXJzLWFpLW92ZXJz/aWdodC1hbmQtaGlz/LWFkLWZvci1tYXJz/LmpwZz9pbWdzaXpl/PTI0MzYwMTM" /> */}
+                        <div className="img"></div>
+                        <span> Person</span>
+                        <p class="job">Job Title</p>
                         <div className="flex flex-wrap justify-center items-center mt-[5px]">
                             <img className="icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" />
 
@@ -293,9 +308,10 @@ export default function Bootcamp() {
                     <div class="cardd">
                         <div class="cardd-border-top">
                         </div>
-                        <img className="img object-cover" src="https://imgs.search.brave.com/XzxETtV9Z3kH5DiZYvXjlXi4Mhijj5uNLs4wlLNE0CA/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Ev/QUFUWEFKeEdFZHlC/WEJxSk5SXzRya3J0/b2prMHhuV3NiTHFf/aUZjV1VRPXM5MDAt/Yy1rLWMweGZmZmZm/ZmZmLW5vLXJqLW1v" />
-                        <span> Joe Mama</span>
-                        <p class="job"> Who</p>
+                        <div className="img"></div>
+                        {/* <img className="img object-cover" src="https://imgs.search.brave.com/XzxETtV9Z3kH5DiZYvXjlXi4Mhijj5uNLs4wlLNE0CA/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Ev/QUFUWEFKeEdFZHlC/WEJxSk5SXzRya3J0/b2prMHhuV3NiTHFf/aUZjV1VRPXM5MDAt/Yy1rLWMweGZmZmZm/ZmZmLW5vLXJqLW1v" /> */}
+                        <span> Person</span>
+                        <p class="job">Job Title</p>
                         <div className="flex flex-wrap justify-center items-center mt-[5px]">
                             <img className="icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" />
 
@@ -305,15 +321,18 @@ export default function Bootcamp() {
                         <div class="cardd-border-top">
                         </div>
 
-                        <img className="img object-cover" src="https://imgs.search.brave.com/1g9oLO2WpA-wjWTcTaPiM_lbAv92MpHXWrP-CXklV4k/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Et/L0FBdUU3bUJlOC1y/RDdQSDZFOU9McFo0/cmdocl9YWFN4M0Nf/b1JXT2hFUT1zOTAw/LW1vLWMtYzB4ZmZm/ZmZmZmYtcmotay1u/bw" />
-                        <span> Peter Griffin</span>
-                        <p class="job"> Retard</p>
+                        <div className="img"></div>
+                        {/* <img className="img object-cover" src="https://imgs.search.brave.com/1g9oLO2WpA-wjWTcTaPiM_lbAv92MpHXWrP-CXklV4k/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Et/L0FBdUU3bUJlOC1y/RDdQSDZFOU9McFo0/cmdocl9YWFN4M0Nf/b1JXT2hFUT1zOTAw/LW1vLWMtYzB4ZmZm/ZmZmZmYtcmotay1u/bw" /> */}
+                        <span> Person</span>
+                        <p class="job">Job Title</p>
                         <div className="flex flex-wrap justify-center items-center mt-[5px]">
                             <img className="icon" src="https://cdn-icons-png.flaticon.com/512/5968/5968968.png" />
 
                         </div>
                     </div>
+                        
                 </div>
+                    <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p>
                 <div className="flex justify-center  items-center">
                     <div className="inline-flex">
 
@@ -356,7 +375,11 @@ export default function Bootcamp() {
                         <button> LinkedIn
                         </button>
                     </div>
+                    <div>
+
+                    </div>
                 </div>
+                <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p>  
                 <div class="mx-auto relative w-32 h-1 my-10 bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div>
 
 
@@ -374,17 +397,21 @@ export default function Bootcamp() {
                     </div>
 
                 </div>
-                {/* Footer */}
-
-                <div>
-
-                </div>
-
+                
             </div>
 
 
+            <div class="mx-auto relative bottom-32 w-16 h-1 my-10 bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div>
+                <div className= "relative bottom-24  flex justify-center items-center my-10 flex-col">
+                    <button class="z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-black
+        bg-gradient-to-r from-gray-200 via-gray-100 to-gray-200 orbi font-extrabold text-base md:text-xl">
+                        Register
+                    </button>
 
-            <div class="mx-auto relative w-12 h-1 bg-gradient-to-r from-gray-200 to-gray-700 rounded-full"></div>
+                    <p className="kanit my-3 italic mx-5 text-gray-200">for completely free!</p>
+                </div>
+
+            <div class="mx-auto relative bottom-20 w-12 h-1 bg-gradient-to-r from-gray-200 to-gray-700 rounded-full"></div>
 
             <footer class="p-4 shadow md:px-6 dark:bg-gray-900">
                 <div class="sm:flex sm:items-center sm:justify-between">
@@ -400,7 +427,7 @@ export default function Bootcamp() {
                         <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
                     </li> */}
                         <li>
-                            <a href="#" class="mr-4 hover:underline md:mr-6">Whatsapp</a>
+                            <a href="https://wa.me/message/TPN76XLWVOWDB1" class="mr-4 hover:underline md:mr-6">Whatsapp</a>
                         </li>
                         <li>
                             <a href="mailto:helloss@crackdsa.com" class="hover:underline">Contact</a>
@@ -413,6 +440,8 @@ export default function Bootcamp() {
 
 
             </footer>
+
+
         </>
 
     )
