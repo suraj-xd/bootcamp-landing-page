@@ -3,7 +3,7 @@ import { useEffect } from "react"
 
 export default function Bootcamp() {
     useEffect(() => {
-        Run(["Job Ready Mega Bootcamp"])
+        Run(["Interview Ready Mega Bootcamp"])
     }, [])
     return (
         <>
@@ -31,11 +31,11 @@ export default function Bootcamp() {
                     </p>
 
                     {/* <p className="text-white relative top-[18.2rem] bg-gray-900 text-xl p-5 rounded-2xl">crackDSA presents</p> */}
-                    <h1 data-shadow='anveshna ' className="headerTitle relative top-[26rem] sm:top-[23rem] text-[3.5rem] sm:text-[6rem] md:text-[8rem] lg:text-[8.5rem] comfort ">anveshna</h1>
-                    {/* <div class="relative top-[16rem] bg-gray-100 comfort text-black py-3 px-8 rounded-lg font-extrabold text-base  sm:text-lg md:text-xl lg:text-2xl"></div> */}
-                    <div className="relative text-center top-[27rem] sm:top-[23.5rem] bg-gray-100 comfort text-black py-2 px-2 rounded-lg w-[17rem] md:w-[30rem] flex justify-center items-center ">
+                    <h1 data-shadow='anveshna ' className="headerTitle relative top-[26rem] sm:top-[23rem] text-[3.8rem] sm:text-[6rem] md:text-[8rem] lg:text-[8.8rem]   workSans">{"codewave."}</h1>
+                    {/* <div class="relative top-[16rem] bg-gray-100   text-black py-3 px-8 rounded-lg font-extrabold text-base  sm:text-lg md:text-xl lg:text-2xl"></div> */}
+                    <div className="relative text-center top-[27rem] sm:top-[23.5rem] bg-gray-100   text-black py-2 px-2 rounded-lg w-[17rem] md:w-[30rem] flex justify-center items-center ">
 
-                        <h2 d ata-shadow='anveshna ' className="text  font-extrabold text-sm  sm:text-lg md:text-xl lg:text-2xl z-[99]">Job Ready Mega Bootcamp</h2>
+                        <h2 d ata-shadow='anveshna ' className="text  font-extrabold text-sm  sm:text-md md:text-lg lg:text-xl z-[99] text-gray-800">Interview Ready Mega Bootcamp</h2>
                     </div>
 
 
@@ -90,54 +90,104 @@ export default function Bootcamp() {
                         <div class="orbits">
                             <div class="left">
                                 <div class="outer" data-orbit-rotate="right">
-                                    <img src="a.jpeg" alt="" />
-                                    <img src="i.jpeg" alt="" />
-                                    <img src="f.jpeg" alt="" />
-                                    <img src="d.jpeg" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="" />
                                     {/* <img src="d.jpeg" alt="" /> */}
                                     {/* <img src="g.jpeg" alt="" /> */}
                                     {/* <img src="d.jpeg" alt="" /> */}
                                 </div>
                                 <div class="inner" data-orbit-rotate="left">
-                                    <img className="bg-white p-1" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" />
-                                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="" />
-                                    <img className="bg-white p-1" src="https://cdn-icons-png.flaticon.com/512/4943/4943029.png" alt="" />
-                                    <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="" />
+
+                                    <img src="https://imgs.search.brave.com/9WMcKd4aN-sXU1-9JDgxk7cQvlGWcqjEzcJHJvuVbFk/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzI2/OTkvUE5HLzUxMi90/YWlsd2luZGNzc19s/b2dvX2ljb25fMTY3/OTIzLnBuZw" alt="" />
+                                    <img src="https://img.icons8.com/bubbles/50/null/design.png" />
+                                    <img src="https://imgs.search.brave.com/bvsQ8MdYJeVgPf-CFsZjijXHvVcHZ6b0dQHGxGGfmJw/rs:fit:512:508:1/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9maWxlLXR5/cGUtdnNjb2RlLWlj/b24tNTEyeDUwOC0z/NzZ5NjJ1eC5wbmc" alt="" />
+                                    <img src="https://img.icons8.com/color/48/null/command-line.png" />
                                 </div>
                             </div>
                             <div class="right">
                                 <div class="outer" data-orbit-rotate="left">
-                                    <img src="e.jpeg" alt="" />
-                                    <img src="g.jpeg" alt="" />
-                                    <img src="h.jpeg" alt="" />
-                                    <img src="c.jpeg" alt="" />
-                                </div>
-                                <div class="inner" data-orbit-rotate="right">
-                                    {/* <img src="i.jpeg" alt="" /> */}
-                                    <img className="bg-white p-1" src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="" />
+                                    <img src="https://imgs.search.brave.com/5eG7gnafo82_uikhxCXaIIkqIu9YBnTGaWDKOj4fvW0/rs:fit:800:800:1/g:ce/aHR0cHM6Ly9wbmdp/bWFnZS5uZXQvd3At/Y29udGVudC91cGxv/YWRzLzIwMTgvMDUv/ZXhwcmVzcy1qcy1w/bmctNS5wbmc" alt="" />
                                     <img src="https://cdn-icons-png.flaticon.com/512/3630/3630471.png" alt="" />
                                     <img className="" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="" />
                                     <img src="https://cdn-icons-png.flaticon.com/512/3459/3459528.png" alt="" />
+                                </div>
+                                <div class="inner" data-orbit-rotate="right">
+                                    {/* <img src="i.jpeg" alt="" /> */}
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3178/3178285.png" alt="" />
+                                    <img src="https://img.icons8.com/arcade/64/null/data-configuration.png" />
+                                    <img src="https://img.icons8.com/color/48/null/people-working-together.png" />
+                                    <img className="bg-white rounded-full" src="https://img.icons8.com/ios-filled/50/null/operating-system.png" />
                                 </div>
                             </div>
 
                         </div>
                         <div class="content">
-                            <p className="comfort text-extrabold text-blue-300 lowercase text-base  sm:text-lg md:text-xl lg:text-2xl">with Anveshna 2023</p>
+                            <p className="  text-extrabold text-blue-300 lowercase text-base  sm:text-lg md:text-xl lg:text-2xl">with Anveshna 2023</p>
                             <h1 class="logo text-gray-300 text-xl  sm:text-3xl md:text-4xl lg:text-6xl">Everything's Covered<span className="text-white"></span></h1>
-                            <p className="comfort text-gray-400 kanit orbi text-sm  sm:text-base md:text-lg lg:text-xl">To Go From Zero to Mastery🚀</p>
+                            <p className="  text-gray-400 kanit orbi text-sm  sm:text-base md:text-lg lg:text-xl">To Go From Zero to Mastery🚀</p>
                         </div>
                     </header>
-                    <div class="mx-auto relative w-10 h-1 my-20 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
-                    <div id="topPerfomers" className="flex flex-wrap justify-center items-center">
+                    <div id="Timeline">
+                        <ul class="timeline">
+
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">DSA</span>
+                                        {/* <span class="time-wrapper"><span class="time">8 Days</span></span> */}
+                                    </div>
+                                    <div class="desc">8 Days - Dates TBD</div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Web Development</span>
+                                    </div>
+                                    <div class="desc">3 Days - Dates TBD</div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">System Design</span>
+                                    </div>
+                                    <div class="desc">2 Days - Dates TBD</div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">CS Fundamentals</span>
+                                    </div>
+                                    <div class="desc">4 Days - Dates TBD</div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Guide Seminar</span>
+                                    </div>
+                                    <div class="desc">1 Day - Dates TBD</div>
+                                </div>
+                            </li>
+
+                        </ul>
 
                     </div>
+                    <div class="mx-auto relative w-10 h-1 my-20 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
                     <div id="prizes" className="relative">
                         <div class="box-with-text flex justify-center items-center mt-5">
                             PRIZES
                         </div>
                         <h1 className="my-10 text-white text-center text-2xl md:text-3xl lg:text-4xl orbi">For top Performers / Learners</h1>
-                        <div className="flex justify-center  items-center">
+                        {/* <div className="flex justify-center  items-center">
                             <div className="inline-flex">
 
                                 <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-500 to-gray-400 rounded-full"></div>
@@ -146,46 +196,52 @@ export default function Bootcamp() {
                                 <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-200 to-gray-100 rounded-full"></div>
 
                             </div>
-                        </div>
-                        <div className="flex justify-center flex-wrap items-center text-white orbi my-10">
-                            <div className="flex justify-center items-center flex-col">
-                                <img className="h-24 w-24 sm:h-40 sm:w-40 md:h-56 md:w-56 mx-10 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/5330/5330963.png" />
-                                <p className="text-base  sm:text-lg md:text-xl lg:text-2xl" >Smart Watch</p>
-                            </div>
-                            <div className="flex justify-center items-center flex-col">
-                                <img className="h-24 w-24 sm:h-40 sm:w-40 md:h-56 md:w-56 mx-10 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/5906/5906180.png" />
-                                <p className="text-base  sm:text-lg md:text-xl lg:text-2xl">TWS Earbuds</p>
-                            </div>
-                            <div className="flex justify-center items-center flex-col">
-                                <img className="h-24 w-24 sm:h-40 sm:w-40 md:h-56 md:w-56 mx-10 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/918/918979.png" />
-                                <p className="text-base  sm:text-lg md:text-xl lg:text-2xl">Mechanical Keboard</p>
-                            </div>
+                        </div> */}
+                        <div class="mx-auto relative w-[60%] h-[2px] my-10 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
 
-
-                        </div>
-                        <div class="mx-auto relative w-[80%] h-[1px] my-5 bg-gray-400"></div>
-
-                        <h1 className="my-10 text-white text-center text-2xl md:text-3xl lg:text-4xl orbi">But there's more...</h1>
-
-                        <div className="flex justify-center flex-wrap items-center text-white orbi my-10">
-                            <div className="flex justify-center items-center flex-col">
-                                <img className="h-20 w-20 sm:h-32 sm:w-32 md:h-40 md:w-40 mx-10 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/6232/6232684.png" />
-                                <p className="text-sm  sm:text-md md:text-lg lg:text-xl" >crackDSA Merch</p>
+                        <div className="flex justify-center flex-wrap items-center text-white orbi my-10 ">
+                            <div className="flex justify-center items-center flex-col mx-2">
+                                <p className=" text-sm sm:text-md md:text-lg lg:text-xl" >#1</p>
+                                <img className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/5330/5330963.png" />
+                                <p className="text-blue-200 text-sm sm:text-md md:text-lg lg:text-xl" >Smart Watch</p>
                             </div>
-                            <div className="flex justify-center items-center flex-col">
-                                <img className="h-20 w-20 sm:h-32 sm:w-32 md:h-40 md:w-40 mx-10  my-5 mb-5" src="https://cdn-icons-png.flaticon.com/512/8074/8074470.png" />
-                                <p className="text-sm  sm:text-md md:text-lg lg:text-xl">Amazon Vouchers</p>
+                            <div className="flex justify-center items-center flex-col mx-2">
+                                <p className=" text-sm sm:text-md md:text-lg lg:text-xl" >#2</p>
+                                <img className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/5906/5906180.png" />
+                                <p className="text-blue-200 text-sm sm:text-md md:text-lg lg:text-xl">TWS Earbuds</p>
                             </div>
-                            <div className="flex justify-center items-center flex-col">
-                                <img className="h-20 w-20 sm:h-32 sm:w-32 md:h-40 md:w-40 mx-10  my-5 mb-5" src="https://cdn-icons-png.flaticon.com/512/2161/2161906.png" />
-                                <p className="text-sm  sm:text-md md:text-lg lg:text-xl">Cool Stickers</p>
+                            <div className="flex justify-center items-center flex-col mx-2">
+                                <p className=" text-sm sm:text-md md:text-lg lg:text-xl" >#3</p>
+                                <img className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/918/918979.png" />
+                                <p className="text-blue-200 text-sm sm:text-md md:text-lg lg:text-xl">Gaming Keboard</p>
                             </div>
 
 
                         </div>
+                        <div class="mx-auto relative w-[80%] h-[2px] my-10 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
+
+                        <h1 className="my-10 text-white text-center text-2xl md:text-3xl lg:text-4xl orbi font-extrabold">But there's more...</h1>
+
+                        <div className="flex justify-center flex-wrap items-center text-white kanit my-10">
+                            <div className="flex justify-center items-center flex-col mx-2">
+                                <img className="h-14 w-14 sm:h-20 sm:w-20 md:h-24 md:w-24  my-5  mb-5" src="https://cdn-icons-png.flaticon.com/512/6232/6232684.png" />
+                                <p className="text-sm md:text-md lg:text-base" >crackDSA Merch</p>
+                            </div>
+                            <div className="flex justify-center items-center flex-col mx-2">
+                                <img className="h-14 w-14 sm:h-20 sm:w-20 md:h-24 md:w-24   my-5 mb-5" src="https://cdn-icons-png.flaticon.com/512/8074/8074470.png" />
+                                <p className="text-sm md:text-md lg:text-base">Amazon Vouchers</p>
+                            </div>
+                            <div className="flex justify-center items-center flex-col mx-2">
+                                <img className="h-14 w-14 sm:h-20 sm:w-20 md:h-24 md:w-24   my-5 mb-5" src="https://cdn-icons-png.flaticon.com/512/2161/2161906.png" />
+                                <p className="text-sm md:text-md lg:text-base">Cool Stickers</p>
+                            </div>
 
 
-                        <div id="certificates" className="flex flex-wrap justify-center items-center">
+                        </div>
+
+                        {/* <div class="mx-auto relative w-10 h-1 mb-10 bg-gradient-to-r from-green-400 to-yellow-500 rounded-full"></div> */}
+
+                        <div id="certificates" className="flex flex-wrap justify-center items-center mx-2">
                             <div class="typewriter">
                                 <div class="slide"><i></i></div>
                                 <div class="paper"></div>
@@ -226,32 +282,36 @@ export default function Bootcamp() {
                     <div class="cardd">
                         <div class="cardd-border-top">
                         </div>
-                        <div class="img">
+                        <img className="img object-cover" src="https://imgs.search.brave.com/g-Q2lz1Ebm8gRbN2aPhuy0IqRCRtJ3QzGPjUzVpDFOQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/YnVzaW5lc3NpbnNp/ZGVyLmluL3Bob3Rv/Lzc5NTk5NjMwL2Vs/b24tbXVzay1tYWtl/cy1jbGVhci1oaXMt/c3RhbmNlLW9uLXNl/bGYtZHJpdmluZy1j/YXJzLWFpLW92ZXJz/aWdodC1hbmQtaGlz/LWFkLWZvci1tYXJz/LmpwZz9pbWdzaXpl/PTI0MzYwMTM" />
+                        <span> Elon Musk</span>
+                        <p class="job">TCS</p>
+                        <div className="flex flex-wrap justify-center items-center mt-[5px]">
+                            <img className="icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" />
+
                         </div>
-                        <span> Person</span>
-                        <p class="job"> Job Title</p>
-                        <button> LinkedIn
-                        </button>
                     </div>
                     <div class="cardd">
                         <div class="cardd-border-top">
                         </div>
-                        <div class="img">
+                        <img className="img object-cover" src="https://imgs.search.brave.com/XzxETtV9Z3kH5DiZYvXjlXi4Mhijj5uNLs4wlLNE0CA/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Ev/QUFUWEFKeEdFZHlC/WEJxSk5SXzRya3J0/b2prMHhuV3NiTHFf/aUZjV1VRPXM5MDAt/Yy1rLWMweGZmZmZm/ZmZmLW5vLXJqLW1v" />
+                        <span> Joe Mama</span>
+                        <p class="job"> Who</p>
+                        <div className="flex flex-wrap justify-center items-center mt-[5px]">
+                            <img className="icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" />
+
                         </div>
-                        <span> Person</span>
-                        <p class="job"> Job Title</p>
-                        <button> LinkedIn
-                        </button>
                     </div>
                     <div class="cardd">
                         <div class="cardd-border-top">
                         </div>
-                        <div class="img">
+
+                        <img className="img object-cover" src="https://imgs.search.brave.com/1g9oLO2WpA-wjWTcTaPiM_lbAv92MpHXWrP-CXklV4k/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Et/L0FBdUU3bUJlOC1y/RDdQSDZFOU9McFo0/cmdocl9YWFN4M0Nf/b1JXT2hFUT1zOTAw/LW1vLWMtYzB4ZmZm/ZmZmZmYtcmotay1u/bw" />
+                        <span> Peter Griffin</span>
+                        <p class="job"> Retard</p>
+                        <div className="flex flex-wrap justify-center items-center mt-[5px]">
+                            <img className="icon" src="https://cdn-icons-png.flaticon.com/512/5968/5968968.png" />
+
                         </div>
-                        <span> Person</span>
-                        <p class="job"> Job Title</p>
-                        <button> LinkedIn
-                        </button>
                     </div>
                 </div>
                 <div className="flex justify-center  items-center">
@@ -321,6 +381,9 @@ export default function Bootcamp() {
                 </div>
 
             </div>
+
+
+
             <div class="mx-auto relative w-12 h-1 bg-gradient-to-r from-gray-200 to-gray-700 rounded-full"></div>
 
             <footer class="p-4 shadow md:px-6 dark:bg-gray-900">
@@ -337,16 +400,17 @@ export default function Bootcamp() {
                         <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
                     </li> */}
                         <li>
-                            <a href="#" class="mr-4 hover:underline md:mr-6">Discord</a>
+                            <a href="#" class="mr-4 hover:underline md:mr-6">Whatsapp</a>
                         </li>
                         <li>
-                            <a href="mailto:abhinavawasthi@crackdsa.com" class="hover:underline">Contact</a>
+                            <a href="mailto:helloss@crackdsa.com" class="hover:underline">Contact</a>
                         </li>
                     </ul>
                 </div>
                 <hr class="my-6 border-gray-500 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <span class="block text-sm text-white sm:text-center dark:text-gray-400">©  <a href="https://crackdsa.com/" class="hover:underline">crackDSA</a>. All Rights Reserved.
                 </span>
+
 
             </footer>
         </>
