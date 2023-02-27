@@ -34,3 +34,9 @@ yarn-error.log*
 
 # firebase
 firebase.js
+# local folders
+/LearnCoursePage
+/LearnLandingPage
+/Task1
+/Task2
+/UserProfile

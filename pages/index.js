@@ -1,14 +1,11 @@
-import Main from "../components/LearnCoursePage/Main";
-import Task2 from "../components/Task2/Task2";
-import LandingPage from "../components/LearnLandingPage/Main"
+import Head from 'next/head';
 import Bootcamp from "../components/Bootcamp/Bootcamp";
-export default function Home({ session, posts }) {
+import Metatags from '../components/Bootcamp/Metatags';
+export default function Home() {
   return (
     <>
-    {/* <LandingPage/> */}
-    {/* <Main/> */}
+    <Metatags/>
     <Bootcamp/>
-    {/* <Task2/> */}
     </>
   );
 }

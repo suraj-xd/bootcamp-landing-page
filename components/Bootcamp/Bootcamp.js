@@ -1,4 +1,4 @@
-import Run from "../Task1/Run";
+import Run from "./Run";
 import { useEffect } from "react"
 
 export default function Bootcamp() {
