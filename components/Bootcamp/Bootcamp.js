@@ -27,7 +27,8 @@ export default function Bootcamp() {
 
                     <p className="text-white relative top-[17rem] w-[95%] text-2xl p-5 rounded-2xl backdrop-blur-sm flex justify-between items-center px-8 flex-wrap">
                         <a href="/" className="text-extrabold text-sm sm:text-xl md:text-2xl">bootcamp.<span className="text-white font-extrabold kanit">crack<span className="text-blue-400 font-extrabold kanit">DSA</span></span></a>
-                        <a href="https://crackdsa.com/" className="text-sm sm:text-base md:text-lg kanit"> About</a>
+                        
+                        <a href="./Brochure.pdf" download="./Brochure.pdf" className="text-sm sm:text-base md:text-lg kanit flex justify-center items-center group"> Brochure<img className="h-4 mx-1 w-4 group-hover:animate-pulse" src="https://img.icons8.com/material-outlined/24/FFFFFF/downloading-updates.png"/> </a>
                     </p>
 
                     {/* <p className="text-white relative top-[18.2rem] bg-gray-900 text-xl p-5 rounded-2xl">crackDSA presents</p> */}
@@ -61,9 +62,9 @@ export default function Bootcamp() {
             <div class="mx-auto relative -top-48 w-10 h-1 my-5 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
             <div id="overview" className="text-white relative -top-48 my-10">
                 <h1 className="orbi font-bold mx-10 my-5 sm:mx-20 text-2xl sm:text-3xl" >Overview - </h1>
-                <div className="flex flex-col items-center justify-start mx-10 my-5 sm:mx-20">
-                    <p className="my-5 text-sm md:text-lg hover:border-blue-300 border-blue-300 hover:border-l-[2px] transition-all ease-in-out hover:pl-2 md:hover:pl-4">crackDSA is the premier online destination for college students seeking to excel in coding, competitive programming, data structures and algorithms, and other technical skills. Unlocking the full potential of college students through tailored</p>
-                    <p className="my-5 text-sm md:text-lg hover:border-purple-300 border-purple-300 hover:border-l-[2px] transition-all ease-in-out hover:pl-2 md:hover:pl-4">Our expert-led tech bootcamps and masterclasses provide hands-on experience and guidance from industry professionals. Our online resources are up-to-date and relevant, ensuring that students have access to the most current information.
+                <div className="flex flex-col items-center justify-start mx-10 my-5 sm:mx-20 comfort">
+                    <p className="my-5 text-sm md:text-lg hover:border-blue-300 border-blue-300 hover:border-l-[2px] transition-all ease-in-out hover:pl-2 md:hover:pl-4">Welcome to LaunchPadx , the ultimate one-month-long interview preparation bootcamp designed to help college students boost their interview preparation!</p>
+                    <p className="my-5 text-sm md:text-lg hover:border-purple-300 border-purple-300 hover:border-l-[2px] transition-all ease-in-out hover:pl-2 md:hover:pl-4">At LaunchPadx, we understand how stressful job interviews can be, especially when you're a college student trying to secure a job in a highly competitive industry. That's why we've designed this bootcamp to provide you with comprehensive training in Data Structures and Algorithms (DSA), Web Development, System Design, and Computer Science (CS) subjects (DBMS, OS, CN, OOPs).
                     </p>
 
 
@@ -281,7 +282,7 @@ export default function Bootcamp() {
 
 
                 </div>
-                <div className="flex justify-center  items-center">
+                {/* <div className="flex justify-center  items-center">
                     <div className="inline-flex">
 
                         <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-500 to-gray-400 rounded-full"></div>
@@ -290,13 +291,14 @@ export default function Bootcamp() {
                         <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-200 to-gray-100 rounded-full"></div>
 
                     </div>
-                </div>
-                <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white kanit ml-10  ">The <span className="border-b-purple-400 border-b-[2px]"> Limelight</span></h2>
+                </div> */}
+                {/* Speakers section */}
+                {/* <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white kanit ml-10  ">The <span className="border-b-purple-400 border-b-[2px]"> Limelight</span></h2>
                 <div className="profilecards flex flex-wrap m-10 justify-center items-center">
                     <div class="cardd">
                         <div class="cardd-border-top">
                         </div>
-                        {/* <img className="img object-cover" src="https://imgs.search.brave.com/g-Q2lz1Ebm8gRbN2aPhuy0IqRCRtJ3QzGPjUzVpDFOQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/YnVzaW5lc3NpbnNp/ZGVyLmluL3Bob3Rv/Lzc5NTk5NjMwL2Vs/b24tbXVzay1tYWtl/cy1jbGVhci1oaXMt/c3RhbmNlLW9uLXNl/bGYtZHJpdmluZy1j/YXJzLWFpLW92ZXJz/aWdodC1hbmQtaGlz/LWFkLWZvci1tYXJz/LmpwZz9pbWdzaXpl/PTI0MzYwMTM" /> */}
+                        <img className="img object-cover" src="https://imgs.search.brave.com/g-Q2lz1Ebm8gRbN2aPhuy0IqRCRtJ3QzGPjUzVpDFOQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/YnVzaW5lc3NpbnNp/ZGVyLmluL3Bob3Rv/Lzc5NTk5NjMwL2Vs/b24tbXVzay1tYWtl/cy1jbGVhci1oaXMt/c3RhbmNlLW9uLXNl/bGYtZHJpdmluZy1j/YXJzLWFpLW92ZXJz/aWdodC1hbmQtaGlz/LWFkLWZvci1tYXJz/LmpwZz9pbWdzaXpl/PTI0MzYwMTM" />
                         <div className="img"></div>
                         <span> Person</span>
                         <p class="job">Job Title</p>
@@ -309,7 +311,7 @@ export default function Bootcamp() {
                         <div class="cardd-border-top">
                         </div>
                         <div className="img"></div>
-                        {/* <img className="img object-cover" src="https://imgs.search.brave.com/XzxETtV9Z3kH5DiZYvXjlXi4Mhijj5uNLs4wlLNE0CA/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Ev/QUFUWEFKeEdFZHlC/WEJxSk5SXzRya3J0/b2prMHhuV3NiTHFf/aUZjV1VRPXM5MDAt/Yy1rLWMweGZmZmZm/ZmZmLW5vLXJqLW1v" /> */}
+                        <img className="img object-cover" src="https://imgs.search.brave.com/XzxETtV9Z3kH5DiZYvXjlXi4Mhijj5uNLs4wlLNE0CA/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Ev/QUFUWEFKeEdFZHlC/WEJxSk5SXzRya3J0/b2prMHhuV3NiTHFf/aUZjV1VRPXM5MDAt/Yy1rLWMweGZmZmZm/ZmZmLW5vLXJqLW1v" />
                         <span> Person</span>
                         <p class="job">Job Title</p>
                         <div className="flex flex-wrap justify-center items-center mt-[5px]">
@@ -322,7 +324,7 @@ export default function Bootcamp() {
                         </div>
 
                         <div className="img"></div>
-                        {/* <img className="img object-cover" src="https://imgs.search.brave.com/1g9oLO2WpA-wjWTcTaPiM_lbAv92MpHXWrP-CXklV4k/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Et/L0FBdUU3bUJlOC1y/RDdQSDZFOU9McFo0/cmdocl9YWFN4M0Nf/b1JXT2hFUT1zOTAw/LW1vLWMtYzB4ZmZm/ZmZmZmYtcmotay1u/bw" /> */}
+                        <img className="img object-cover" src="https://imgs.search.brave.com/1g9oLO2WpA-wjWTcTaPiM_lbAv92MpHXWrP-CXklV4k/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Et/L0FBdUU3bUJlOC1y/RDdQSDZFOU9McFo0/cmdocl9YWFN4M0Nf/b1JXT2hFUT1zOTAw/LW1vLWMtYzB4ZmZm/ZmZmZmYtcmotay1u/bw" />
                         <span> Person</span>
                         <p class="job">Job Title</p>
                         <div className="flex flex-wrap justify-center items-center mt-[5px]">
@@ -330,10 +332,10 @@ export default function Bootcamp() {
 
                         </div>
                     </div>
-                        
+
                 </div>
-                    <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p>
-                <div className="flex justify-center  items-center">
+                <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p> */}
+                {/* <div className="flex justify-center  items-center">
                     <div className="inline-flex">
 
                         <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-green-500 to-gray-400 rounded-full"></div>
@@ -342,8 +344,9 @@ export default function Bootcamp() {
                         <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-green-200 to-gray-100 rounded-full"></div>
 
                     </div>
-                </div>
-                <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white kanit ml-10  "><span className="border-b-green-400 border-b-[2px]"> Educators</span> Crease </h2>
+                </div> */}
+                {/* Educators Section */}
+                {/* <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white kanit ml-10  "><span className="border-b-green-400 border-b-[2px]"> Educators</span> Crease </h2>
                 <div className="profilecards flex flex-wrap m-10 justify-center items-center">
                     <div class="carddd">
                         <div class="carddd-border-top">
@@ -378,8 +381,8 @@ export default function Bootcamp() {
                     <div>
 
                     </div>
-                </div>
-                <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p>  
+                </div> */}
+                {/* <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p> */}
                 <div class="mx-auto relative w-32 h-1 my-10 bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div>
 
 
@@ -397,19 +400,19 @@ export default function Bootcamp() {
                     </div>
 
                 </div>
-                
+
             </div>
 
 
             <div class="mx-auto relative bottom-32 w-16 h-1 my-10 bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div>
-                <div className= "relative bottom-24  flex justify-center items-center my-10 flex-col">
-                    <button class="z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-black
+            <div className="relative bottom-24  flex justify-center items-center my-10 flex-col">
+                <button class="z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-black
         bg-gradient-to-r from-gray-200 via-gray-100 to-gray-200 orbi font-extrabold text-base md:text-xl">
-                        Register
-                    </button>
+                    Register
+                </button>
 
-                    <p className="kanit my-3 italic mx-5 text-gray-200">for completely free!</p>
-                </div>
+                <p className="kanit my-3 italic mx-5 text-gray-200">for completely free!</p>
+            </div>
 
             <div class="mx-auto relative bottom-20 w-12 h-1 bg-gradient-to-r from-gray-200 to-gray-700 rounded-full"></div>
 
