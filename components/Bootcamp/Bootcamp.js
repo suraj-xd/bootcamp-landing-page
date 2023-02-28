@@ -41,15 +41,17 @@ export default function Bootcamp() {
                         <h2 d ata-shadow='anveshna ' className="text  font-extrabold text-sm  sm:text-md md:text-lg lg:text-xl z-[99] text-gray-800">Interview Ready Mega Bootcamp</h2>
                     </div>
 
-                    <a target={"_blank"} href="https://lu.ma/event/evt-JI6MLUama5KQDzX"
+                    <a href="https://lu.ma/event/evt-JI6MLUama5KQDzX"
                         data-luma-action="checkout"
-                        data-luma-event-id="evt-JI6MLUama5KQDzX">
+                        data-luma-event-id="evt-JI6MLUama5KQDzX"
+                        >
                         <button
                             className="relative top-[30rem] sm:top-[27rem] z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-white
                     bg-gradient-to-r from-blue-200 via-blue-500 to-green-200 orbi font-extrabold text-base md:text-xl">
                             Register
                         </button>
                     </a>
+                    <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
                 </div>
                 <div class='bottom-plane'></div>
             </div>
