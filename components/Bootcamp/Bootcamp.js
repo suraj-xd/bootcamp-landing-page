@@ -41,10 +41,10 @@ export default function Bootcamp() {
                         <h2 d ata-shadow='anveshna ' className="text  font-extrabold text-sm  sm:text-md md:text-lg lg:text-xl z-[99] text-gray-800">Interview Ready Mega Bootcamp</h2>
                     </div>
 
-                    <a href="https://lu.ma/event/evt-JI6MLUama5KQDzX"
+                    <a target={"_blank"} href="https://lu.ma/event/evt-JI6MLUama5KQDzX"
                         data-luma-action="checkout"
                         data-luma-event-id="evt-JI6MLUama5KQDzX"
-                        >
+                    >
                         <button
                             className="relative top-[30rem] sm:top-[27rem] z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-white
                     bg-gradient-to-r from-blue-200 via-blue-500 to-green-200 orbi font-extrabold text-base md:text-xl">
@@ -283,7 +283,7 @@ export default function Bootcamp() {
                     </div>
                     <div class="mx-auto relative w-32 h-1 my-10 bg-gradient-to-r from-green-400 to-yellow-500 rounded-full"></div>
                     <h2 className="text-[2.5rem] text-center sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white orbi mb-16">so what're you waiting for?</h2>
-                   {/* <div className="flex flex-wrap justify-center items-center">
+                    {/* <div className="flex flex-wrap justify-center items-center">
 
                     <iframe
                     className="h-[30rem] flex justify-center items-center"
@@ -300,7 +300,7 @@ export default function Bootcamp() {
                     <div className="flex justify-center items-center flex-col text-white">
                         {/* <div className="h-[3px] rounded-full w-5 bg-gray-600 m-2 "></div> */}
                         {/* <h1 className="">{festName}</h1> */}
-                        {/* <a
+                        <a
                             target={"_blank"}
                             href="https://lu.ma/event/evt-JI6MLUama5KQDzX"
                             data-luma-action="checkout"
@@ -310,17 +310,7 @@ export default function Bootcamp() {
                             <button className="festButton mt-5 text-2xl md:text-3xl lg:text-4xl ">
                                 {"Register Now!"}
                             </button>
-                        </a> */}
-                        <iframe
-  src="https://lu.ma/embed-checkout/evt-JI6MLUama5KQDzX"
-  width="600"
-  height="1100"
-  frameborder="0"
-  style={{border: "1px solid #bfcbda88", borderRadius: "4px"}}
-  allowfullscreen=""
-  aria-hidden="false"
-  tabindex="0"
-></iframe>
+                        </a>
                         <div className="flex justify-center items-center m-5">
                             <img className="h-8 w-8" src="https://cdn-icons-png.flaticon.com/512/5408/5408495.png" />
                             <p className="kanit my-5 mx-5">*limited seats, mark your slot!</p>
