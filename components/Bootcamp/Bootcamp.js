@@ -27,8 +27,8 @@ export default function Bootcamp() {
 
                     <p className="text-white relative top-[17rem] w-[95%] text-2xl p-5 rounded-2xl backdrop-blur-sm flex justify-between items-center px-8 flex-wrap">
                         <a href="/" className="text-extrabold text-sm sm:text-xl md:text-2xl">bootcamp.<span className="text-white font-extrabold kanit">crack<span className="text-blue-400 font-extrabold kanit">DSA</span></span></a>
-                        
-                        <a href="./Brochure.pdf" download="./Brochure.pdf" className="text-sm sm:text-base md:text-lg kanit flex justify-center items-center group"> Brochure<img className="h-4 mx-1 w-4 group-hover:animate-pulse" src="https://img.icons8.com/material-outlined/24/FFFFFF/downloading-updates.png"/> </a>
+
+                        <a href="./Brochure.pdf" download="./Brochure.pdf" className="text-sm sm:text-base md:text-lg kanit flex justify-center items-center group"> Brochure<img className="h-4 mx-1 w-4 group-hover:animate-pulse" src="https://img.icons8.com/material-outlined/24/FFFFFF/downloading-updates.png" /> </a>
                     </p>
 
                     {/* <p className="text-white relative top-[18.2rem] bg-gray-900 text-xl p-5 rounded-2xl">crackDSA presents</p> */}
@@ -41,11 +41,15 @@ export default function Bootcamp() {
                         <h2 d ata-shadow='anveshna ' className="text  font-extrabold text-sm  sm:text-md md:text-lg lg:text-xl z-[99] text-gray-800">Interview Ready Mega Bootcamp</h2>
                     </div>
 
-
-                    <button class="relative top-[30rem] sm:top-[27rem] z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-white
-        bg-gradient-to-r from-blue-200 via-blue-500 to-green-200 orbi font-extrabold text-base md:text-xl">
-                        Register
-                    </button>
+                    <a target={"_blank"} href="https://lu.ma/event/evt-JI6MLUama5KQDzX"
+                        data-luma-action="checkout"
+                        data-luma-event-id="evt-JI6MLUama5KQDzX">
+                        <button
+                            className="relative top-[30rem] sm:top-[27rem] z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-white
+                    bg-gradient-to-r from-blue-200 via-blue-500 to-green-200 orbi font-extrabold text-base md:text-xl">
+                            Register
+                        </button>
+                    </a>
                 </div>
                 <div class='bottom-plane'></div>
             </div>
@@ -59,6 +63,7 @@ export default function Bootcamp() {
 
                 </div>
             </div> */}
+
             <div class="mx-auto relative -top-48 w-10 h-1 my-5 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
             <div id="overview" className="text-white relative -top-48 my-10">
                 <h1 className="orbi font-bold mx-10 my-5 sm:mx-20 text-2xl sm:text-3xl" >Overview - </h1>
@@ -190,10 +195,19 @@ export default function Bootcamp() {
 
                     </div>
                     <div className="flex justify-center items-center mt-10">
-                        <button class="z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-white
-            bg-gradient-to-r from-blue-200 via-blue-500 to-purple-200 orbi font-extrabold text-base md:text-xl">
-                            Register
-                        </button>
+                        <a
+                            target={"_blank"}
+                            href="https://lu.ma/event/evt-JI6MLUama5KQDzX"
+                            data-luma-action="checkout"
+                            data-luma-event-id="evt-JI6MLUama5KQDzX"
+                        >
+
+                            <button
+                                className="z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-white
+                           bg-gradient-to-r from-blue-200 via-blue-500 to-purple-200 orbi font-extrabold text-base md:text-xl">
+                                Register
+                            </button>
+                        </a>
 
                     </div>
                     <div class="mx-auto relative w-10 h-1 mb-20 mt-10 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
@@ -267,13 +281,34 @@ export default function Bootcamp() {
                     </div>
                     <div class="mx-auto relative w-32 h-1 my-10 bg-gradient-to-r from-green-400 to-yellow-500 rounded-full"></div>
                     <h2 className="text-[2.5rem] text-center sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white orbi mb-16">so what're you waiting for?</h2>
+                   {/* <div className="flex flex-wrap justify-center items-center">
 
+                    <iframe
+                    className="h-[30rem] flex justify-center items-center"
+                    src="https://lu.ma/embed-checkout/evt-JI6MLUama5KQDzX"
+                    width="600"
+                    // height="450"
+                    frameborder="0"
+                    style={{"border": "1px", "solid" :"#bfcbda88", "border-radius": "4px"}}
+                    allowfullscreen=""
+                    aria-hidden="false"
+                    tabindex="0"
+                    ></iframe>
+                    </div> */}
                     <div className="flex justify-center items-center flex-col text-white">
                         {/* <div className="h-[3px] rounded-full w-5 bg-gray-600 m-2 "></div> */}
                         {/* <h1 className="">{festName}</h1> */}
-                        <button className="festButton mt-5 text-2xl md:text-3xl lg:text-4xl ">
-                            {"Register Now!"}
-                        </button>
+                        <a
+                            target={"_blank"}
+                            href="https://lu.ma/event/evt-JI6MLUama5KQDzX"
+                            data-luma-action="checkout"
+                            data-luma-event-id="evt-JI6MLUama5KQDzX"
+                        >
+
+                            <button className="festButton mt-5 text-2xl md:text-3xl lg:text-4xl ">
+                                {"Register Now!"}
+                            </button>
+                        </a>
                         <div className="flex justify-center items-center m-5">
                             <img className="h-8 w-8" src="https://cdn-icons-png.flaticon.com/512/5408/5408495.png" />
                             <p className="kanit my-5 mx-5">*limited seats, mark your slot!</p>
@@ -406,10 +441,17 @@ export default function Bootcamp() {
 
             <div class="mx-auto relative bottom-32 w-16 h-1 my-10 bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div>
             <div className="relative bottom-24  flex justify-center items-center my-10 flex-col">
-                <button class="z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-black
-        bg-gradient-to-r from-gray-200 via-gray-100 to-gray-200 orbi font-extrabold text-base md:text-xl">
-                    Register
-                </button>
+                <a target={"_blank"} href="https://lu.ma/event/evt-JI6MLUama5KQDzX"
+                    data-luma-action="checkout"
+                    data-luma-event-id="evt-JI6MLUama5KQDzX">
+
+                    <button
+
+                        className="z-50 w-40 md:w-48 h-10  md:h-12 rounded-[8px] border-[1px] border-gray-900 shadow-xl hover:scale-[.97] hover:brightness-105 transition-all ease-in-out text-black
+                 bg-gradient-to-r from-gray-200 via-gray-100 to-gray-200 orbi font-extrabold text-base md:text-xl">
+                        Register
+                    </button>
+                </a>
 
                 <p className="kanit my-3 italic mx-5 text-gray-200">for completely free!</p>
             </div>
