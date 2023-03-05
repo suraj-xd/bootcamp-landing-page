@@ -28,7 +28,7 @@ export default function Bootcamp() {
                     <p className="text-white relative top-[17rem] w-[95%] text-2xl p-5 rounded-2xl backdrop-blur-sm flex justify-between items-center px-8 flex-wrap">
                         <a href="/" className="text-extrabold text-sm sm:text-xl md:text-2xl">bootcamp.<span className="text-white font-extrabold kanit">crack<span className="text-blue-400 font-extrabold kanit">DSA</span></span></a>
 
-                        <a href="./Brochure.pdf" download="./Brochure.pdf" className="text-sm sm:text-base md:text-lg kanit flex justify-center items-center group"> Brochure<img className="h-4 mx-1 w-4 group-hover:animate-pulse" src="https://img.icons8.com/material-outlined/24/FFFFFF/downloading-updates.png" /> </a>
+                        <a href="./Brochure.pdf" download="./LaunchPadx.pdf" className="text-sm sm:text-base md:text-lg kanit flex justify-center items-center group"> Brochure<img className="h-4 mx-1 w-4 group-hover:animate-pulse" src="https://img.icons8.com/material-outlined/24/FFFFFF/downloading-updates.png" /> </a>
                     </p>
 
                     {/* <p className="text-white relative top-[18.2rem] bg-gray-900 text-xl p-5 rounded-2xl">crackDSA presents</p> */}
@@ -84,10 +84,14 @@ export default function Bootcamp() {
                 </div>
 
                 <div className="flex justify-start mx-10 my-5 sm:mx-20 kanit">
-                    <button>Know More
-                    </button>
-                    <img className="h-8 w-8 mx-2 cursor-pointer hover:brightness-90 hover:scale-105 rounded-[90px]  " src="https://img.icons8.com/glyph-neue/64/FFFFFF/youtube-play.png" />
+                
+                    <p className="my-auto">Join Whatsapp
+                    </p>
+                    <a target={"_blank"} href="https://chat.whatsapp.com/BTGyKc0uIwG1tUjomfbsrZ">
 
+                    <img className="h-8 w-8 mx-2 cursor-pointer hover:brightness-90 hover:scale-105 rounded-[90px]  " src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" />
+                    </a>
+                <p className="text-xs text-gray-300 my-auto">*for quick updates</p>
                 </div>
                 {/* <div id="overviewbtns" className="mx-10 my-5 sm:mx-20">
                     <button className="festButton mt-2 text-sm md:text-lg lg:text-xl ">
@@ -319,7 +323,7 @@ export default function Bootcamp() {
 
 
                 </div>
-                {/* <div className="flex justify-center  items-center">
+                <div className="flex justify-center  items-center">
                     <div className="inline-flex">
 
                         <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-500 to-gray-400 rounded-full"></div>
@@ -328,23 +332,20 @@ export default function Bootcamp() {
                         <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-blue-200 to-gray-100 rounded-full"></div>
 
                     </div>
-                </div> */}
+                </div>
                 {/* Speakers section */}
-                {/* <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white kanit ml-10  ">The <span className="border-b-purple-400 border-b-[2px]"> Limelight</span></h2>
+                <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white kanit ml-10  ">The <span className="border-b-purple-400 border-b-[2px]"> Limelight</span></h2>
                 <div className="profilecards flex flex-wrap m-10 justify-center items-center">
-                    <div class="cardd">
-                        <div class="cardd-border-top">
-                        </div>
-                        <img className="img object-cover" src="https://imgs.search.brave.com/g-Q2lz1Ebm8gRbN2aPhuy0IqRCRtJ3QzGPjUzVpDFOQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/YnVzaW5lc3NpbnNp/ZGVyLmluL3Bob3Rv/Lzc5NTk5NjMwL2Vs/b24tbXVzay1tYWtl/cy1jbGVhci1oaXMt/c3RhbmNlLW9uLXNl/bGYtZHJpdmluZy1j/YXJzLWFpLW92ZXJz/aWdodC1hbmQtaGlz/LWFkLWZvci1tYXJz/LmpwZz9pbWdzaXpl/PTI0MzYwMTM" />
-                        <div className="img"></div>
-                        <span> Person</span>
-                        <p class="job">Job Title</p>
+                    <div className="flex flex-col mx-2 my-2 bg-gray-900 px-8 py-5 hover:bg-gray-800 rounded-3xl hover:scale-105 transition-all ease-in-out">
+                        <img className="h-40 w-40 border-[2px] border-black rounded-full" src="./Aanshul Sadaria.jpg"/>
+                        <h1 className="mt-5 text-white text-xl text-center">Aanshul Sadaria</h1>
+                        <p className="text-gray-200 text-center">SDE 3 Google</p>
                         <div className="flex flex-wrap justify-center items-center mt-[5px]">
-                            <img className="icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" />
+                            <img className="icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" />
 
                         </div>
                     </div>
-                    <div class="cardd">
+                    {/* <div class="cardd">
                         <div class="cardd-border-top">
                         </div>
                         <div className="img"></div>
@@ -352,7 +353,7 @@ export default function Bootcamp() {
                         <span> Person</span>
                         <p class="job">Job Title</p>
                         <div className="flex flex-wrap justify-center items-center mt-[5px]">
-                            <img className="icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" />
+                            <img className="icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" />
 
                         </div>
                     </div>
@@ -368,10 +369,10 @@ export default function Bootcamp() {
                             <img className="icon" src="https://cdn-icons-png.flaticon.com/512/5968/5968968.png" />
 
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
-                <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p> */}
+                <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p>
                 {/* <div className="flex justify-center  items-center">
                     <div className="inline-flex">
 
