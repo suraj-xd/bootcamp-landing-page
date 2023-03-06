@@ -28,7 +28,7 @@ export default function Bootcamp() {
                     <p className="text-white relative top-[17rem] w-[95%] text-2xl p-5 rounded-2xl backdrop-blur-sm flex justify-between items-center px-8 flex-wrap">
                         <a href="/" className="text-extrabold text-sm sm:text-xl md:text-2xl">bootcamp.<span className="text-white font-extrabold kanit">crack<span className="text-blue-400 font-extrabold kanit">DSA</span></span></a>
 
-                        <a href="./Brochure.pdf" download="./LaunchPadx.pdf" className="text-sm sm:text-base md:text-lg kanit flex justify-center items-center group"> Brochure<img className="h-4 mx-1 w-4 group-hover:animate-pulse" src="https://img.icons8.com/material-outlined/24/FFFFFF/downloading-updates.png" /> </a>
+                        <a href="./LaunchPadx.pdf" download="./LaunchPadx.pdf" className="text-sm sm:text-base md:text-lg kanit flex justify-center items-center group"> Brochure<img className="h-4 mx-1 w-4 group-hover:animate-pulse" src="https://img.icons8.com/material-outlined/24/FFFFFF/downloading-updates.png" /> </a>
                     </p>
 
                     {/* <p className="text-white relative top-[18.2rem] bg-gray-900 text-xl p-5 rounded-2xl">crackDSA presents</p> */}
@@ -335,11 +335,20 @@ export default function Bootcamp() {
                 </div>
                 {/* Speakers section */}
                 <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white kanit ml-10  ">The <span className="border-b-purple-400 border-b-[2px]"> Limelight</span></h2>
-                <div className="profilecards flex flex-wrap m-10 justify-center items-center">
-                    <div className="flex flex-col mx-2 my-2 bg-gray-900 px-8 py-5 hover:bg-gray-800 rounded-3xl hover:scale-105 transition-all ease-in-out">
+                <div className="profilecards flex m-10 justify-center items-center overflow-x-auto flex-row px-10">
+                    <div className=" flex-shrink-0 flex flex-col mx-2 my-2 bg-gray-900 px-8 py-5 hover:bg-gray-800 rounded-3xl hover:scale-105 transition-all ease-in-out">
+                        <img className="h-40 w-40 border-[2px] border-black rounded-full" src="./AryanSingh.jpg"/>
+                        <h1 className="mt-5 text-white text-xl text-center">Aryan Singh</h1>
+                        <p className="text-gray-200 text-center nunito">SWE @ Google</p>
+                        <div className="flex flex-wrap justify-center items-center mt-[5px]">
+                            <img className="icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" />
+
+                        </div>
+                    </div>
+                    <div className="flex-shrink-0 flex flex-col mx-2 my-2 bg-gray-900 px-8 py-5 hover:bg-gray-800 rounded-3xl hover:scale-105 transition-all ease-in-out hover:">
                         <img className="h-40 w-40 border-[2px] border-black rounded-full" src="./Aanshul Sadaria.jpg"/>
                         <h1 className="mt-5 text-white text-xl text-center">Aanshul Sadaria</h1>
-                        <p className="text-gray-200 text-center">SDE 3 Google</p>
+                        <p className="text-gray-200 text-center nunito">SWE @ Google</p>
                         <div className="flex flex-wrap justify-center items-center mt-[5px]">
                             <img className="icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" />
 
