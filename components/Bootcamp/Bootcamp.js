@@ -84,14 +84,14 @@ export default function Bootcamp() {
                 </div>
 
                 <div className="flex justify-start mx-10 my-5 sm:mx-20 kanit">
-                
+
                     <p className="my-auto">Join Whatsapp
                     </p>
                     <a target={"_blank"} href="https://chat.whatsapp.com/BTGyKc0uIwG1tUjomfbsrZ">
 
-                    <img className="h-8 w-8 mx-2 cursor-pointer hover:brightness-90 hover:scale-105 rounded-[90px]  " src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" />
+                        <img className="h-8 w-8 mx-2 cursor-pointer hover:brightness-90 hover:scale-105 rounded-[90px]  " src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" />
                     </a>
-                <p className="text-xs text-gray-300 my-auto">*for quick updates</p>
+                    <p className="text-xs text-gray-300 my-auto">*for quick updates</p>
                 </div>
                 {/* <div id="overviewbtns" className="mx-10 my-5 sm:mx-20">
                     <button className="festButton mt-2 text-sm md:text-lg lg:text-xl ">
@@ -333,55 +333,28 @@ export default function Bootcamp() {
 
                     </div>
                 </div>
+                <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] flex-row lg:text-[5rem] text-white kanit ml-10  ">The <span className="border-b-purple-400 border-b-[2px]"> Limelight</span></h2>
+
                 {/* Speakers section */}
-                <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white kanit ml-10  ">The <span className="border-b-purple-400 border-b-[2px]"> Limelight</span></h2>
-                <div className="profilecards flex m-10 justify-center items-center overflow-x-auto flex-row px-10">
-                    <div className=" flex-shrink-0 flex flex-col mx-2 my-2 bg-gray-900 px-8 py-5 hover:bg-gray-800 rounded-3xl hover:scale-105 transition-all ease-in-out">
-                        <img className="h-40 w-40 border-[2px] border-black rounded-full" src="./AryanSingh.jpg"/>
-                        <h1 className="mt-5 text-white text-xl text-center">Aryan Singh</h1>
-                        <p className="text-gray-200 text-center nunito">SWE @ Google</p>
-                        <div className="flex flex-wrap justify-center items-center mt-[5px]">
-                            <img className="icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" />
+                
+                <div className="w-full h-full flex flex-wrap text-white justify-center items-center mx-1">
 
+                    <a href="https://www.linkedin.com/in/aryaneth/" target={"_blank"}>
+                        <div className="w-[10rem] h-[14rem] md:w-[12rem] md:h-[16rem] mx-2 my-10 ml-auto px-8 py-5 bg-gray-900 flex text-white flex-col justify-center items-center rounded-xl shadow-xl hover:scale-[1.01] hover:border-[1px] border-gray-800 transition-all ease-in-out">
+                            <img className="h-24 w-24 md:h-32 md:w-32 rounded-3xl my-2" src="./AryanSingh.jpg" />
+                            <h1 className="font-bold my-2">Aryan Singh</h1>
+                            <p className="text-sm flex flex-wrap justify-center items-center">SWE @ <img className="mt-[6px] mx-1 w-11 h-4" src="https://imgs.search.brave.com/eH-X846pxKMECuDs6pcYawc6FRFXSukvhFktAwVzD4w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1nb29nbGUt/bG9nby0yMDE1YnJh/bmRsb2dvYnJhbmQt/bG9nb2ljb25zc3lt/Ym9sc2xvZ29zZ29v/Z2xlLTY4MTUyMjkz/NzIzMzNtcXJyLnBu/Zw" /></p>
                         </div>
-                    </div>
-                    <div className="flex-shrink-0 flex flex-col mx-2 my-2 bg-gray-900 px-8 py-5 hover:bg-gray-800 rounded-3xl hover:scale-105 transition-all ease-in-out hover:">
-                        <img className="h-40 w-40 border-[2px] border-black rounded-full" src="./Aanshul Sadaria.jpg"/>
-                        <h1 className="mt-5 text-white text-xl text-center">Aanshul Sadaria</h1>
-                        <p className="text-gray-200 text-center nunito">SWE @ Google</p>
-                        <div className="flex flex-wrap justify-center items-center mt-[5px]">
-                            <img className="icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" />
-
+                    </a>
+                    <a href="https://www.linkedin.com/in/aanshulsadaria/" target={"_blank"}>
+                        <div className="w-[10rem] h-[14rem] md:w-[12rem] md:h-[16rem] mx-2 my-10 px-8 py-5 bg-gray-900 flex text-white flex-col justify-center items-center rounded-xl shadow-xl hover:scale-[1.01] hover:border-[1px] border-gray-800 transition-all ease-in-out">
+                            <img className="h-24 w-24 md:h-32 md:w-32 rounded-3xl my-2" src="./Aanshul Sadaria.jpg" />
+                            <h1 className="font-bold my-2 text-[13px] ">Aanshul Sadaria</h1>
+                            <p className="text-sm flex flex-wrap justify-center items-center">SWE @ <img className="mt-[6px] mx-1 w-11 h-4" src="https://imgs.search.brave.com/eH-X846pxKMECuDs6pcYawc6FRFXSukvhFktAwVzD4w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1nb29nbGUt/bG9nby0yMDE1YnJh/bmRsb2dvYnJhbmQt/bG9nb2ljb25zc3lt/Ym9sc2xvZ29zZ29v/Z2xlLTY4MTUyMjkz/NzIzMzNtcXJyLnBu/Zw" /></p>
                         </div>
-                    </div>
-                    {/* <div class="cardd">
-                        <div class="cardd-border-top">
-                        </div>
-                        <div className="img"></div>
-                        <img className="img object-cover" src="https://imgs.search.brave.com/XzxETtV9Z3kH5DiZYvXjlXi4Mhijj5uNLs4wlLNE0CA/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Ev/QUFUWEFKeEdFZHlC/WEJxSk5SXzRya3J0/b2prMHhuV3NiTHFf/aUZjV1VRPXM5MDAt/Yy1rLWMweGZmZmZm/ZmZmLW5vLXJqLW1v" />
-                        <span> Person</span>
-                        <p class="job">Job Title</p>
-                        <div className="flex flex-wrap justify-center items-center mt-[5px]">
-                            <img className="icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" />
-
-                        </div>
-                    </div>
-                    <div class="cardd">
-                        <div class="cardd-border-top">
-                        </div>
-
-                        <div className="img"></div>
-                        <img className="img object-cover" src="https://imgs.search.brave.com/1g9oLO2WpA-wjWTcTaPiM_lbAv92MpHXWrP-CXklV4k/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Et/L0FBdUU3bUJlOC1y/RDdQSDZFOU9McFo0/cmdocl9YWFN4M0Nf/b1JXT2hFUT1zOTAw/LW1vLWMtYzB4ZmZm/ZmZmZmYtcmotay1u/bw" />
-                        <span> Person</span>
-                        <p class="job">Job Title</p>
-                        <div className="flex flex-wrap justify-center items-center mt-[5px]">
-                            <img className="icon" src="https://cdn-icons-png.flaticon.com/512/5968/5968968.png" />
-
-                        </div>
-                    </div> */}
-
+                    </a>
                 </div>
-                <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p>
+                {/* <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p> */}
                 {/* <div className="flex justify-center  items-center">
                     <div className="inline-flex">
 
@@ -429,6 +402,7 @@ export default function Bootcamp() {
 
                     </div>
                 </div> */}
+
                 {/* <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p> */}
                 <div class="mx-auto relative w-32 h-1 my-10 bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div>
 
