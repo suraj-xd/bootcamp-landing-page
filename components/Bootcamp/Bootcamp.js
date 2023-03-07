@@ -336,23 +336,46 @@ export default function Bootcamp() {
                 <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] flex-row lg:text-[5rem] text-white kanit ml-10  ">The <span className="border-b-purple-400 border-b-[2px]"> Limelight</span></h2>
 
                 {/* Speakers section */}
-                
-                <div className="w-full h-full flex flex-wrap text-white justify-center items-center mx-1">
 
-                    <a href="https://www.linkedin.com/in/aryaneth/" target={"_blank"}>
-                        <div className="w-[10rem] h-[14rem] md:w-[12rem] md:h-[16rem] mx-2 my-10 ml-auto px-8 py-5 bg-gray-900 flex text-white flex-col justify-center items-center rounded-xl shadow-xl hover:scale-[1.01] hover:border-[1px] border-gray-800 transition-all ease-in-out">
-                            <img className="h-24 w-24 md:h-32 md:w-32 rounded-3xl my-2" src="./AryanSingh.jpg" />
-                            <h1 className="font-bold my-2">Aryan Singh</h1>
-                            <p className="text-sm flex flex-wrap justify-center items-center">SWE @ <img className="mt-[6px] mx-1 w-11 h-4" src="https://imgs.search.brave.com/eH-X846pxKMECuDs6pcYawc6FRFXSukvhFktAwVzD4w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1nb29nbGUt/bG9nby0yMDE1YnJh/bmRsb2dvYnJhbmQt/bG9nb2ljb25zc3lt/Ym9sc2xvZ29zZ29v/Z2xlLTY4MTUyMjkz/NzIzMzNtcXJyLnBu/Zw" /></p>
+                <div
+                    class="flex overflow-x-scroll pb-10 hide-scroll-bar justify-start md:justify-center items-center"
+                >
+                    <div
+                        class="flex flex-nowrap px-5 mt-5 "
+                    >
+                       
+                        <div class="inline-block px-3 my-5">
+                        <a href="https://www.linkedin.com/in/aryaneth/" target={"_blank"}>
+
+                            <div
+                                class="w-48 h-64 max-w-xs overflow-hidden rounded-lg rounded-xl shadow-xl hover:scale-[1.01] hover:border-[1px] bg-gray-900 transition-all ease-in-out"
+                            >
+                                <div className="flex flex-col text-white justify-center items-center">
+
+                                    <img className="mt-6 h-24 w-24 md:h-32 md:w-32 rounded-3xl my-2" src="./AryanSingh.jpg" />
+                                    <h1 className="font-bold my-2">Aryan Singh</h1>
+                                    <p className="text-sm flex flex-wrap justify-center items-center">SWE @ <img className="mt-[6px] mx-1 w-11 h-4" src="https://imgs.search.brave.com/eH-X846pxKMECuDs6pcYawc6FRFXSukvhFktAwVzD4w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1nb29nbGUt/bG9nby0yMDE1YnJh/bmRsb2dvYnJhbmQt/bG9nb2ljb25zc3lt/Ym9sc2xvZ29zZ29v/Z2xlLTY4MTUyMjkz/NzIzMzNtcXJyLnBu/Zw" /></p>
+                                </div>
+                            </div>
+                            </a>
                         </div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/aanshulsadaria/" target={"_blank"}>
-                        <div className="w-[10rem] h-[14rem] md:w-[12rem] md:h-[16rem] mx-2 my-10 px-8 py-5 bg-gray-900 flex text-white flex-col justify-center items-center rounded-xl shadow-xl hover:scale-[1.01] hover:border-[1px] border-gray-800 transition-all ease-in-out">
-                            <img className="h-24 w-24 md:h-32 md:w-32 rounded-3xl my-2" src="./Aanshul Sadaria.jpg" />
-                            <h1 className="font-bold my-2 text-[13px] ">Aanshul Sadaria</h1>
-                            <p className="text-sm flex flex-wrap justify-center items-center">SWE @ <img className="mt-[6px] mx-1 w-11 h-4" src="https://imgs.search.brave.com/eH-X846pxKMECuDs6pcYawc6FRFXSukvhFktAwVzD4w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1nb29nbGUt/bG9nby0yMDE1YnJh/bmRsb2dvYnJhbmQt/bG9nb2ljb25zc3lt/Ym9sc2xvZ29zZ29v/Z2xlLTY4MTUyMjkz/NzIzMzNtcXJyLnBu/Zw" /></p>
+                        <div class="inline-block px-3 my-5">
+                        <a href="https://www.linkedin.com/in/aanshulsadaria/" target={"_blank"}>
+
+                            <div
+                                class="w-48 h-64 max-w-xs overflow-hidden rounded-lg rounded-xl shadow-xl hover:scale-[1.01] hover:border-[1px] bg-gray-900 transition-all ease-in-out"
+                            >
+                                <div className="flex flex-col text-white justify-center items-center">
+
+                                    <img className="mt-6 h-24 w-24 md:h-32 md:w-32 rounded-3xl my-2" src="./Aanshul Sadaria.jpg" />
+                                    <h1 className="font-bold my-2">Aanshul Sadaria</h1>
+                                    <p className="text-sm flex flex-wrap justify-center items-center">SWE @ <img className="mt-[6px] mx-1 w-11 h-4" src="https://imgs.search.brave.com/eH-X846pxKMECuDs6pcYawc6FRFXSukvhFktAwVzD4w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1nb29nbGUt/bG9nby0yMDE1YnJh/bmRsb2dvYnJhbmQt/bG9nb2ljb25zc3lt/Ym9sc2xvZ29zZ29v/Z2xlLTY4MTUyMjkz/NzIzMzNtcXJyLnBu/Zw" /></p>
+                                </div>
+                            </div>
+                            </a>
                         </div>
-                    </a>
+                         
+                    </div>
                 </div>
                 {/* <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p> */}
                 {/* <div className="flex justify-center  items-center">
@@ -404,7 +427,7 @@ export default function Bootcamp() {
                 </div> */}
 
                 {/* <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p> */}
-                <div class="mx-auto relative w-32 h-1 my-10 bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div>
+                <div class="mx-auto relative w-32 h-1  bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div>
 
 
 
