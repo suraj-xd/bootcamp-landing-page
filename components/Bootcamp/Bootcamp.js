@@ -343,42 +343,63 @@ export default function Bootcamp() {
                     <div
                         class="flex flex-nowrap px-5 mt-5 "
                     >
-                       
+
                         <div class="inline-block px-3 my-5">
-                        <a href="https://www.linkedin.com/in/aryaneth/" target={"_blank"}>
+                            <a href="https://www.linkedin.com/in/aryaneth/" target={"_blank"}>
 
-                            <div
-                                class="w-48 h-64 max-w-xs overflow-hidden rounded-lg rounded-xl shadow-xl hover:scale-[1.01] hover:border-[1px] bg-gray-900 transition-all ease-in-out"
-                            >
-                                <div className="flex flex-col text-white justify-center items-center">
+                                <div
+                                    class="w-48 h-64 max-w-xs overflow-hidden rounded-lg rounded-xl shadow-xl hover:scale-[1.01] hover:border-[1px] bg-gray-900 transition-all ease-in-out"
+                                >
+                                    <div className="flex flex-col text-white justify-center items-center">
 
-                                    <img className="mt-6 h-24 w-24 md:h-32 md:w-32 rounded-3xl my-2" src="./AryanSingh.jpg" />
-                                    <h1 className="font-bold my-2">Aryan Singh</h1>
-                                    <p className="text-sm flex flex-wrap justify-center items-center">SWE @ <img className="mt-[6px] mx-1 w-11 h-4" src="https://imgs.search.brave.com/eH-X846pxKMECuDs6pcYawc6FRFXSukvhFktAwVzD4w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1nb29nbGUt/bG9nby0yMDE1YnJh/bmRsb2dvYnJhbmQt/bG9nb2ljb25zc3lt/Ym9sc2xvZ29zZ29v/Z2xlLTY4MTUyMjkz/NzIzMzNtcXJyLnBu/Zw" /></p>
+                                        <img className="mt-6 h-24 w-24 md:h-32 md:w-32 rounded-3xl my-2" src="./AryanSingh.jpg" />
+                                        <h1 className="font-bold my-2">Aryan Singh</h1>
+                                        <p className="text-sm flex flex-wrap justify-center items-center">SWE @ <img className="mt-[6px] mx-1 w-11 h-4" src="https://imgs.search.brave.com/eH-X846pxKMECuDs6pcYawc6FRFXSukvhFktAwVzD4w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1nb29nbGUt/bG9nby0yMDE1YnJh/bmRsb2dvYnJhbmQt/bG9nb2ljb25zc3lt/Ym9sc2xvZ29zZ29v/Z2xlLTY4MTUyMjkz/NzIzMzNtcXJyLnBu/Zw" /></p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
+                        </div>
+                        
+                        <div class="inline-block px-3 my-5">
+                            <a href="https://www.linkedin.com/in/aanshulsadaria/" target={"_blank"}>
+
+                                <div
+                                    class="w-48 h-64 max-w-xs overflow-hidden rounded-lg rounded-xl shadow-xl hover:scale-[1.01] hover:border-[1px] bg-gray-900 transition-all ease-in-out"
+                                >
+                                    <div className="flex flex-col text-white justify-center items-center">
+
+                                        <img className="mt-6 h-24 w-24 md:h-32 md:w-32 rounded-3xl my-2" src="./Aanshul Sadaria.jpg" />
+                                        <h1 className="font-bold my-2">Aanshul Sadaria</h1>
+                                        <p className="text-sm flex flex-wrap justify-center items-center">SWE @ <img className="mt-[6px] mx-1 w-11 h-4" src="https://imgs.search.brave.com/eH-X846pxKMECuDs6pcYawc6FRFXSukvhFktAwVzD4w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1nb29nbGUt/bG9nby0yMDE1YnJh/bmRsb2dvYnJhbmQt/bG9nb2ljb25zc3lt/Ym9sc2xvZ29zZ29v/Z2xlLTY4MTUyMjkz/NzIzMzNtcXJyLnBu/Zw" /></p>
+                                    </div>
+                                </div>
                             </a>
                         </div>
                         <div class="inline-block px-3 my-5">
-                        <a href="https://www.linkedin.com/in/aanshulsadaria/" target={"_blank"}>
+                            <a href="https://www.linkedin.com/in/aishwarya-mahapatra/" target={"_blank"}>
 
-                            <div
-                                class="w-48 h-64 max-w-xs overflow-hidden rounded-lg rounded-xl shadow-xl hover:scale-[1.01] hover:border-[1px] bg-gray-900 transition-all ease-in-out"
-                            >
-                                <div className="flex flex-col text-white justify-center items-center">
+                                <div
+                                    class="w-48 h-64 max-w-xs overflow-hidden rounded-lg rounded-xl shadow-xl hover:scale-[1.01] hover:border-[1px] bg-gray-900 transition-all ease-in-out"
+                                >
+                                    <div className="flex flex-col text-white justify-center items-center">
 
-                                    <img className="mt-6 h-24 w-24 md:h-32 md:w-32 rounded-3xl my-2" src="./Aanshul Sadaria.jpg" />
-                                    <h1 className="font-bold my-2">Aanshul Sadaria</h1>
-                                    <p className="text-sm flex flex-wrap justify-center items-center">SWE @ <img className="mt-[6px] mx-1 w-11 h-4" src="https://imgs.search.brave.com/eH-X846pxKMECuDs6pcYawc6FRFXSukvhFktAwVzD4w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1nb29nbGUt/bG9nby0yMDE1YnJh/bmRsb2dvYnJhbmQt/bG9nb2ljb25zc3lt/Ym9sc2xvZ29zZ29v/Z2xlLTY4MTUyMjkz/NzIzMzNtcXJyLnBu/Zw" /></p>
+                                        <img className="mt-6 h-24 w-24 md:h-32 md:w-32 object-cover rounded-3xl my-2" src="./aishwarya.jpeg" />
+                                        <h1 className="font-bold my-2">Aishwarya Mahapatra</h1>
+                                        <p className="flex text-sm text-center justify-center items-center">SDE @ 
+                                        DE Shaw 
+                                        </p>
+                                        <p className="flex text-sm text-center justify-center items-center text-gray-300">Ex: 
+                                        Goldman Sachs
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
                             </a>
                         </div>
-                         
+
                     </div>
                 </div>
                 {/* <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p> */}
-                {/* <div className="flex justify-center  items-center">
+                <div className="flex justify-center  items-center">
                     <div className="inline-flex">
 
                         <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-green-500 to-gray-400 rounded-full"></div>
@@ -387,47 +408,40 @@ export default function Bootcamp() {
                         <div class="mx-1 w-2 h-2 my-1 bg-gradient-to-r from-green-200 to-gray-100 rounded-full"></div>
 
                     </div>
-                </div> */}
+                </div>
                 {/* Educators Section */}
-                {/* <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white kanit ml-10  "><span className="border-b-green-400 border-b-[2px]"> Educators</span> Crease </h2>
-                <div className="profilecards flex flex-wrap m-10 justify-center items-center">
-                    <div class="carddd">
-                        <div class="carddd-border-top">
-                        </div>
-                        <div class="img">
-                        </div>
-                        <span> Person</span>
-                        <p class="job"> Job Title</p>
-                        <button> LinkedIn
-                        </button>
-                    </div>
-                    <div class="carddd">
-                        <div class="carddd-border-top">
-                        </div>
-                        <div class="img">
-                        </div>
-                        <span> Person</span>
-                        <p class="job"> Job Title</p>
-                        <button> LinkedIn
-                        </button>
-                    </div>
-                    <div class="carddd">
-                        <div class="carddd-border-top">
-                        </div>
-                        <div class="img">
-                        </div>
-                        <span> Person</span>
-                        <p class="job"> Job Title</p>
-                        <button> LinkedIn
-                        </button>
-                    </div>
-                    <div>
+                {/* <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white orbi italic ml-10  "><span className=" border-b-green-400 border-b-[2px]"> The</span> Team </h2>
+                <div className="profilecards flex overflow-x-scroll pb-10 hide-scroll-bar justify-start md:justify-center items-center">
 
+                    <div className="w-56 h-40 mx-5 flex flex-col text-white justify-center items-center">
+                        <img className="grayscale hover:grayscale-0 hover:scale-[0.99] transition-all ease-in-out mt-6 h-24 w-24 md:h-32 md:w-32 rounded-full my-2" src="./AryanSingh.jpg" />
+                        <h1 className="font-bold mt-2 ">Abhinav Awasthi</h1>
+                        <p className="text-sm text-gray-200">Founder</p>
+                    </div>
+                    <div className="w-56 h-40 mt-10 mx-5 flex flex-col text-white justify-center items-center">
+                        <img className="mt-10 grayscale hover:grayscale-0 hover:scale-[0.99] transition-all ease-in-out h-24 w-24 md:h-32 md:w-32 rounded-full my-2" src="./AryanSingh.jpg" />
+                        <h1 className="font-bold my-2">Abhinav Awasthi</h1>
+                    </div>
+                    <div className="w-56 h-40 mx-5 flex flex-col text-white justify-center items-center">
+                        <img className="mt-6 grayscale hover:grayscale-0 hover:scale-[0.99] transition-all ease-in-out h-24 w-24 md:h-32 md:w-32 rounded-full my-2" src="./AryanSingh.jpg" />
+                        <h1 className="font-bold my-2">Abhinav Awasthi</h1>
+                    </div>
+                    <div className="w-56 h-40 mt-10 mx-5 flex flex-col text-white justify-center items-center">
+                        <img className="mt-10 grayscale hover:grayscale-0 hover:scale-[0.99] transition-all ease-in-out h-24 w-24 md:h-32 md:w-32 rounded-full my-2" src="./AryanSingh.jpg" />
+                        <h1 className="font-bold my-2">Abhinav Awasthi</h1>
+                    </div>
+                    <div className="w-56 h-40 mx-5 flex flex-col text-white justify-center items-center">
+                        <img className="mt-6 grayscale hover:grayscale-0 hover:scale-[0.99] transition-all ease-in-out h-24 w-24 md:h-32 md:w-32 rounded-full my-2" src="./AryanSingh.jpg" />
+                        <h1 className="font-bold my-2">Abhinav Awasthi</h1>
+                    </div>
+                    <div className="w-56 h-40 mt-10 mx-5 flex flex-col text-white justify-center items-center">
+                        <img className="mt-10 grayscale hover:grayscale-0 hover:scale-[0.99] transition-all ease-in-out h-24 w-24 md:h-32 md:w-32 rounded-full my-2" src="./AryanSingh.jpg" />
+                        <h1 className="font-bold my-2">Abhinav Awasthi</h1>
                     </div>
                 </div> */}
 
                 {/* <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p> */}
-                <div class="mx-auto relative w-32 h-1  bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div>
+                {/* <div class="mx-auto relative w-32 h-1  bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div> */}
 
 
 
