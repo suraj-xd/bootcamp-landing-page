@@ -370,7 +370,22 @@ export default function Bootcamp() {
 
                                         <img className="mt-6 h-24 w-24 md:h-32 md:w-32 rounded-3xl my-2" src="./Aanshul Sadaria.jpg" />
                                         <h1 className="font-bold my-2">Aanshul Sadaria</h1>
-                                        <p className="text-sm flex flex-wrap justify-center items-center">SWE @ <img className="mt-[6px] mx-1 w-11 h-4" src="https://imgs.search.brave.com/eH-X846pxKMECuDs6pcYawc6FRFXSukvhFktAwVzD4w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1nb29nbGUt/bG9nby0yMDE1YnJh/bmRsb2dvYnJhbmQt/bG9nb2ljb25zc3lt/Ym9sc2xvZ29zZ29v/Z2xlLTY4MTUyMjkz/NzIzMzNtcXJyLnBu/Zw" /></p>
+                                        <p className="text-sm flex flex-wrap justify-center items-center">SWE 3 @ <img className="mt-[6px] mx-1 w-11 h-4" src="https://imgs.search.brave.com/eH-X846pxKMECuDs6pcYawc6FRFXSukvhFktAwVzD4w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1nb29nbGUt/bG9nby0yMDE1YnJh/bmRsb2dvYnJhbmQt/bG9nb2ljb25zc3lt/Ym9sc2xvZ29zZ29v/Z2xlLTY4MTUyMjkz/NzIzMzNtcXJyLnBu/Zw" /></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="inline-block px-3 my-5">
+                            <a href="https://www.linkedin.com/in/riti2409/" target={"_blank"}>
+
+                                <div
+                                    class="w-48 h-64 max-w-xs overflow-hidden rounded-lg rounded-xl shadow-xl hover:scale-[1.01] hover:border-[1px] bg-gray-900 transition-all ease-in-out"
+                                >
+                                    <div className="flex flex-col text-white justify-center items-center">
+
+                                        <img className="mt-6 h-24 w-24 md:h-32 md:w-32 object-cover rounded-3xl my-2" src="./Riti Kumari.jpeg" />
+                                        <h1 className="font-bold my-2">Riti Kumari</h1>
+                                        <p className="text-sm flex flex-wrap justify-center items-center">SDE @ <img className="mt-[6px] mx-1 w-15 mb-1 h-5" src="https://imgs.search.brave.com/yDLGAoaAnW-J2VtqP5Wul6ar-Zd_IvNDBiJvuPtePv0/rs:fit:1200:800:1/g:ce/aHR0cDovL2xvZ29z/LWRvd25sb2FkLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/Ni8wMi9XYWxtYXJ0/X2xvZ29fdHJhbnNw/YXJlbnRfcG5nLnBu/Zw" /></p>
                                     </div>
                                 </div>
                             </a>
