@@ -50,7 +50,7 @@ export default function TimerComp() {
                                 
                                 Live
                             </div> */}
-                            <img className="w-12 h-10" src="https://cdn-icons-png.flaticon.com/512/1246/1246264.png" />
+                            <img className="w-12 h-10 animate-pulse" src="https://cdn-icons-png.flaticon.com/512/1246/1246264.png" />
                             <div>
                                 in
                             </div>

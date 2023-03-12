@@ -443,38 +443,76 @@ export default function Bootcamp() {
                     </div>
                 </div>
                 {/* Educators Section */}
-                {/* <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white orbi italic ml-10  "><span className=" border-b-green-400 border-b-[2px]"> The</span> Team </h2>
-                <div className="profilecards flex overflow-x-scroll pb-10 hide-scroll-bar justify-start md:justify-center items-center">
+                <h2 className="text-[2.5rem] text-left sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] text-white orbi italic ml-10  "><span className=" border-b-green-400 border-b-[2px]"> The</span> Team </h2>
+                <div className="profilecards flex flex-wrap  pb-10 hide-scroll-bar justify-center items-center mx-5 mt-10 mb-10 text-gray-300 hover:text-white">
 
-                    <div className="w-56 h-40 mx-5 flex flex-col text-white justify-center items-center">
-                        <img className="grayscale hover:grayscale-0 hover:scale-[0.99] transition-all ease-in-out mt-6 h-24 w-24 md:h-32 md:w-32 rounded-full my-2" src="./AryanSingh.jpg" />
-                        <h1 className="font-bold mt-2 ">Abhinav Awasthi</h1>
-                        <p className="text-sm text-gray-200">Founder</p>
-                    </div>
-                    <div className="w-56 h-40 mt-10 mx-5 flex flex-col text-white justify-center items-center">
-                        <img className="mt-10 grayscale hover:grayscale-0 hover:scale-[0.99] transition-all ease-in-out h-24 w-24 md:h-32 md:w-32 rounded-full my-2" src="./AryanSingh.jpg" />
-                        <h1 className="font-bold my-2">Abhinav Awasthi</h1>
-                    </div>
-                    <div className="w-56 h-40 mx-5 flex flex-col text-white justify-center items-center">
-                        <img className="mt-6 grayscale hover:grayscale-0 hover:scale-[0.99] transition-all ease-in-out h-24 w-24 md:h-32 md:w-32 rounded-full my-2" src="./AryanSingh.jpg" />
-                        <h1 className="font-bold my-2">Abhinav Awasthi</h1>
-                    </div>
-                    <div className="w-56 h-40 mt-10 mx-5 flex flex-col text-white justify-center items-center">
-                        <img className="mt-10 grayscale hover:grayscale-0 hover:scale-[0.99] transition-all ease-in-out h-24 w-24 md:h-32 md:w-32 rounded-full my-2" src="./AryanSingh.jpg" />
-                        <h1 className="font-bold my-2">Abhinav Awasthi</h1>
-                    </div>
-                    <div className="w-56 h-40 mx-5 flex flex-col text-white justify-center items-center">
-                        <img className="mt-6 grayscale hover:grayscale-0 hover:scale-[0.99] transition-all ease-in-out h-24 w-24 md:h-32 md:w-32 rounded-full my-2" src="./AryanSingh.jpg" />
-                        <h1 className="font-bold my-2">Abhinav Awasthi</h1>
-                    </div>
-                    <div className="w-56 h-40 mt-10 mx-5 flex flex-col text-white justify-center items-center">
-                        <img className="mt-10 grayscale hover:grayscale-0 hover:scale-[0.99] transition-all ease-in-out h-24 w-24 md:h-32 md:w-32 rounded-full my-2" src="./AryanSingh.jpg" />
-                        <h1 className="font-bold my-2">Abhinav Awasthi</h1>
-                    </div>
-                </div> */}
+
+                    <a href="https://www.linkedin.com/in/abhinavawasthi01/" target="_blank">
+
+                        <div className=" flex justify-center items-center flex-col gap-1 cursor-pointer hover:scale-[1.02] transition-all ease-in-out mx-2 my-2 md:my-5 md:mx-5 group">
+                            <img className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full grayscale hover:grayscale-0 object-fit bg-blue-300" src="./abhinav.png" />
+                            <p className="text-sm md:text-lg  nunito tracking-wide">Abhinav Awasthi</p>
+                            <div class="loader invisible group-hover:visible">
+                                <div></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jwala-chorasiya-34048b1b2/" target={"_blank"}>
+                        <div className=" flex justify-center items-center flex-col gap-1 cursor-pointer hover:scale-[1.02] transition-all ease-in-out mx-2 my-2 md:my-5 md:mx-5 group group">
+                            <img className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full grayscale hover:grayscale-0" src="./jwala.jpeg" />
+                            <p className="text-sm md:text-lg  nunito tracking-wide">Jwala Chorasiya</p>
+                            <div class="loader invisible group-hover:visible">
+                                <div></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anish-de-1b090a193/" target={"_blank"}>
+                        <div className=" flex justify-center items-center flex-col gap-1 cursor-pointer hover:scale-[1.02] transition-all ease-in-out mx-2 my-2 md:my-5 md:mx-5 group">
+
+                            <img className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full grayscale hover:grayscale-0" src="./anish.jpeg" />
+                            <p className="text-sm md:text-lg  nunito tracking-wide">Anish De</p>
+
+                            <div class="loader invisible group-hover:visible">
+                                <div></div>
+                            </div>                  </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gaudsuraj/" target={"_blank"}>
+                        <div className=" flex justify-center items-center flex-col gap-1 cursor-pointer hover:scale-[1.02] transition-all ease-in-out mx-2 my-2 md:my-5 md:mx-5 group">
+
+                            <img className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full grayscale hover:grayscale-0" src="./suraj.jpg" />
+                            <p className="text-sm md:text-lg  nunito tracking-wide">Suraj Gaud</p>
+
+                            <div class="loader invisible group-hover:visible">
+                                <div></div>
+                            </div>                    </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/priyanshi-porwal-8b91981bb/" target={"_blank"}>
+
+                        <div className=" flex justify-center items-center flex-col gap-1 cursor-pointer hover:scale-[1.02] transition-all ease-in-out mx-2 my-2 md:my-5 md:mx-5 group">
+                            <img className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full grayscale hover:grayscale-0 object-cover" src="./priyanshi.jpeg" />
+                            <p className="text-sm md:text-lg  nunito tracking-wide">Priyanshi Porwal</p>
+                            <div class="loader invisible group-hover:visible">
+                                <div></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/prakhar-jain-504a73195/" target={"_blank"}>
+
+                        <div className=" flex justify-center items-center flex-col gap-1 cursor-pointer hover:scale-[1.02] transition-all ease-in-out mx-2 my-2 md:my-5 md:mx-5 group">
+                            <img className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full grayscale hover:grayscale-0 " src="./prakhar.jpeg" />
+                            <p className="text-sm md:text-lg  nunito tracking-wide">Prakhar Jain</p>
+
+                            <div class="loader invisible group-hover:visible">
+                                <div></div>
+                            </div>
+                        </div>
+                    </a>
+
+
+                </div>
 
                 {/* <p className="kanit my-3 italic mx-5 text-gray-200 text-center">stay tuned....</p> */}
-                {/* <div class="mx-auto relative w-32 h-1  bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div> */}
+                <div class="mx-auto relative w-[95%] mb-10 h-[1px]  bg-gray-500 rounded-full"></div>
 
 
 
