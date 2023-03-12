@@ -1,5 +1,6 @@
 import Run from "./Run";
 import { useEffect } from "react"
+import TimerComp from "./TmerComp";
 
 export default function Bootcamp() {
     useEffect(() => {
@@ -65,8 +66,15 @@ export default function Bootcamp() {
 
                 </div>
             </div> */}
-
-            <div class="mx-auto relative -top-48 w-10 h-1 my-5 bg-gradient-to-r from-gray-400 to-blue-500 rounded-full"></div>
+            <div id="timer" className="relative -top-48 mx-auto flex justify-center">
+                <TimerComp />
+            </div>
+            {/* <div class="mx-auto relative -top-48 w-10 h-1 my-8 rounded-full">
+                <div class="spinner">
+                    <div class="loader l1"></div>
+                    <div class="loader l2"></div>
+                </div>
+            </div> */}
             <div id="overview" className="text-white relative -top-48 my-10">
                 <h1 className="orbi font-bold mx-10 my-5 sm:mx-20 text-2xl sm:text-3xl" >Overview - </h1>
                 <div className="flex flex-col items-center justify-start mx-10 my-5 sm:mx-20 comfort">
@@ -97,7 +105,8 @@ export default function Bootcamp() {
                     </p>
                     <a className="" target={"_blank"} href="https://chat.whatsapp.com/BTGyKc0uIwG1tUjomfbsrZ">
 
-                        <img className="bg-white rounded-full h-8 w-8  mx-2 cursor-pointer hover:brightness-90 hover:scale-105 rounded-[90px]  " src="https://cdn-icons-png.flaticon.com/512/1384/1384039.png" />
+                        <img className="p-1 rounded-full h-8 w-8  mx-2 cursor-pointer hover:brightness-90 hover:scale-105 rounded-[90px]  " src="https://img.icons8.com/windows/32/FFFFFF/whatsapp--v1.png" />
+
                     </a>
                     <p className="text-xs text-gray-300 my-auto">*for quick updates</p>
                 </div>

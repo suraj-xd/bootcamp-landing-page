@@ -26,7 +26,6 @@ function Run(param) {
         update() {
             let output = ''
             let complete = 0
-            console.log(this.queue.length)
             for (let i = 0, n = this.queue.length; i < n; i++) {
                 let { from, to, start, end, char } = this.queue[i]
                 if (this.frame >= end) {
@@ -73,6 +72,5 @@ function Run(param) {
             counter = (counter + 1) //% phrases.length
         }
     }
-    console.log("running");
     next()
 }
