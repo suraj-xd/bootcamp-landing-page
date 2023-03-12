@@ -95,9 +95,9 @@ export default function Bootcamp() {
 
                     <p className="my-auto">Join Whatsapp
                     </p>
-                    <a target={"_blank"} href="https://chat.whatsapp.com/BTGyKc0uIwG1tUjomfbsrZ">
+                    <a className="" target={"_blank"} href="https://chat.whatsapp.com/BTGyKc0uIwG1tUjomfbsrZ">
 
-                        <img className="h-8 w-8 mx-2 cursor-pointer hover:brightness-90 hover:scale-105 rounded-[90px]  " src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" />
+                        <img className="bg-white rounded-full h-8 w-8  mx-2 cursor-pointer hover:brightness-90 hover:scale-105 rounded-[90px]  " src="https://cdn-icons-png.flaticon.com/512/1384/1384039.png" />
                     </a>
                     <p className="text-xs text-gray-300 my-auto">*for quick updates</p>
                 </div>
