@@ -82,8 +82,16 @@ export default function Bootcamp() {
 
 
                 </div>
-
                 <div className="flex justify-start mx-10 my-5 sm:mx-20 kanit">
+
+                    <p className="my-auto">Know More
+                    </p>
+                    <a target={"_blank"} href="https://youtu.be/4zgK_qlWJMA">
+
+                        <img className="h-8 w-8 mx-2 cursor-pointer hover:brightness-90 hover:scale-105 rounded-[90px]  " src="https://cdn-icons-png.flaticon.com/512/1409/1409936.png" />
+                    </a>
+                </div>
+                <div className="flex justify-center items-center mx-10 my-5 sm:mx-20 kanit">
 
                     <p className="my-auto">Join Whatsapp
                     </p>
@@ -93,6 +101,7 @@ export default function Bootcamp() {
                     </a>
                     <p className="text-xs text-gray-300 my-auto">*for quick updates</p>
                 </div>
+
                 {/* <div id="overviewbtns" className="mx-10 my-5 sm:mx-20">
                     <button className="festButton mt-2 text-sm md:text-lg lg:text-xl ">
                         {"Register Now!"}
@@ -359,7 +368,7 @@ export default function Bootcamp() {
                                 </div>
                             </a>
                         </div>
-                        
+
                         <div class="inline-block px-3 my-5">
                             <a href="https://www.linkedin.com/in/aanshulsadaria/" target={"_blank"}>
 
@@ -400,11 +409,11 @@ export default function Bootcamp() {
 
                                         <img className="mt-6 h-24 w-24 md:h-32 md:w-32 object-cover rounded-3xl my-2" src="./aishwarya.jpeg" />
                                         <h1 className="font-bold my-2">Aishwarya Mahapatra</h1>
-                                        <p className="flex text-sm text-center justify-center items-center">SDE @ 
-                                        DE Shaw 
+                                        <p className="flex text-sm text-center justify-center items-center">SDE @
+                                            DE Shaw
                                         </p>
-                                        <p className="flex text-sm text-center justify-center items-center text-gray-300">Ex: 
-                                        Goldman Sachs
+                                        <p className="flex text-sm text-center justify-center items-center text-gray-300">Ex:
+                                            Goldman Sachs
                                         </p>
                                     </div>
                                 </div>
