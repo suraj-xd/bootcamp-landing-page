@@ -8,20 +8,6 @@ export default function Bootcamp() {
     }, [])
     return (
         <>
-            {/* <div className="">
-                <div class='wrap z-20'>
-                    <div class='top-plane'></div>
-                    <div class='bottom-plane'></div>
-                </div>
-            </div>
-            <div className="header flex flex-col justify-center items-center">
-                <p className="text-white relative top-[10rem] text-2xl bg-gray-800 p-5 rounded-2xl ">crackDSA presents</p>
-                <h1 data-shadow='anveshna ' className="relative top-[10rem] text-[5rem] sm:text-[6rem] md:text-[7rem] lg:text-[8rem] ">anveshna</h1>
-                <h1 data-shadow='anveshna ' className="relative top-[10rem] text-3xl font-sans">Mega Bootcamp</h1> */}
-            {/* </div> */}
-            {/*  */}
-
-
             <div class='wrap z-20'>
                 <div class='top-plane'></div>
                 <div className="header flex flex-col justify-center items-center">
@@ -56,25 +42,6 @@ export default function Bootcamp() {
                 </div>
                 <div class='bottom-plane'></div>
             </div>
-            {/* <div className="flex justify-center  items-center">
-                <div className="inline-flex">
-
-                    <div class="mx-1 w-2 h-2 my-16 bg-gradient-to-r from-blue-500 to-gray-400 rounded-full"></div>
-                    <div class="mx-1 w-2 h-2 my-16 bg-gradient-to-r from-blue-400 to-gray-300 rounded-full"></div>
-                    <div class="mx-1 w-2 h-2 my-16 bg-gradient-to-r from-blue-300 to-gray-200 rounded-full"></div>
-                    <div class="mx-1 w-2 h-2 my-16 bg-gradient-to-r from-blue-200 to-gray-100 rounded-full"></div>
-
-                </div>
-            </div> */}
-            <div id="timer" className="relative -top-48 mx-auto flex justify-center">
-                <TimerComp />
-            </div>
-            {/* <div class="mx-auto relative -top-48 w-10 h-1 my-8 rounded-full">
-                <div class="spinner">
-                    <div class="loader l1"></div>
-                    <div class="loader l2"></div>
-                </div>
-            </div> */}
             <div id="overview" className="text-white relative -top-48 my-10">
                 <h1 className="orbi font-bold mx-10 my-5 sm:mx-20 text-2xl sm:text-3xl" >Overview - </h1>
                 <div className="flex flex-col items-center justify-start mx-10 my-5 sm:mx-20 comfort">
@@ -103,7 +70,7 @@ export default function Bootcamp() {
 
                     <p className="my-auto">Join Whatsapp
                     </p>
-                    <a className="" target={"_blank"} href="https://chat.whatsapp.com/BTGyKc0uIwG1tUjomfbsrZ">
+                    <a className="" target={"_blank"} href="https://chat.whatsapp.com/C4GHzuRyLaw8niLMk2Sg8o">
 
                         <img className="p-1 rounded-full h-8 w-8  mx-2 cursor-pointer hover:brightness-90 hover:scale-105 rounded-[90px]  " src="https://img.icons8.com/windows/32/FFFFFF/whatsapp--v1.png" />
 
@@ -175,7 +142,7 @@ export default function Bootcamp() {
                                         <span class="flag">Data Structures & Algorithms</span>
                                         {/* <span class="time-wrapper"><span class="time">8 Days</span></span> */}
                                     </div>
-                                    <div class="desc">8 Days </div>
+                                    <div class="desc">15 Days </div>
                                 </div>
                             </li>
 
@@ -184,7 +151,7 @@ export default function Bootcamp() {
                                     <div class="flag-wrapper">
                                         <span class="flag">Web Development</span>
                                     </div>
-                                    <div class="desc">3 Days </div>
+                                    <div class="desc">7 Days </div>
                                 </div>
                             </li>
 
@@ -211,7 +178,7 @@ export default function Bootcamp() {
                                     <div class="flag-wrapper">
                                         <span class="flag">Speakers Session</span>
                                     </div>
-                                    <div class="desc">3 Days </div>
+                                    <div class="desc">Every Weekend</div>
                                 </div>
                             </li>
 
