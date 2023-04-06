@@ -1,6 +1,7 @@
 import Run from "./Run";
 import { useEffect } from "react"
 import TimerComp from "./TmerComp";
+import Link from "next/link";
 
 export default function Bootcamp() {
     useEffect(() => {
@@ -43,6 +44,14 @@ export default function Bootcamp() {
                 <div class='bottom-plane'></div>
             </div>
             <div id="overview" className="text-white relative -top-48 my-10">
+            <div className="flex items-center justify-center flex-col">
+                <h1 className="orbi text-xl text-blue-700 mb-2">Head over to </h1>
+                <Link href="/learnings">
+                <span className="comfort flex justify-center items-center gap-2 text-2xl cursor-pointer">Learnings <img className="animate-bounce mt-3" src="https://img.icons8.com/external-inkubators-detailed-outline-inkubators/25/FFFFFF/external-up-arrow-arrows-inkubators-detailed-outline-inkubators-4.png"/></span>
+                </Link>
+            </div>
+
+            <div className="bg-gray-800 w-[95%] mx-auto  h-[1px] my-10"></div>
                 <h1 className="orbi font-bold mx-10 my-5 sm:mx-20 text-2xl sm:text-3xl" >Overview - </h1>
                 <div className="flex flex-col items-center justify-start mx-10 my-5 sm:mx-20 comfort">
                     <p className="my-5 text-sm md:text-lg hover:border-blue-300 border-blue-300 hover:border-l-[2px] transition-all ease-in-out hover:pl-2 md:hover:pl-4">Welcome to LaunchPadx , the ultimate one-month-long interview preparation bootcamp designed to help college students boost their interview preparation!</p>
