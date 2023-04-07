@@ -29,6 +29,14 @@ export default function Bootcamp() {
                         <h2 d ata-shadow='anveshna ' className="text  font-extrabold text-sm  sm:text-md md:text-lg lg:text-xl z-[99] text-gray-800">Interview Ready Mega Bootcamp</h2>
                     </div>
 
+                    <div className="my-5 relative top-[30rem] flex justify-center items-center gap-4 sm:top-[26rem]">
+                        <h1 className="text-white comfort text-3xl">Bootcamp is</h1>
+                        <a href="https://www.youtube.com/@crackDSA" target="_blank">
+
+                        <img className="  w-14 h-12 animate-pulse" src="https://cdn-icons-png.flaticon.com/512/1246/1246264.png" />
+                        </a>
+
+                    </div>
                     <a target={"_blank"} href="https://lu.ma/event/evt-JI6MLUama5KQDzX"
                         data-luma-action="checkout"
                         data-luma-event-id="evt-JI6MLUama5KQDzX"
@@ -44,14 +52,15 @@ export default function Bootcamp() {
                 <div class='bottom-plane'></div>
             </div>
             <div id="overview" className="text-white relative -top-48 my-10">
-            <div className="flex items-center justify-center flex-col">
-                <h1 className="orbi text-xl text-blue-700 mb-2">Head over to </h1>
-                <Link href="/learnings">
-                <span className="comfort flex justify-center items-center gap-2 text-2xl cursor-pointer">Learnings <img className="animate-bounce mt-3" src="https://img.icons8.com/external-inkubators-detailed-outline-inkubators/25/FFFFFF/external-up-arrow-arrows-inkubators-detailed-outline-inkubators-4.png"/></span>
-                </Link>
-            </div>
+                <div className="flex items-center justify-center flex-col">
+                    <h1 className="orbi text-xl text-blue-700 mb-2">Head over to </h1>
+                    <Link href="/learnings">
+                        <span className="comfort flex justify-center items-center gap-2 text-2xl cursor-pointer">Learnings <img className="animate-bounce mt-3" src="https://img.icons8.com/external-inkubators-detailed-outline-inkubators/25/FFFFFF/external-up-arrow-arrows-inkubators-detailed-outline-inkubators-4.png" /></span>
+                    </Link>
+                    <p className="mt-2 text-xs nunito text-gray-400 font-thin">*all the bootcamp sessions related resources will be there</p>
+                </div>
 
-            <div className="bg-gray-800 w-[95%] mx-auto  h-[1px] my-10"></div>
+                <div className="bg-gray-800 w-[95%] mx-auto  h-[1px] my-10"></div>
                 <h1 className="orbi font-bold mx-10 my-5 sm:mx-20 text-2xl sm:text-3xl" >Overview - </h1>
                 <div className="flex flex-col items-center justify-start mx-10 my-5 sm:mx-20 comfort">
                     <p className="my-5 text-sm md:text-lg hover:border-blue-300 border-blue-300 hover:border-l-[2px] transition-all ease-in-out hover:pl-2 md:hover:pl-4">Welcome to LaunchPadx , the ultimate one-month-long interview preparation bootcamp designed to help college students boost their interview preparation!</p>

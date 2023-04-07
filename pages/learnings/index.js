@@ -7,7 +7,7 @@ export default function TimeLine() {
                 
                 <div className=" flex  flex-col justify-center items-center">
 
-                    <p className="text-white bg-gray-900 relative top-[17rem] w-[95%] text-2xl p-5 rounded-2xl backdrop-blur-sm  flex justify-between items-center px-8 flex-wrap">
+                    <p className="text-white border-[1px] border-gray-700 relative top-[17rem] w-[95%] text-2xl p-5 rounded-2xl backdrop-blur-sm  flex justify-between items-center px-8 flex-wrap">
                         <a href="/" className="text-extrabold text-sm sm:text-xl md:text-2xl">bootcamp.<span className="text-white font-extrabold kanit">crack<span className="text-blue-400 font-extrabold kanit">DSA</span></span></a>
 
                         <a href="https://www.youtube.com/@crackDSA" target="_blank" className="text-sm sm:text-base md:text-lg kanit flex justify-center items-center group"> Youtube<img className="h-6 mx-1 w-6 group-hover:animate-pulse" src="https://img.icons8.com/ios-filled/50/FFFFFF/youtube-play.png" /> </a>
