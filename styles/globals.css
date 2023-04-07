@@ -1248,3 +1248,65 @@ cite {
   color: #000;
   font-weight: 800;
 }
+
+/*  */
+
+.button {
+  width: 200px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #173e79;
+  background-color: #496cec;
+  overflow: hidden;
+}
+
+.button, .button__icon, .button__text {
+  transition: all 0.3s;
+}
+
+.button .button__text {
+  transform: translateX(22px);
+  color: #fff;
+  font-weight: 600;
+}
+
+.button .button__icon {
+  position: absolute;
+  transform: translateX(155px);
+  height: 100%;
+  width: 39px;
+  background-color: #496cec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btntxt{
+  font-weight: 800;
+}
+.button .svg {
+  width: 18px;
+  fill: #fff;
+}
+
+.button:hover {
+  background: #496cec;
+}
+
+.button:hover .button__text {
+  color: transparent;
+}
+
+.button:hover .button__icon {
+  width: 188px;
+  transform: translateX(0px);
+}
+
+.button:active .button__icon {
+  background-color: #496cec;
+}
+
+.button:active {
+  border: 1px solid #496cec;
+}

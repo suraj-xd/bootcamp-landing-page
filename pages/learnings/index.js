@@ -4,7 +4,7 @@ export default function TimeLine() {
     return (
         <>
             <div class='wrapp '>
-                
+
                 <div className=" flex  flex-col justify-center items-center">
 
                     <p className="text-white border-[1px] border-gray-700 relative top-[17rem] w-[95%] text-2xl p-5 rounded-2xl backdrop-blur-sm  flex justify-between items-center px-8 flex-wrap">
@@ -29,9 +29,33 @@ export default function TimeLine() {
 
             </div>
             <div className="mx-2 relative bottom-32 md:mx-10">
+                {/* PDFS */}
+                <div className="flex justify-center items-center flex-wrap gap-2 mb-20">
+                    <a href="./topictree.pdf" download={"DSA Topic Tree"}>
+                        <button class="button w-[9.5rem]" type="button">
+                            <span class="btntxt">DSA Topic Tree</span>
+                            <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="bdd05811-e15d-428c-bb53-8661459f9307" data-name="Layer 2" class="svg"><path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z"></path><path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"></path><path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path></svg></span>
+                        </button>
+                    </a>
 
+                    <a href="./dsaguide.pdf" download={"DSA Guide"}>
+                        <button class="button w-[9.5rem]" type="button">
+                            <span class="btntxt">DSA Guide</span>
+
+                            <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="bdd05811-e15d-428c-bb53-8661459f9307" data-name="Layer 2" class="svg"><path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z"></path><path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"></path><path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path></svg></span>
+                        </button>
+                    </a>
+                    <a href="./dsaproblems.pdf" download={"DSA Problem Sheet"}>
+                        <button class="button wrem]" type="button">
+                            <span class="btntxt">DSA Problem Sheet</span>
+
+                            <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="bdd05811-e15d-428c-bb53-8661459f9307" data-name="Layer 2" class="svg"><path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z"></path><path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"></path><path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path></svg></span>
+                        </button>
+                    </a>
+                </div>
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
-                    <List day={"Day 1"} date={"6th April"} topic="DSA" session="Basics of Programming and Libraries" pp="day1topictree.pdf" notes="day1resources.pdf" live="https://youtube.com/live/P4dc9dl0SEg" />
+                    <List day={"Day 2"} date={"7th April"} topic="DSA" session="Arrays and Strings" live="https://youtube.com/live/ZJngGYT8gIw" title1="Arrays" title1Link="https://drive.google.com/file/d/1KzZiDcfyUs-rdy0BN3K-O_U8asokGsxb/view?usp=sharing" title2="Strings" title2Link="https://drive.google.com/file/d/1iftmxh2NIywJgtbVaz9D4iDY1yawMCZ6/view?usp=sharing"/>
+                    <List day={"Day 1"} date={"6th April"} topic="DSA" session="Basics of Programming and Libraries" notes="https://drive.google.com/file/d/15g8x-6j8xvdX_O6jXLWraHXdaxamvALU/view?usp=sharing" live="https://youtube.com/live/P4dc9dl0SEg" />
                 </ol>
             </div>
 
@@ -50,7 +74,7 @@ export default function TimeLine() {
                         Register
                     </button>
                 </a>
-            <div class="mx-auto relative bottom-20 w-12 h-1 bg-gradient-to-r from-gray-200 to-gray-700 rounded-full"></div>
+                <div class="mx-auto relative bottom-20 w-12 h-1 bg-gradient-to-r from-gray-200 to-gray-700 rounded-full"></div>
 
                 <p className="kanit my-3 italic mx-5 text-gray-200">Registrations Closes soon..</p>
             </div>
