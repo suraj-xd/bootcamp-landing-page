@@ -35,7 +35,7 @@ export default function List({ day, date, topic, session, notes, rec, assign, pp
                                     </a>
                                 }
                                 {notes &&
-                                    <a href={notes}>
+                                    <a download={"./"+notes} href={notes}>
 
                                         <h2 d ata-shadow='anveshna ' className="text bg-white px-3 py-1  font-extrabold text-xs md:text-sm  sm:text-md  rounded-md text-gray-800 flex justify-start items-center gap-1">
                                             <img className="h-3 w-3" src="https://cdn-icons-png.flaticon.com/512/1001/1001371.png" />
@@ -55,10 +55,10 @@ export default function List({ day, date, topic, session, notes, rec, assign, pp
                                         Assignments</h2>
                                 </a> }
                                 {pp && 
-                                <a href={pp}>
+                                <a href={pp} download={"./"+pp}>
                                     <h2 d ata-shadow='anveshna ' className="text bg-white px-3 py-1  font-extrabold text-xs md:text-sm   flex-wrap gap-2sm:text-md  rounded-md text-gray-800 flex justify-start items-center gap-1">
                                         <img className="h-3 w-3" src="https://cdn-icons-png.flaticon.com/512/999/999378.png" />
-                                        Practice Problems</h2>
+                                        DSA Topic Tree</h2>
                                 </a>
                                 }
                             </div>

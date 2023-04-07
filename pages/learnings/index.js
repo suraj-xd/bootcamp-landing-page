@@ -31,7 +31,7 @@ export default function TimeLine() {
             <div className="mx-2 relative bottom-32 md:mx-10">
 
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
-                    <List day={"Day 1"} date={"6th April"} topic="DSA" session="Basics of Programming and Libraries" rec="some" assign={"a"} pp="p" notes="n" live="b" />
+                    <List day={"Day 1"} date={"6th April"} topic="DSA" session="Basics of Programming and Libraries" pp="day1topictree.pdf" notes="day1resources.pdf" live="https://youtube.com/live/P4dc9dl0SEg" />
                 </ol>
             </div>
 

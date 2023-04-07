@@ -29,14 +29,7 @@ export default function Bootcamp() {
                         <h2 d ata-shadow='anveshna ' className="text  font-extrabold text-sm  sm:text-md md:text-lg lg:text-xl z-[99] text-gray-800">Interview Ready Mega Bootcamp</h2>
                     </div>
 
-                    <div className="my-5 relative top-[30rem] flex justify-center items-center gap-4 sm:top-[26rem]">
-                        <h1 className="text-white comfort text-3xl">Bootcamp is</h1>
-                        <a href="https://www.youtube.com/@crackDSA" target="_blank">
 
-                        <img className="  w-14 h-12 animate-pulse" src="https://cdn-icons-png.flaticon.com/512/1246/1246264.png" />
-                        </a>
-
-                    </div>
                     <a target={"_blank"} href="https://lu.ma/event/evt-JI6MLUama5KQDzX"
                         data-luma-action="checkout"
                         data-luma-event-id="evt-JI6MLUama5KQDzX"
@@ -52,6 +45,15 @@ export default function Bootcamp() {
                 <div class='bottom-plane'></div>
             </div>
             <div id="overview" className="text-white relative -top-48 my-10">
+                <div className="my-5  flex justify-center items-center gap-4 sm:top-[26rem]">
+                    <h1 className="text-white comfort text-3xl">Bootcamp is</h1>
+                    <a href="https://www.youtube.com/@crackDSA" target="_blank">
+
+                        <img className="  w-14 h-12 animate-pulse" src="https://cdn-icons-png.flaticon.com/512/1246/1246264.png" />
+                    </a>
+                </div>
+                    <div className="w-10 h-2 border-gray-50 border-[1px] rounded-lg mx-auto mt-4 mb-8"></div>
+
                 <div className="flex items-center justify-center flex-col">
                     <h1 className="orbi text-xl text-blue-700 mb-2">Head over to </h1>
                     <Link href="/learnings">
