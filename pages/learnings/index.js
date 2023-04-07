@@ -15,10 +15,10 @@ export default function TimeLine() {
 
                     {/* <p className="text-white relative top-[18.2rem] bg-gray-900 text-xl p-5 rounded-2xl">crackDSA presents</p> */}
 
-                    <h1 data-shadow='anveshna ' className="flex justify-center items-center headerTitle relative top-[26rem] sm:top-[23rem] text-[3.2rem]  nunito">{"LaunchPadx"}</h1>
+                    <h1 data-shadow='anveshna ' className="flex justify-center items-center headerTitle relative top-[23rem] text-[3.2rem]  nunito">{"LaunchPadx"}</h1>
 
                     {/* <div class="relative top-[16rem] bg-gray-100   text-black py-3 px-8 rounded-lg font-extrabold text-base  sm:text-lg md:text-xl lg:text-2xl"></div> */}
-                    <div className="relative text-center top-[27rem] sm:top-[23.5rem] bg-gray-100   text-black py-2 px-2 rounded-lg w-[17rem] flex justify-center items-center  z-[99]  ">
+                    <div className="relative text-center top-[23.5rem] bg-gray-100   text-black py-2 px-2 rounded-lg w-[17rem] flex justify-center items-center  z-[99]  ">
 
                         <h2 d ata-shadow='anveshna ' className="text  font-extrabold text-sm  sm:text-md md:text-lg lg:text-xl z-[99] text-gray-800">Learnings</h2>
                     </div>
@@ -31,14 +31,14 @@ export default function TimeLine() {
             <div className="mx-2 relative bottom-32 md:mx-10">
 
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
-                    <List day={"Day 1"} date={"6th April"} topic="DSA" session="Basics of Programming and Libraries" rec="some" assign={"a"} pp="p" notes="n" />
+                    <List day={"Day 1"} date={"6th April"} topic="DSA" session="Basics of Programming and Libraries" rec="some" assign={"a"} pp="p" notes="n" live="b" />
                 </ol>
             </div>
 
 
 
-            <div class="mx-auto relative bottom-32 w-16 h-1 my-10 bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div>
-            <div className="relative bottom-24  flex justify-center items-center my-10 flex-col">
+            {/* <div class="mx-auto relative bottom-32 w-16 h-1 my-10 bg-gradient-to-r from-purple-400 to-green-500 rounded-full"></div> */}
+            <div className="relative  mt-20  flex justify-center items-center my-10 flex-col">
                 <a target={"_blank"} href="https://lu.ma/event/evt-JI6MLUama5KQDzX"
                     data-luma-action="checkout"
                     data-luma-event-id="evt-JI6MLUama5KQDzX">
@@ -50,11 +50,11 @@ export default function TimeLine() {
                         Register
                     </button>
                 </a>
+            <div class="mx-auto relative bottom-20 w-12 h-1 bg-gradient-to-r from-gray-200 to-gray-700 rounded-full"></div>
 
-                <p className="kanit my-3 italic mx-5 text-gray-200">for completely free!</p>
+                <p className="kanit my-3 italic mx-5 text-gray-200">Registrations Closes soon..</p>
             </div>
 
-            <div class="mx-auto relative bottom-20 w-12 h-1 bg-gradient-to-r from-gray-200 to-gray-700 rounded-full"></div>
 
             <footer class="p-4 shadow md:px-6 dark:bg-gray-900">
                 <div class="sm:flex sm:items-center sm:justify-between">
