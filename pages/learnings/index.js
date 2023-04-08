@@ -54,7 +54,7 @@ export default function TimeLine() {
                     </a>
                 </div>
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
-                    <List day={"Day 3"} date={"8th April"} topic="DSA" session="Strings" live="https://youtube.com/live/KOLlqVcakQk" title1="Strings" title1Link="https://drive.google.com/file/d/1iftmxh2NIywJgtbVaz9D4iDY1yawMCZ6/view?usp=sharing"/>
+                    <List day={"Day 3"} date={"8th April"} topic="DSA" session="Strings" live="https://youtube.com/live/KOLlqVcakQk" title1="Strings" title1Link="https://drive.google.com/file/d/1iftmxh2NIywJgtbVaz9D4iDY1yawMCZ6/view?usp=sharing" title2="Class Notes" title2Link="https://docs.google.com/document/d/1sGas3D2YTzL0qXIRiG8Mkw4JAUBv3SxTKFJ6mXBed1M/edit" />
                     <List day={"Day 2"} date={"7th April"} topic="DSA" session="Arrays" live="https://youtube.com/live/ZJngGYT8gIw" title1="Arrays" title1Link="https://drive.google.com/file/d/1KzZiDcfyUs-rdy0BN3K-O_U8asokGsxb/view?usp=sharing" title2="Class Notes" title2Link="https://docs.google.com/document/d/1lh5YQH0ho_Maw-Mz82pb1UL3sHHpCkHVM9NZ1Ldm22s/edit?usp=sharing"/>
                     <List day={"Day 1"} date={"6th April"} topic="DSA" session="Basics of Programming and Libraries" notes="https://drive.google.com/file/d/15g8x-6j8xvdX_O6jXLWraHXdaxamvALU/view?usp=sharing" live="https://youtube.com/live/P4dc9dl0SEg" />
                 </ol>
