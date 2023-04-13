@@ -56,8 +56,7 @@ export default function TimeLine() {
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
                  <List day={"Day 7"} date={"13th April"} topic="DSA" session="Hashing" live="https://www.youtube.com/live/kkbO01x4u1g?feature=share"/>
                   <List day={"Day 7"} date={"13th April"} topic="Tech Talk" session="Sandeep Jain Sir" live="https://www.youtube.com/live/UgCIQcFEYEc?feature=share"/>
-                 <List day={"Day 7"} date={"13th April"} topic="Codecast-2" session="Aanshul Sadaria" live="https://www.youtube.com/live/HV5fILQXSbE?feature=share"/>
-                  <List day={"Day 6"} date={"12th April"} topic="DSA" session="Time/Space Complexity & Mathematics" live="https://www.youtube.com/live/uDkse0TcxxQ?feature=share"/>
+                   <List day={"Day 6"} date={"12th April"} topic="DSA" session="Time/Space Complexity & Mathematics" live="https://www.youtube.com/live/uDkse0TcxxQ?feature=share"/>
                  <List day={"Day 5"} date={"11th April"} topic="Codecast-1" session="Riti Kumari" live="https://www.youtube.com/live/ivdNj0THpNw?feature=share"/>
                    <List day={"Day 4"} date={"10th April"} topic="DSA" session="Function & Recursion" live="https://youtube.com/live/8TVLA6rntBY" title1="Class Notes" title1Link="https://docs.google.com/document/d/1mlX9H2047UxWx6SpgE4r6QYENJK3IStSQnjOXd7ziHo/edit?usp=sharing"/>
                   <List day={"Day 3"} date={"8th April"} topic="DSA" session="Strings" live="https://youtube.com/live/KOLlqVcakQk" title1="Strings" title1Link="https://drive.google.com/file/d/1iftmxh2NIywJgtbVaz9D4iDY1yawMCZ6/view?usp=sharing" title2="Class Notes" title2Link="https://docs.google.com/document/d/1sGas3D2YTzL0qXIRiG8Mkw4JAUBv3SxTKFJ6mXBed1M/edit" />
