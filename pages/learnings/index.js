@@ -54,18 +54,15 @@ export default function TimeLine() {
                     </a>
                 </div>
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
-                    <List day={"Day 10"} date={"17th April"} topic="DSA" session="Dynamic Programming" live="https://www.youtube.com/live/5OPs40geXJ8?feature=share"/>
-                   
-                    <List day={"Day 9"} date={"16th April"} topic="DSA" session="Stack & Queue" live="https://www.youtube.com/live/Vhx0HRI5q9A?feature=share"/>
-                   
-                    <List day={"Day 8"} date={"14th April"} topic="DSA" session="Linked List" live="https://www.youtube.com/live/MVvPAzYpn5o?feature=share"/>
-                   
-                 <List day={"Day 7"} date={"13th April"} topic="DSA" session="Hashing" live="https://www.youtube.com/live/kkbO01x4u1g?feature=share"/>
-                   <List day={"Day 6"} date={"12th April"} topic="DSA" session="Time/Space Complexity & Mathematics" live="https://www.youtube.com/live/uDkse0TcxxQ?feature=share"/>
-                 <List day={"Day 5"} date={"11th April"} topic="CodeCast" session="Riti Kumari" live="https://www.youtube.com/live/ivdNj0THpNw?feature=share"/>
-                   <List day={"Day 4"} date={"10th April"} topic="DSA" session="Function & Recursion" live="https://youtube.com/live/8TVLA6rntBY" title1="Class Notes" title1Link="https://docs.google.com/document/d/1mlX9H2047UxWx6SpgE4r6QYENJK3IStSQnjOXd7ziHo/edit?usp=sharing"/>
-                  <List day={"Day 3"} date={"8th April"} topic="DSA" session="Strings" live="https://youtube.com/live/KOLlqVcakQk" title1="Strings" title1Link="https://drive.google.com/file/d/1iftmxh2NIywJgtbVaz9D4iDY1yawMCZ6/view?usp=sharing" title2="Class Notes" title2Link="https://docs.google.com/document/d/1sGas3D2YTzL0qXIRiG8Mkw4JAUBv3SxTKFJ6mXBed1M/edit" />
-                    <List day={"Day 2"} date={"7th April"} topic="DSA" session="Arrays" live="https://youtube.com/live/ZJngGYT8gIw" title1="Arrays" title1Link="https://drive.google.com/file/d/1KzZiDcfyUs-rdy0BN3K-O_U8asokGsxb/view?usp=sharing" title2="Class Notes" title2Link="https://docs.google.com/document/d/1lh5YQH0ho_Maw-Mz82pb1UL3sHHpCkHVM9NZ1Ldm22s/edit?usp=sharing"/>
+                    <List day={"Day 10"} date={"17th April"} topic="DSA" session="Dynamic Programming" live="https://www.youtube.com/live/5OPs40geXJ8?feature=share" title1="Class Notes" title1Link="https://drive.google.com/file/d/1eLqbyda6oa8m-AGuXFSm1E3vvMRNKcrf/view?usp=sharing"/>
+                    <List day={"Day 9"} date={"16th April"} topic="DSA" session="Stack & Queue" live="https://www.youtube.com/live/Vhx0HRI5q9A?feature=share" title1="Class Notes" title1Link="https://drive.google.com/file/d/1uc5EOztPtSl69xXYUDb0YKye-kjSHUbX/view?usp=sharing"/>
+                    <List day={"Day 8"} date={"14th April"} topic="DSA" session="Linked List" live="https://www.youtube.com/live/MVvPAzYpn5o?feature=share" title1="Class Notes" title1Link="https://drive.google.com/file/d/1scsorjF8PbcHCYGras7GYR5XPo7kghXX/view?usp=sharing"/>
+                    <List day={"Day 7"} date={"13th April"} topic="DSA" session="Hashing" live="https://www.youtube.com/live/kkbO01x4u1g?feature=share" title1="Class Notes" title1Link="https://drive.google.com/file/d/1n45tnk3k0Bt8oTbuEB_TZ5DlxiECciRG/view?usp=sharing"/>
+                    <List day={"Day 6"} date={"12th April"} topic="DSA" session="Time/Space Complexity & Mathematics" live="https://www.youtube.com/live/uDkse0TcxxQ?feature=share" title1="Time Complexity" title1Link="https://drive.google.com/file/d/1gmfFFhlBKNq_NVsOKLp-rnWdYXb_IewR/view?usp=sharing" title2="Number Theory" title2Link="https://drive.google.com/file/d/1cGu-BxRUhLZ-0dxnbUJS0SIZe6tgDW61/view?usp=sharing"/>
+                    <List day={"Day 5"} date={"11th April"} topic="CodeCast" session="Riti Kumari" live="https://www.youtube.com/live/ivdNj0THpNw?feature=share"/>
+                    <List day={"Day 4"} date={"10th April"} topic="DSA" session="Function & Recursion" live="https://youtube.com/live/8TVLA6rntBY" title1="Class Notes" title1Link="https://docs.google.com/document/d/1mlX9H2047UxWx6SpgE4r6QYENJK3IStSQnjOXd7ziHo/edit?usp=sharing"/>
+                    <List day={"Day 3"} date={"8th April"} topic="DSA" session="Strings" live="https://youtube.com/live/KOLlqVcakQk" title1="Strings" title1Link="https://drive.google.com/file/d/1iftmxh2NIywJgtbVaz9D4iDY1yawMCZ6/view?usp=sharing" title2="Class Notes" title2Link="https://docs.google.com/document/d/1sGas3D2YTzL0qXIRiG8Mkw4JAUBv3SxTKFJ6mXBed1M/edit" />
+                    <List day={"Day 2"} date={"7th April"} topic="DSA" session="Arrays" live="https://youtube.com/live/ZJngGYT8gIw" title1="Class Notes" title1Link="https://drive.google.com/file/d/1KzZiDcfyUs-rdy0BN3K-O_U8asokGsxb/view?usp=sharing" title2="Binary Search" title2Link="https://drive.google.com/file/d/1G1YXWO_ZKnqZXb6A7BMAwc1pyVucwHNi/view?usp=sharing"/>
                     <List day={"Day 1"} date={"6th April"} topic="DSA" session="Basics of Programming and Libraries" notes="https://drive.google.com/file/d/15g8x-6j8xvdX_O6jXLWraHXdaxamvALU/view?usp=sharing" live="https://youtube.com/live/P4dc9dl0SEg" />
                 </ol>
             </div>
