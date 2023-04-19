@@ -2,7 +2,10 @@ import List from "./List";
 
 export default function TimeLine() {
     return (
-        <>
+        <>  
+            <head>
+            <title>Bootcamp Learnings</title>
+        </head>
             <div class='wrapp '>
 
                 <div className=" flex  flex-col justify-center items-center">
