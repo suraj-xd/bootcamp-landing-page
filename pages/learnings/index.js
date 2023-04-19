@@ -54,10 +54,15 @@ export default function TimeLine() {
                     </a>
                 </div>
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
+                    <List day={"Day 10"} date={"17th April"} topic="DSA" session="Dynamic Programming" live="https://www.youtube.com/live/5OPs40geXJ8?feature=share"/>
+                   
+                    <List day={"Day 9"} date={"16th April"} topic="DSA" session="Stack & Queue" live="https://www.youtube.com/live/Vhx0HRI5q9A?feature=share"/>
+                   
+                    <List day={"Day 8"} date={"14th April"} topic="DSA" session="Linked List" live="https://www.youtube.com/live/MVvPAzYpn5o?feature=share"/>
+                   
                  <List day={"Day 7"} date={"13th April"} topic="DSA" session="Hashing" live="https://www.youtube.com/live/kkbO01x4u1g?feature=share"/>
-                  <List day={"Day 7"} date={"13th April"} topic="Tech Talk" session="Sandeep Jain Sir" live="https://www.youtube.com/live/UgCIQcFEYEc?feature=share"/>
                    <List day={"Day 6"} date={"12th April"} topic="DSA" session="Time/Space Complexity & Mathematics" live="https://www.youtube.com/live/uDkse0TcxxQ?feature=share"/>
-                 <List day={"Day 5"} date={"11th April"} topic="Codecast-1" session="Riti Kumari" live="https://www.youtube.com/live/ivdNj0THpNw?feature=share"/>
+                 <List day={"Day 5"} date={"11th April"} topic="CodeCast" session="Riti Kumari" live="https://www.youtube.com/live/ivdNj0THpNw?feature=share"/>
                    <List day={"Day 4"} date={"10th April"} topic="DSA" session="Function & Recursion" live="https://youtube.com/live/8TVLA6rntBY" title1="Class Notes" title1Link="https://docs.google.com/document/d/1mlX9H2047UxWx6SpgE4r6QYENJK3IStSQnjOXd7ziHo/edit?usp=sharing"/>
                   <List day={"Day 3"} date={"8th April"} topic="DSA" session="Strings" live="https://youtube.com/live/KOLlqVcakQk" title1="Strings" title1Link="https://drive.google.com/file/d/1iftmxh2NIywJgtbVaz9D4iDY1yawMCZ6/view?usp=sharing" title2="Class Notes" title2Link="https://docs.google.com/document/d/1sGas3D2YTzL0qXIRiG8Mkw4JAUBv3SxTKFJ6mXBed1M/edit" />
                     <List day={"Day 2"} date={"7th April"} topic="DSA" session="Arrays" live="https://youtube.com/live/ZJngGYT8gIw" title1="Arrays" title1Link="https://drive.google.com/file/d/1KzZiDcfyUs-rdy0BN3K-O_U8asokGsxb/view?usp=sharing" title2="Class Notes" title2Link="https://docs.google.com/document/d/1lh5YQH0ho_Maw-Mz82pb1UL3sHHpCkHVM9NZ1Ldm22s/edit?usp=sharing"/>
