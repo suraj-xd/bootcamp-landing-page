@@ -57,8 +57,8 @@ export default function TimeLine() {
                     </a>
                 </div>
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
-                    <List day={"Day 2"} date={"20th April"} topic="Web Dev" session="JavaScript Learnings" live="https://www.youtube.com/live/0jmMx7bzick?feature=share" />
-                    <List day={"Day 1"} date={"19th April"} topic="Web Dev" session="Fundamentals of Internet | Basics of Web Dev" live="https://www.youtube.com/live/8jxdTrq5lcg?feature=share"/>
+                    <List day={"Day 12"} date={"20th April"} topic="Web Dev" session="JavaScript Learnings" live="https://www.youtube.com/live/0jmMx7bzick?feature=share" />
+                    <List day={"Day 11"} date={"19th April"} topic="Web Dev" session="Fundamentals of Internet | Basics of Web Dev" live="https://www.youtube.com/live/8jxdTrq5lcg?feature=share"/>
                     <List day={"Day 10"} date={"17th April"} topic="DSA" session="Dynamic Programming" live="https://www.youtube.com/live/5OPs40geXJ8?feature=share" title1="Class Notes" title1Link="https://drive.google.com/file/d/1eLqbyda6oa8m-AGuXFSm1E3vvMRNKcrf/view?usp=sharing"/>
                     <List day={"Day 9"} date={"16th April"} topic="DSA" session="Stack & Queue" live="https://www.youtube.com/live/Vhx0HRI5q9A?feature=share" title1="Class Notes" title1Link="https://drive.google.com/file/d/1uc5EOztPtSl69xXYUDb0YKye-kjSHUbX/view?usp=sharing"/>
                     <List day={"Day 8"} date={"14th April"} topic="DSA" session="Linked List" live="https://www.youtube.com/live/MVvPAzYpn5o?feature=share" title1="Class Notes" title1Link="https://drive.google.com/file/d/1scsorjF8PbcHCYGras7GYR5XPo7kghXX/view?usp=sharing"/>
