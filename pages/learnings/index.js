@@ -57,6 +57,7 @@ export default function TimeLine() {
                     </a>
                 </div>
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
+                    <List day={"Day 13"} date={"21th April"} topic="Web Dev" session="Advanced JavaScript" live="https://youtube.com/live/NGBHgHKRdus" />
                     <List day={"Day 12"} date={"20th April"} topic="Web Dev" session="JavaScript Learnings" live="https://www.youtube.com/live/0jmMx7bzick?feature=share" />
                     <List day={"Day 11"} date={"19th April"} topic="Web Dev" session="Fundamentals of Internet | Basics of Web Dev" live="https://www.youtube.com/live/8jxdTrq5lcg?feature=share"/>
                     <List day={"Day 10"} date={"17th April"} topic="DSA" session="Dynamic Programming" live="https://www.youtube.com/live/5OPs40geXJ8?feature=share" title1="Class Notes" title1Link="https://drive.google.com/file/d/1eLqbyda6oa8m-AGuXFSm1E3vvMRNKcrf/view?usp=sharing"/>
