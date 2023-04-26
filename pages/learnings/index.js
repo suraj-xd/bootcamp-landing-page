@@ -57,7 +57,8 @@ export default function TimeLine() {
                     </a>
                 </div>
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
-                    <List day={"Day 16"} date={"24th April"} topic="Web Dev" session="Website Deployment" live="https://www.youtube.com/watch?v=zqTjmJUsAVk" title1="Project Resources" title1Link="https://drive.google.com/drive/folders/1W1TKI24eFXi2cbjDG9_3TzbarkwSqN3a?usp=sharing" />
+                    <List day={"Day 17"} date={"25th April"} topic="Advanced DSA" session="Graphs & Tress" live="https://www.youtube.com/live/HPtChS0wnZI?feature=share" />
+               <List day={"Day 16"} date={"24th April"} topic="Web Dev" session="Website Deployment" live="https://www.youtube.com/watch?v=zqTjmJUsAVk" title1="Project Resources" title1Link="https://drive.google.com/drive/folders/1W1TKI24eFXi2cbjDG9_3TzbarkwSqN3a?usp=sharing" />
                  <List day={"Day 15"} date={"23th April"} topic="Web Dev" session="React Portfolio Project" live="https://www.youtube.com/watch?v=mySOzNqHUJo" title1="Project Resources" title1Link="https://drive.google.com/drive/folders/1W1TKI24eFXi2cbjDG9_3TzbarkwSqN3a?usp=sharing"/>
                    <List day={"Day 14"} date={"22th April"} topic="Web Dev" session="Introduction To React" live="https://www.youtube.com/live/R0D6iAWTGbk?feature=share" title1="Project Resources" title1Link="https://drive.google.com/drive/folders/1W1TKI24eFXi2cbjDG9_3TzbarkwSqN3a?usp=sharing"/>
                     <List day={"Day 13"} date={"21th April"} topic="Web Dev" session="Advanced JavaScript" live="https://youtube.com/live/NGBHgHKRdus" />
