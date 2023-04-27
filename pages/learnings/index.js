@@ -57,10 +57,14 @@ export default function TimeLine() {
                     </a>
                 </div>
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
+                    <List day={"Day 21"} date={"30th April"} topic="CS Fundamentals" session="System Design" live="https://www.youtube.com/live/gw2U8fv9FJ0?feature=share" />
+                    <List day={"Day 20"} date={"29th April"} topic="CS Fundamentals" session="CN / OOPS / DBMS" live="https://www.youtube.com/live/--yCH4RCSk8?feature=share" />
+                    <List day={"Day 19"} date={"28th April"} topic="CodeCast" session="Harsh Sharma" live="https://www.youtube.com/live/-Yn18yLtZ_I?feature=share" />
+                    <List day={"Day 18"} date={"27th April"} topic="CS Fundamentals" session="OOPS" live="https://www.youtube.com/live/J74-ZaM2o8o?feature=share" />
                     <List day={"Day 17"} date={"25th April"} topic="Advanced DSA" session="Graphs & Tress" live="https://www.youtube.com/live/HPtChS0wnZI?feature=share" />
-               <List day={"Day 16"} date={"24th April"} topic="Web Dev" session="Website Deployment" live="https://www.youtube.com/watch?v=zqTjmJUsAVk" title1="Project Resources" title1Link="https://drive.google.com/drive/folders/1W1TKI24eFXi2cbjDG9_3TzbarkwSqN3a?usp=sharing" />
-                 <List day={"Day 15"} date={"23th April"} topic="Web Dev" session="React Portfolio Project" live="https://www.youtube.com/watch?v=mySOzNqHUJo" title1="Project Resources" title1Link="https://drive.google.com/drive/folders/1W1TKI24eFXi2cbjDG9_3TzbarkwSqN3a?usp=sharing"/>
-                   <List day={"Day 14"} date={"22th April"} topic="Web Dev" session="Introduction To React" live="https://www.youtube.com/live/R0D6iAWTGbk?feature=share" title1="Project Resources" title1Link="https://drive.google.com/drive/folders/1W1TKI24eFXi2cbjDG9_3TzbarkwSqN3a?usp=sharing"/>
+                    <List day={"Day 16"} date={"24th April"} topic="Web Dev" session="Website Deployment" live="https://www.youtube.com/watch?v=zqTjmJUsAVk" title1="Project Resources" title1Link="https://drive.google.com/drive/folders/1W1TKI24eFXi2cbjDG9_3TzbarkwSqN3a?usp=sharing" />
+                    <List day={"Day 15"} date={"23th April"} topic="Web Dev" session="React Portfolio Project" live="https://www.youtube.com/watch?v=mySOzNqHUJo" title1="Project Resources" title1Link="https://drive.google.com/drive/folders/1W1TKI24eFXi2cbjDG9_3TzbarkwSqN3a?usp=sharing"/>
+                    <List day={"Day 14"} date={"22th April"} topic="Web Dev" session="Introduction To React" live="https://www.youtube.com/live/R0D6iAWTGbk?feature=share" title1="Project Resources" title1Link="https://drive.google.com/drive/folders/1W1TKI24eFXi2cbjDG9_3TzbarkwSqN3a?usp=sharing"/>
                     <List day={"Day 13"} date={"21th April"} topic="Web Dev" session="Advanced JavaScript" live="https://youtube.com/live/NGBHgHKRdus" />
                     <List day={"Day 12"} date={"20th April"} topic="Web Dev" session="JavaScript Learnings" live="https://www.youtube.com/live/0jmMx7bzick?feature=share" />
                     <List day={"Day 11"} date={"19th April"} topic="Web Dev" session="Fundamentals of Internet | Basics of Web Dev" live="https://www.youtube.com/live/8jxdTrq5lcg?feature=share"/>
