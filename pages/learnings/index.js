@@ -58,7 +58,7 @@ export default function TimeLine() {
                 </div>
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
                     <List day={"Day 21"} date={"30th April"} topic="CS Fundamentals" session="System Design" live="https://www.youtube.com/live/gw2U8fv9FJ0?feature=share" />
-                    <List day={"Day 20"} date={"29th April"} topic="CS Fundamentals" session="CN / OOPS / DBMS" live="https://www.youtube.com/live/--yCH4RCSk8?feature=share" />
+                    <List day={"Day 20"} date={"29th April"} topic="CS Fundamentals" session="CN / OOPS / DBMS" live="https://www.youtube.com/live/--yCH4RCSk8?feature=share" title1="Class Notes" title1Link="https://docs.google.com/document/d/1AVNRCQT5dnPYg7oI45Eaa18ClaI26cUN9zWLoDQ3mD8/edit"/>
                     <List day={"Day 19"} date={"28th April"} topic="CodeCast" session="Harsh Sharma" live="https://www.youtube.com/live/-Yn18yLtZ_I?feature=share" />
                     <List day={"Day 18"} date={"27th April"} topic="CS Fundamentals" session="OOPS" live="https://www.youtube.com/live/J74-ZaM2o8o?feature=share" title1="Class Notes" title1Link="https://docs.google.com/document/d/1Wm4IPc2mm1k11cPdlhytlLm_MQm2IpzjVEspV2khQEY/edit?usp=sharing"/>
                     <List day={"Day 17"} date={"25th April"} topic="Advanced DSA" session="Graphs & Tress" live="https://www.youtube.com/live/HPtChS0wnZI?feature=share" title1="Class Notes" title1Link="https://docs.google.com/document/d/1htE2YgQ4-4kydIVaH626HeqKuB27FxIha6syrrMg5AY/edit?usp=sharing" />
