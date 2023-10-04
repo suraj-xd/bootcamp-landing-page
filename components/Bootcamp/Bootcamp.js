@@ -2,15 +2,15 @@ import Run from "./Run";
 import { useEffect } from "react"
 import TimerComp from "./TmerComp";
 import Link from "next/link";
-
+import { MdDoneAll} from "react-icons/md";
 export default function Bootcamp() {
     useEffect(() => {
         Run(["Interview Ready Mega Bootcamp"])
     }, [])
     return (
         <>
-            <div class='wrap z-20'>
-                <div class='top-plane'></div>
+            <div class='wrap z-20 w-[100vw] h-[100vh]'>
+                <div class='top-plane w-full'></div>
                 <div className="header flex flex-col justify-center items-center">
 
                     <p className="text-white relative top-[17rem] w-[95%] text-2xl p-5 rounded-2xl backdrop-blur-sm flex justify-between items-center px-8 flex-wrap">
@@ -42,24 +42,26 @@ export default function Bootcamp() {
                     </a>
                     <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
                 </div>
-                <div class='bottom-plane'></div>
+                <div class='bottom-plane h-full'></div>
             </div>
             <div id="overview" className="text-white relative -top-48 my-10">
-                <div className="my-5  flex justify-center items-center gap-4 sm:top-[26rem]">
-                    <h1 className="text-white comfort text-3xl">Bootcamp is</h1>
-                    <a href="https://www.youtube.com/@crackDSA" target="_blank">
+                <div className="my-5  flex justify-center items-center flex-col gap-4 sm:top-[26rem]">
+                    <h1 className="text-white comfort text-3xl flex gap-3">Bootcamp is Done <MdDoneAll className="text-green-400"/> </h1>
+                    <p>Stay Tuned for Next Year's <span className="text-blue-500"> #LaunchPadx!</span></p>
+                    
+                    {/* <a href="https://www.youtube.com/@crackDSA" target="_blank">
 
                         <img className="  w-14 h-12 animate-pulse" src="https://cdn-icons-png.flaticon.com/512/1246/1246264.png" />
-                    </a>
+                    </a> */}
                 </div>
                     <div className="w-10 h-2 border-gray-50 border-[1px] rounded-lg mx-auto mt-4 mb-8"></div>
 
                 <div className="flex items-center justify-center flex-col">
-                    <h1 className="orbi text-xl text-blue-700 mb-2">Head over to </h1>
+                    <h1 className="orbi text-xl md:text-4xl text-blue-700 mb-2">Head over to </h1>
                     <Link href="/learnings">
-                        <span className="comfort flex justify-center items-center gap-2 text-2xl cursor-pointer">Learnings <img className="animate-bounce mt-3" src="https://img.icons8.com/external-inkubators-detailed-outline-inkubators/25/FFFFFF/external-up-arrow-arrows-inkubators-detailed-outline-inkubators-4.png" /></span>
+                        <span className="comfort flex justify-center items-center py-4 border-[1px] border-white rounded-[40px] px-10 my-3 hover:scale-105 transition-all gap-2 text-xl md:text-4xl cursor-pointer">Learnings <img className="animate-bounce mt-3" src="https://img.icons8.com/external-inkubators-detailed-outline-inkubators/25/FFFFFF/external-up-arrow-arrows-inkubators-detailed-outline-inkubators-4.png" /></span>
                     </Link>
-                    <p className="mt-2 text-xs nunito text-gray-400 font-thin">*all the bootcamp sessions related resources will be there</p>
+                    <p className="mt-2 text-xs nunito text-gray-400 font-thin  md:text-xl py-3">*all the bootcamp sessions related resources will be there</p>
                 </div>
 
                 <div className="bg-gray-800 w-[95%] mx-auto  h-[1px] my-10"></div>

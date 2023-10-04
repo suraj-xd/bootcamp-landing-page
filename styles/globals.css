@@ -23,6 +23,7 @@
   --page-color: #090A1A;
   --color-primary: #5F4DFF;
   --speed: 500ms;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -64,6 +65,12 @@ body {
   font-family: 'Work Sans', sans-serif;
 
 }
+.eva{
+  font-family: 'Evafiya' , cursive;
+}
+body {
+  overflow-x: hidden;
+}
 .wrap {
   width: 100%;
   height: 1000px;
@@ -84,7 +91,7 @@ body {
   position: absolute;
   bottom: -60%;
   left: -50%;
-  background-image: -webkit-linear-gradient(#a2cef4 2px, transparent 2px), -webkit-linear-gradient(left, #a2cef4 2px, transparent 2px);
+  background-image: -webkit-linear-gradient(#ada8fa 3px, transparent 2px), -webkit-linear-gradient(left, #ada8fa 3px, transparent 2px);
   background-size: 100px 100px, 100px 100px;
   background-position: -1px -1px, -1px -1px;
   transform: rotateX(85deg);
