@@ -9,6 +9,8 @@ export default function Bootcamp() {
     }, [])
     return (
         <>
+        <div style={{"backgroundColor":"#090A1A"}}>
+
             <div class='wrap z-20 w-[100vw] h-[100vh]'>
                 <div class='top-plane w-full'></div>
                 <div className="header flex flex-col justify-center items-center">
@@ -569,6 +571,7 @@ export default function Bootcamp() {
 
             </footer>
 
+            </div>
 
         </>
 

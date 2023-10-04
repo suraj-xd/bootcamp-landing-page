@@ -20,10 +20,10 @@
 :root {
   --back-shadow: #3a3e6f;
   --front-edge: #24263e;
-  --page-color: #090A1A;
+  --page-color: #F7F6E9;
   --color-primary: #5F4DFF;
   --speed: 500ms;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {
