@@ -584,7 +584,7 @@ export default function Bootcamp() {
 
     )
 }
-const PopUp = () => {
+const PopUp = ({setQr}) => {
     return (
         <div className={"w-[100vw] h-[100vh] absolute top-0 left-0 z-[10000] overflow-hidden grid place-items-center cursor-default bg-[#00000089]"}>
             <div className={"w-[100vw] h-[100vh]  backdrop-blur-xl absolute top-0 left-0 z-[1000] overflow-hidden opacity-50"} />
