@@ -6,6 +6,8 @@ export default function TimeLine() {
             <head>
             <title>Bootcamp Learnings</title>
         </head>
+        <div className="bg-[#090A1A]">
+
             <div class='wrapp '>
 
                 <div className=" flex  flex-col justify-center items-center">
@@ -130,6 +132,7 @@ export default function TimeLine() {
 
             </footer>
 
+            </div>
 
         </>
     )

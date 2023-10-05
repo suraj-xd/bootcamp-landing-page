@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { BsDownload, BsLinkedin, BsTelegram } from "react-icons/bs";
 import { MdWhatsapp } from "react-icons/md";
+
 import Marquee from "react-fast-marquee";
 export default function Bootcamp() {
     const [rotationAngle, setRotationAngle] = useState(0);

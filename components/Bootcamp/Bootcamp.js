@@ -4,6 +4,7 @@ import TimerComp from "./TmerComp";
 import Link from "next/link";
 import { MdDoneAll, MdLiveHelp, MdLiveTv } from "react-icons/md";
 import { BsArrow90DegUp, BsArrowRight, BsInfoCircle, BsLink45Deg } from "react-icons/bs";
+import { PiShootingStarBold, PiShootingStarDuotone } from "react-icons/pi";
 export default function Bootcamp() {
     useEffect(() => {
         Run(["Interview Ready Mega Bootcamp"])
@@ -45,7 +46,7 @@ export default function Bootcamp() {
                             Register
                             {/* <p className="text-white">Closed</p> */}
                         </button>
-                        <p className="flex justify-center items-center gap-3 text-white relative top-[28rem] nunito">
+                        <p className="flex justify-center items-center gap-3 text-white relative top-[31rem] md:top-[28rem] nunito text-xs md:text-md">
                             <BsInfoCircle className="text-red-500" />  Registrations Has been closed!</p>
                         {/* </a> */}
                         <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
@@ -54,13 +55,17 @@ export default function Bootcamp() {
                 </div>
                 <div id="overview" className="text-white relative -top-48 my-10">
                     <div className="my-5  flex justify-center items-center flex-col gap-4 sm:top-[26rem]">
-                        <div className="bg-[#362fff] nunito text-sm  md:text-4xl px-5 md:px-32 flex justify-center items-center cursor-pointer my-10 gap-3 py-5 rounded-lg">
-                            <Link target="_blank" href={"./dsa-mern-roadmap"}>
+                        <a target="_blank" href={"/dsa-mern-roadmap"}>
+                            <div className="bg-[#362fff] nunito text-sm  md:text-4xl px-5 md:px-32 flex justify-center items-center cursor-pointer my-10 gap-3 py-5 rounded-lg">
                                 <>
-                                    <div className="mr-3 w-3 h-3 md:w-5 md:h-5 bg-red-500 rounded-full animate-ping"></div> DSA & MERN MasterClass! <BsArrowRight />
+                                    <div className="mr-3 w-3 h-3 md:w-5 md:h-5 bg-red-500 rounded-full animate-ping flex justify-center items-center duration-1000">
+                                        <div className="w-1 h-1 md:w-3 md:h-3 bg-red-500 rounded-full animate-ping delay-300 z-50"/>
+                                    </div> DSA & MERN MasterClass!
+                                    <PiShootingStarDuotone />
+
                                 </>
-                            </Link>
-                        </div>
+                            </div>
+                        </a>
                         <h1 className="text-white comfort text-3xl flex gap-3">Bootcamp is Done <MdDoneAll className="text-green-400" /> </h1>
                         <p>Stay Tuned for Next Year's <span className="text-blue-500"> #LaunchPadx!</span></p>
 
@@ -607,19 +612,16 @@ const PopUp = ({ setQr }) => {
                 </button>
                 <div className={"relative flex flex-col w-full h-fit gap-2"}>
                     <div className={"font-monument-400 flex justify-start items-center w-fit h-fit gap-2 dark:text-black"}>
-                        <p>Updates</p>
+                        <p>Upcoming Event</p>
+                        <PiShootingStarBold />
                     </div>
                 </div>
                 <div className={"w-full h-fit flex justify-center tems-center gap-3 mt-1 flex-col"}>
                     <img className="rounded-xl" src="./backgroundbg.jpeg" />
-                    <Link target="_blank" href={"/dsa-mern-roadmap"}>
-                        <button
-
-                            className='bg-[#5F4DFF] text-[#ffffff] hover:!bg-[#6655ff] duration-200 py-3 px-10 text-base rounded-[10px] items-center lg:gap-5 gap-2 font-medium font-monument-400 hover:scale-[0.95] transition-all ease-in-out hover:border-[1px] border-black text-center flex justify-center'
-                        >
-                            Explore <BsArrowRight />
-                        </button>
-                    </Link>
+                    <a className="bg-[#5F4DFF] text-[#ffffff] hover:!bg-[#6655ff] duration-200 py-3 px-10 text-base rounded-[10px] items-center lg:gap-5 gap-2 font-medium font-monument-400 hover:scale-[0.95] transition-all ease-in-out hover:border-[1px] border-black text-center flex justify-center" target="_blank" href={"/dsa-mern-roadmap"}>
+                        <button>Explore </button>
+                        <BsArrowRight />
+                    </a>
                 </div>
             </div>
         </div >
