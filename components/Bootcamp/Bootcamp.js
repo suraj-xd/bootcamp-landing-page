@@ -11,7 +11,7 @@ export default function Bootcamp() {
     const [qr, setQr] = useState(true);
     return (
         <>
-            {qr && <PopUp/> }
+            {qr && <PopUp setQr={setQr}/> }
             <div style={{ "backgroundColor": "#090A1A" }}>
 
                 <div class='wrap z-20 w-[100vw] h-[100vh]'>
