@@ -2,8 +2,8 @@ import Run from "./Run";
 import { useEffect, useState } from "react"
 import TimerComp from "./TmerComp";
 import Link from "next/link";
-import { MdDoneAll } from "react-icons/md";
-import { BsArrow90DegUp, BsArrowRight, BsInfoCircle } from "react-icons/bs";
+import { MdDoneAll, MdLiveHelp, MdLiveTv } from "react-icons/md";
+import { BsArrow90DegUp, BsArrowRight, BsInfoCircle, BsLink45Deg } from "react-icons/bs";
 export default function Bootcamp() {
     useEffect(() => {
         Run(["Interview Ready Mega Bootcamp"])
@@ -11,7 +11,7 @@ export default function Bootcamp() {
     const [qr, setQr] = useState(true);
     return (
         <>
-            {qr && <PopUp setQr={setQr}/> }
+            {qr && <PopUp setQr={setQr} />}
             <div style={{ "backgroundColor": "#090A1A" }}>
 
                 <div class='wrap z-20 w-[100vw] h-[100vh]'>
@@ -54,6 +54,13 @@ export default function Bootcamp() {
                 </div>
                 <div id="overview" className="text-white relative -top-48 my-10">
                     <div className="my-5  flex justify-center items-center flex-col gap-4 sm:top-[26rem]">
+                        <div className="bg-[#362fff] nunito text-sm  md:text-4xl px-5 md:px-32 flex justify-center items-center cursor-pointer my-10 gap-3 py-5 rounded-lg">
+                            <Link target="_blank" href={"./dsa-mern-roadmap"}>
+                                <>
+                                    <div className="mr-3 w-3 h-3 md:w-5 md:h-5 bg-red-500 rounded-full animate-ping"></div> DSA & MERN MasterClass! <BsArrowRight />
+                                </>
+                            </Link>
+                        </div>
                         <h1 className="text-white comfort text-3xl flex gap-3">Bootcamp is Done <MdDoneAll className="text-green-400" /> </h1>
                         <p>Stay Tuned for Next Year's <span className="text-blue-500"> #LaunchPadx!</span></p>
 
@@ -584,9 +591,9 @@ export default function Bootcamp() {
 
     )
 }
-const PopUp = ({setQr}) => {
+const PopUp = ({ setQr }) => {
     return (
-        <div className={"w-[100vw] h-[100vh] absolute top-0 left-0 z-[10000] overflow-hidden grid place-items-center cursor-default bg-[#00000089]"}>
+        <div className={"w-[100vw] h-[100vh] fixed top-0 left-0 z-[10000] overflow-hidden grid place-items-center cursor-default bg-[#00000089]"}>
             <div className={"w-[100vw] h-[100vh]  backdrop-blur-xl absolute top-0 left-0 z-[1000] overflow-hidden opacity-50"} />
             <div className={" mt-6 z-[1100] relative w-[90vw] mx-auto md:w-[32rem] h-fit bg-[#ffffff]  rounded-lg shadow-lg flex flex-col justify-start items-center gap-10 px-6 py-10 mobile:w-[17.5rem]"}>
                 <button
@@ -605,7 +612,7 @@ const PopUp = ({setQr}) => {
                 </div>
                 <div className={"w-full h-fit flex justify-center tems-center gap-3 mt-1 flex-col"}>
                     <img className="rounded-xl" src="./backgroundbg.jpeg" />
-                    <Link href={"/dsa-mern-roadmap"}>
+                    <Link target="_blank" href={"/dsa-mern-roadmap"}>
                         <button
 
                             className='bg-[#5F4DFF] text-[#ffffff] hover:!bg-[#6655ff] duration-200 py-3 px-10 text-base rounded-[10px] items-center lg:gap-5 gap-2 font-medium font-monument-400 hover:scale-[0.95] transition-all ease-in-out hover:border-[1px] border-black text-center flex justify-center'
